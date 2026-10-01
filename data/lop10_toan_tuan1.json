@@ -1,0 +1,9 @@
+{
+    "title": "Mệnh đề Toán học",
+    "objective": "Nhận biết được thế nào là một mệnh đề, mệnh đề phủ định, mệnh đề kéo theo.",
+    "theory": "Mệnh đề là một câu khẳng định có tính đúng hoặc sai. Một mệnh đề không thể vừa đúng vừa sai. Ví dụ: 'Hà Nội là thủ đô của Việt Nam' là mệnh đề đúng. 'Trời đẹp quá!' không phải là mệnh đề vì là câu cảm thán. Ký hiệu phủ định của mệnh đề P là P chóp (hoặc ngang).",
+    "exercises": [
+        "Câu 1: Trong các câu sau, câu nào là mệnh đề? a) 3 + 2 = 5; b) Hôm nay ăn gì?",
+        "Câu 2: Phát biểu mệnh đề phủ định của mệnh đề: P: 'Số 5 là số nguyên tố'."
+    ]
+}
