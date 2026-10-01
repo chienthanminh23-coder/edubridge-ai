@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduBridge - Trạm học tập chuyển tiếp</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>EduBridge 🚀</h1>
+            <p class="warning">⚠️ Lưu ý: Đây là dự án cung cấp tài liệu học tập tóm tắt dựa trên Khung GDPT 2018, thiết kế riêng cho giai đoạn chuyển tiếp 4 tuần đầu năm học. Vui lòng trang bị SGK chính thức khi có nguồn cung.</p>
+        </header>
+
+        <section class="controls">
+            <select id="class-select">
+                <option value="10">Lớp 10</option>
+            </select>
+            <select id="subject-select">
+                <option value="toan">Toán học</option>
+            </select>
+            <select id="week-select">
+                <option value="1">Tuần 1</option>
+                <option value="2">Tuần 2</option>
+            </select>
+            <button onclick="loadContent()">Tải bài học</button>
+        </section>
+
+        <main id="content-display">
+            <p class="placeholder">Vui lòng chọn môn và tuần học để bắt đầu...</p>
+        </main>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
