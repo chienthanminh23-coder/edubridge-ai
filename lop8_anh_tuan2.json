@@ -1,0 +1,69 @@
+*   Role: Education Expert.
+    *   Subject: English, Grade 8 (Vietnam curriculum).
+    *   Topic: Transition lesson, Week 2 (Tuần 2).
+    *   Target: Summarize core theory and exercises based on the 2018 General Education Curriculum (GDPT 2018).
+    *   Constraint 1: Do NOT copy the textbook directly.
+    *   Constraint 2: Output format must be strictly JSON.
+    *   Constraint 3: No additional explanation.
+    *   Content requirements:
+        *   `title`: Short title.
+        *   `objective`: Core objective.
+        *   `theory`: Summary < 150 words.
+        *   `exercises`: List of exercises.
+
+    *   According to the 2018 English Grade 8 textbook (Global Success/iLearn Smart World), Week 2 usually focuses on **Unit 1: Leisure Time** or the continuation of it.
+    *   Key themes: Leisure activities, hobbies.
+    *   Key Grammar: Verbs of liking + Gerunds/To-infinitives (love, like, enjoy, hate, detest, prefer...).
+
+    *   *Title:* English 8 - Week 2: Leisure Activities & Gerunds.
+    *   *Objective:* Master vocabulary related to leisure activities and usage of verbs of liking followed by V-ing/to-V.
+    *   *Theory:*
+        Focus on verbs expressing preferences: *like, love, enjoy, fancy, adore, prefer, dislike, hate, detest*.
+        Rule:
+        1. Verb + V-ing (Gerund): used for general likes/dislikes (e.g., I enjoy swimming).
+        2. Verb + To-infinitive: often used for habits or specific choices (e.g., I like to study in the morning).
+        *Note:* Some verbs like 'love', 'like', 'hate' can take both with little change in meaning.
+    *   *Exercises:*
+        1. Fill in the blanks with the correct form of the verb in brackets.
+        2. Choose the correct option (Multiple choice).
+        3. Rewrite sentences using given words.
+
+    *   *Title:* "Tiếng Anh 8 - Tuần 2: Sở thích và Động từ chỉ sự yêu thích"
+    *   *Objective:* "Nắm vững từ vựng về các hoạt động giải trí và cách sử dụng các động từ chỉ sự yêu/ghét đi kèm với V-ing hoặc To-V."
+    *   *Theory:* "Bài học tập trung vào hai mảng chính: Từ vựng về các hoạt động giải trí (leisure activities) như: DIY, hanging out, crafting, v.v. và Ngữ pháp về Động từ chỉ sự yêu thích (Verbs of liking). Các động từ như 'love', 'like', 'enjoy', 'fancy', 'adore', 'prefer' thường đi kèm với danh động từ (V-ing) để nói về sở thích chung. Một số động từ như 'like', 'love', 'hate', 'prefer' cũng có thể đi kèm với động từ nguyên mẫu có 'to' (To-infinitive) để chỉ thói quen hoặc lựa chọn cụ thể. Lưu ý: 'detest' và 'dislike' thường chỉ dùng với V-ing." (115 words - Good).
+    *   *Exercises:*
+        1. "Chia dạng đúng của động từ trong ngoặc: 1. My brother loves (play) ____ computer games. 2. They enjoy (hang) ____ out with friends. 3. She detests (do) ____ the housework."
+        2. "Chọn đáp án đúng: 1. I fancy ___ (making/to make) origami in my free time. 2. Do you prefer ___ (reading/read) books or ___ (watching/watch) TV?"
+        3. "Viết lại câu sao cho nghĩa không đổi: 1. I like playing football. -> I am interested in..."
+
+    
+    {
+      "title": "Tiếng Anh 8 - Tuần 2: Leisure Activities & Verbs of Liking",
+      "objective": "Củng cố từ vựng về các hoạt động giải trí và thành thạo cấu trúc động từ chỉ sự yêu/ghét (V-ing/To-V).",
+      "theory": "Trọng tâm kiến thức bao gồm: 1. Từ vựng: Các cụm từ chỉ hoạt động giải trí (e.g., doing DIY, hanging out, messaging friends, surfing the net). 2. Ngữ pháp: Sử dụng động từ chỉ cảm xúc (Verbs of liking/disliking). Các động từ như 'love', 'like', 'enjoy', 'fancy', 'adore', 'prefer', 'dislike', 'hate', 'detest' thường đi kèm với danh động từ (V-ing) để diễn tả sở thích chung. Ví dụ: 'I enjoy swimming'. Một số từ như 'like', 'love', 'hate', 'prefer' có thể cộng với To-infinitive (e.g., 'I like to cook') để chỉ thói quen hoặc lựa chọn mang tính nhất thời.",
+      "exercises": [
+        "Bài tập 1: Chia dạng đúng của động từ trong ngoặc: 1. She fancies (cook) ____ new recipes. 2. We detest (wash) ____ the dishes. 3. They love (surf) ____ the net.",
+        "Bài tập 2: Chọn đáp án đúng (A, B, C hoặc D): 1. My father prefers _______ newspapers in the morning. (A. read / B. reading / C. to reading / D. reads). 2. Do you fancy _______ out with us tonight? (A. go / B. to go / C. going / D. goes).",
+        "Bài tập 3: Hoàn thành câu sử dụng từ gợi ý: 1. I / enjoy / listen / music. -> 2. He / hate / do / homework / late at night. ->"
+      ]
+    }
+    
+
+Check constraints.
+    - JSON only? Yes.
+    - No explanation? Yes.
+    - Theory < 150 words? Yes (~100 words).
+    - Topic: English 8, Week 2? Yes.
+    - Content: Not direct copy? Yes, synthesized.
+
+{
+    "title": "Tiếng Anh 8 - Tuần 2: Leisure Activities & Verbs of Liking",
+    "objective": "Nắm vững từ vựng về các hoạt động giải trí và thành thạo cấu trúc động từ chỉ sự yêu/ghét đi kèm với V-ing hoặc To-V.",
+    "theory": "Trọng tâm kiến thức bao gồm: 1. Từ vựng: Các cụm từ chỉ hoạt động giải trí (e.g., doing DIY, hanging out, messaging friends, surfing the net, crafting). 2. Ngữ pháp: Sử dụng các động từ chỉ cảm xúc (Verbs of liking/disliking). Các động từ như 'love', 'like', 'enjoy', 'fancy', 'adore', 'prefer', 'dislike', 'hate', 'detest' thường được theo sau bởi danh động từ (V-ing) để diễn tả sở thích chung (Ví dụ: I enjoy swimming). Một số từ như 'like', 'love', 'hate', 'prefer' có thể đi kèm với động từ nguyên mẫu có 'to' (To-infinitive) để chỉ thói quen hoặc lựa chọn cụ thể (Ví dụ: I like to study in the morning).",
+    "exercises": [
+        "Bài tập 1: Chia dạng đúng của động từ trong ngoặc: 1. My sister fancies (make) ____ origami. 2. They detest (do) ____ the laundry. 3. We love (hang) ____ out at the mall.",
+        "Bài tập 2: Chọn đáp án đúng: 1. I prefer _______ books to watching TV. (A. read / B. reading / C. to reading / D. reads). 2. Do you fancy _______ to the cinema tonight? (A. go / B. to go / C. going / D. goes).",
+        "Bài tập 3: Viết lại câu sao cho nghĩa không đổi: 1. I am interested in playing football. -> I enjoy...",
+        "Bài tập 4: Sắp xếp từ thành câu hoàn chỉnh: 1. loves / My / making / brother / models / plastic. -> 2. hate / She / messaging / friends / her / doesn't. ->"
+    ]
+}

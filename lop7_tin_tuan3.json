@@ -1,0 +1,62 @@
+*   Role: Education Expert.
+    *   Subject: Informatics (Tin học), Grade 7.
+    *   Topic: Transition lesson for Week 3.
+    *   Requirement: Summarize theory and core exercises for Week 3 according to the 2018 General Education Program (GDPT 2018).
+    *   Constraint: Do NOT copy the textbook verbatim.
+    *   Output Format: Strictly JSON with specific keys (`title`, `objective`, `theory`, `exercises`). No extra explanation.
+
+    *   In the 2018 curriculum for Grade 7 Informatics (various publishers like Kết nối tri thức, Cánh diều, Chân trời sáng tạo), Week 3 usually falls into the topic of "Organizing, storing, searching, and exchanging information" (Organizing information/Computer networks/Spreadsheets depending on the specific book, but most commonly it covers "Internet and Information" or "Spreadsheets" introductory concepts).
+    *   *Standard Topic for Week 3 (Commonly):* Searching for information on the Internet or Introduction to Spreadsheets (Excel/Google Sheets). Let's focus on "Searching for and collecting information on the Internet" or "Using Spreadsheet software" as these are core pillars.
+    *   *Refined Topic Choice:* Based on common curriculum flows, Week 3 often covers "Searching and collecting information" or "Spreadsheets". Let's go with **"Sử dụng phần mềm bảng tính" (Using Spreadsheet Software)** as it is a major pillar in Week 3 for many textbook series (like Kết nối tri thức). Or, I can aim for a general "Searching for information" summary if I want to be safer.
+    *   *Decision:* Let's go with "Phần mềm bảng tính" (Spreadsheets) as it's a key technical skill introduced around this time.
+
+    *   *Title:* Khám phá phần mềm bảng tính (Exploring Spreadsheet Software).
+    *   *Objective:* Hiểu cấu trúc bảng tính (hàng, cột, ô) và cách nhập, chỉnh sửa dữ liệu cơ bản.
+    *   *Theory:* Phần mềm bảng tính (như Excel) là công cụ quản lý dữ liệu dạng bảng. Cấu trúc gồm: Cột (Column - ký hiệu bằng chữ cái), Hàng (Row - ký hiệu bằng số) và Ô (Cell - giao điểm giữa hàng và cột). Mỗi ô có một địa chỉ duy nhất (ví dụ: A1, B5). Người dùng có thể nhập số, chữ, hoặc công thức để tính toán. Bảng tính giúp tổ chức thông tin khoa học, thực hiện các phép tính nhanh chóng và tạo biểu đồ trực quan.
+    *   *Exercises:*
+        1.  Xác định địa chỉ ô: Trong bảng tính, ô nằm ở cột C và hàng 5 có địa chỉ là gì?
+        2.  Phân biệt dữ liệu: Cho danh sách: "10", "Học sinh", "=5+2", "Ngày 01/01". Đâu là dữ liệu số, dữ liệu chữ và dữ liệu công thức?
+        3.  Thực hành: Em hãy liệt kê 3 lợi ích của việc sử dụng phần mềm bảng tính trong học tập.
+
+    *   `title`: "Làm quen với Phần mềm Bảng tính"
+    *   `objective`: "Nắm vững cấu trúc cơ bản của bảng tính và cách quản lý dữ liệu trong ô."
+    *   `theory`: "Phần mềm bảng tính là công cụ mạnh mẽ để tổ chức, tính toán và phân tích dữ liệu. Thành phần cốt lõi gồm: Cột (đánh số thứ tự bằng chữ cái), Hàng (đánh số bằng chữ số) và Ô (giao điểm giữa cột và hàng). Mỗi ô có một địa chỉ duy nhất (ví dụ: B10). Dữ liệu trong ô có thể là số, văn bản hoặc công thức toán học. Việc sử dụng bảng tính giúp tự động hóa các phép tính phức tạp và trình bày thông tin một cách khoa học, dễ tra cứu."
+    *   `exercises`: ["Câu 1: Cho một bảng tính có cột D và hàng 12. Địa chỉ của ô tại vị trí này là gì?", "Câu 2: Phân biệt các loại dữ liệu sau: 'Nguyễn Văn A', '2024', '=A1+B1'. Loại nào là văn bản, loại nào là số và loại nào là công thức?", "Câu 3: Nêu sự khác biệt chính giữa địa chỉ ô và nội dung trong ô."]
+
+    *   Check word count for theory: ~85 words (Under 150).
+    *   Check format: Valid JSON.
+    *   Check content: Matches Grade 7 GDPT 2018.
+    *   Check constraints: No extra text.
+
+    
+    {
+        "title": "Làm quen với Phần mềm Bảng tính",
+        "objective": "Nắm vững cấu trúc cơ bản của bảng tính và cách quản lý dữ liệu trong ô.",
+        "theory": "Phần mềm bảng tính là công cụ mạnh mẽ để tổ chức, tính toán và phân tích dữ liệu. Thành phần cốt lõi gồm: Cột (đánh dấu bằng chữ cái), Hàng (đánh dấu bằng chữ số) và Ô (giao điểm giữa cột và hàng). Mỗi ô có một địa chỉ duy nhất (ví dụ: B10). Dữ liệu trong ô có thể là số, văn bản hoặc công thức toán học. Việc sử dụng bảng tính giúp tự động hóa các phép tính phức tạp và trình bày thông tin một cách khoa học, dễ tra cứu.",
+        "exercises": ["Câu 1: Cho một bảng tính có cột D và hàng 12. Địa chỉ của ô tại vị trí này là gì?", "Câu 2: Phân biệt các loại dữ liệu sau: 'Nguyễn Văn A', '2024', '=A1+B1'. Loại nào là văn bản, loại nào là số và loại nào là công thức?", "Câu 3: Nêu sự khác biệt chính giữa địa chỉ ô và nội dung trong ô."]
+    }
+    
+
+    *Self-Correction during drafting:* The prompt asks for "Tuần 3". In many books, Week 3 is "Spreadsheets". If I go with "Internet search", it might also be correct. However, "Spreadsheets" is more "core" to the Grade 7 Tin học curriculum structure in the 2018 program.
+
+    Let's verify the word count of the theory one more time.
+    "Phần mềm bảng tính là công cụ mạnh mẽ để tổ chức, tính toán và phân tích dữ liệu. Thành phần cốt lõi gồm: Cột (đánh dấu bằng chữ cái), Hàng (đánh dấu bằng chữ số) và Ô (giao điểm giữa cột và hàng). Mỗi ô có một địa chỉ duy nhất (ví dụ: B10). Dữ liệu trong ô có thể là số, văn bản hoặc công thức toán học. Việc sử dụng bảng tính giúp tự động hóa các phép tính phức tạp và trình bày thông tin một cách khoa học, dễ tra cứu." -> 88 words. Perfect.
+
+    *JSON structure check:*
+    title (string)
+    objective (string)
+    theory (string)
+    exercises (array of strings)
+
+    *Strictly JSON output.*
+
+{
+    "title": "Làm quen với Phần mềm Bảng tính",
+    "objective": "Nắm vững cấu trúc cơ bản của bảng tính và cách quản lý dữ liệu trong ô.",
+    "theory": "Phần mềm bảng tính là công cụ dùng để tổ chức, tính toán và phân tích dữ liệu dưới dạng bảng. Cấu trúc cơ bản gồm: Cột (được ký hiệu bằng các chữ cái A, B, C...), Hàng (được ký hiệu bằng các số 1, 2, 3...) và Ô (giao điểm giữa cột và hàng). Mỗi ô có một địa chỉ duy nhất dựa trên tên cột và số hàng (ví dụ: C5). Dữ liệu nhập vào ô có thể là văn bản, số hoặc công thức toán học. Sử dụng bảng tính giúp tự động hóa các phép tính và trình bày thông tin khoa học, dễ dàng tra cứu.",
+    "exercises": [
+        "Bài tập 1: Xác định địa chỉ ô: Trong một bảng tính, ô nằm ở cột F và hàng 15 có địa chỉ là gì?",
+        "Bài tập 2: Phân loại dữ liệu: Cho các giá trị sau: 'Học sinh', '150', '=A1+B1'. Hãy cho biết đâu là dữ liệu văn bản, đâu là dữ liệu số và đâu là công thức.",
+        "Bài tập 3: Trắc nghiệm nhanh: Địa chỉ ô B2 cho biết điều gì? A. Ô nằm ở hàng B, cột 2; B. Ô nằm ở cột B, hàng 2; C. Ô có nội dung là B2."
+    ]
+}

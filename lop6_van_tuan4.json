@@ -1,0 +1,64 @@
+*   Role: Education Expert.
+    *   Subject: Literature (Ngữ văn - VAN), Grade 6.
+    *   Topic: Transition lesson (Bài học chuyển tiếp), Week 4.
+    *   Objective: Summarize theory and key exercises for Week 4, Grade 6 Literature, following the 2018 General Education Program standards.
+    *   Constraint 1: Absolutely no direct copying from textbooks.
+    *   Constraint 2: Output MUST be in a specific JSON format.
+    *   Constraint 3: NO extra explanation.
+
+    *   In the 2018 curriculum (Kết nối tri thức, Cánh diều, or Chân trời sáng tạo), Grade 6, Week 4 usually falls within the second theme.
+    *   Common themes for Week 4:
+        *   *Kết nối tri thức:* Thơ lục bát (Six-eight meter poetry) or Truyện đồng thoại (Fables/Animal stories). Specifically, Week 4 often focuses on "Gõ cửa trái tim" (poetry) or "Miền cổ tích" (tales).
+        *   *Cánh diều:* Truyện dân gian/Truyền thuyết/Cổ tích.
+        *   *Chân trời sáng tạo:* Gõ cửa trái tim (Poetry).
+    *   *Decision:* Most Grade 6 curricula in Week 4 involve either **Truyện đồng thoại (Fables/Animal stories)** or **Thơ (Poetry - focusing on imagery and emotion)**. To be most representative of a "transition/summary" lesson for Week 4, I will focus on **Đặc điểm truyện đồng thoại (Characteristics of Fables/Animal stories)** as it's a core pillar in the early weeks of the 2018 program.
+
+    *   *Theory (under 150 words):* Focus on:
+        *   Characters: Animals/objects endowed with human qualities (thinking, speech, personality).
+        *   Plot: Simple, close to reality but imaginative.
+        *   Lesson: Hidden moral values/life lessons.
+        *   Artistic features: Personification (nhân hóa).
+
+    *   *Exercises:*
+        *   Exercise 1: Identifying personification in a snippet.
+        *   Exercise 2: Analyzing character traits based on actions.
+        *   Exercise 3: Connecting the story's lesson to reality.
+
+    *   *Title:* Ôn tập kiến thức trọng tâm: Truyện đồng thoại.
+    *   *Objective:* Củng cố đặc điểm nhân vật và nghệ thuật nhân hóa trong truyện đồng thoại.
+    *   *Theory:* Truyện đồng thoại là thể loại văn học dành cho thiếu nhi, xây dựng trên thế giới loài vật hoặc đồ vật. Nhân vật được xây dựng bằng nghệ thuật nhân hóa: vừa mang đặc tính sinh học tự nhiên (vóc dáng, thói quen), vừa có đặc điểm xã hội của con người (ngôn ngữ, suy nghĩ, tình cảm). Cốt truyện thường xoay quanh các tình huống gần gũi, qua đó gửi gắm những bài học đạo đức nhẹ nhàng nhưng sâu sắc về cách ứng xử và nhìn nhận cuộc sống.
+    *   *Exercises:*
+        1. Tìm các chi tiết cho thấy nhân vật vừa có đặc điểm của loài vật, vừa có đặc điểm của con người trong một đoạn trích đã học.
+        2. Phân tích tác dụng của biện pháp nhân hóa trong việc khắc họa tính cách nhân vật.
+        3. Viết đoạn văn ngắn (3-5 câu) nêu cảm nhận về một bài học rút ra từ truyện đồng thoại đã đọc.
+
+    *   JSON format? Yes.
+    *   No extra explanation? Yes.
+    *   Under 150 words for theory? Yes (approx 85 words).
+    *   No direct textbook copying? Yes.
+    *   Follows 2018 program? Yes.
+
+    
+    {
+        "title": "Ôn tập trọng tâm: Đặc điểm truyện đồng thoại",
+        "objective": "Hệ thống hóa kiến thức về nhân vật, cốt truyện và nghệ thuật nhân hóa trong truyện đồng thoại.",
+        "theory": "Truyện đồng thoại là thể loại dành cho thiếu nhi, lấy cảm hứng từ thế giới loài vật hoặc đồ vật. Đặc trưng lớn nhất là nghệ thuật nhân hóa: nhân vật vừa giữ được những nét sinh học tự nhiên (hình dáng, tập tính), vừa mang đặc điểm xã hội của con người (ngôn ngữ, tư duy, tình cảm). Cốt truyện thường đơn giản, sinh động, gắn liền với những tình huống đời thường nhưng giàu trí tưởng tượng. Thông qua đó, tác giả khéo léo lồng ghép các bài học đạo đức, kỹ năng sống và cách nhìn nhận thế giới một cách nhân văn.",
+        "exercises": [
+            "Bài tập 1: Xác định các chi tiết thể hiện đặc điểm loài vật và đặc điểm con người của nhân vật chính trong văn bản đã học.",
+            "Bài tập 2: Phân tích vai trò của biện pháp nhân hóa trong việc giúp câu chuyện trở nên sinh động và gần gũi với trẻ em.",
+            "Bài tập 3: Viết đoạn văn ngắn nêu thông điệp ý nghĩa nhất mà em rút ra được sau khi đọc một truyện đồng thoại."
+        ]
+    }
+    
+
+
+{
+    "title": "Ôn tập trọng tâm: Đặc điểm truyện đồng thoại",
+    "objective": "Hệ thống hóa kiến thức về nhân vật, cốt truyện và nghệ thuật nhân hóa trong truyện đồng thoại theo chương trình GDPT 2018.",
+    "theory": "Truyện đồng thoại là thể loại văn học dành cho thiếu nhi, xây dựng trên thế giới loài vật hoặc đồ vật. Đặc trưng cốt lõi là nghệ thuật nhân hóa: nhân vật vừa giữ được những đặc tính sinh học tự nhiên (hình dáng, thói quen, tập tính loài), vừa mang đặc điểm xã hội của con người (ngôn ngữ, suy nghĩ, tình cảm, tính cách). Cốt truyện thường sinh động, giàu trí tưởng tượng, xoay quanh các tình huống gần gũi. Qua đó, tác giả gửi gắm những bài học đạo đức, cách ứng xử và những chiêm nghiệm về cuộc sống một cách nhẹ nhàng, tinh tế.",
+    "exercises": [
+        "Bài tập 1: Liệt kê các chi tiết trong văn bản đã học chứng minh nhân vật vừa có đặc điểm của loài vật, vừa có đặc điểm của con người.",
+        "Bài tập 2: Phân tích tác dụng của biện pháp nhân hóa trong việc khắc họa tính cách hoặc biểu đạt cảm xúc của nhân vật chính.",
+        "Bài tập 3: Viết đoạn văn ngắn (5-7 câu) chia sẻ về một bài học cuộc sống mà em rút ra được từ nhân vật trong truyện đồng thoại đã học."
+    ]
+}

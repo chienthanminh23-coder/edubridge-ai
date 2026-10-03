@@ -1,0 +1,70 @@
+*   Role: Education Expert.
+    *   Topic: Transition lesson for MATH, Grade 6, Week 2.
+    *   Requirements: Summarize theory and core exercises according to the 2018 General Education Program (GDPT 2018) standards. Do *not* copy directly from the textbook.
+    *   Constraint: Return *only* a JSON object in a specific format. No additional explanation.
+
+    *   Week 1 usually covers introduction and natural numbers (sets, notation).
+    *   Week 2 typically covers:
+        *   Operations on natural numbers (Addition, Subtraction, Multiplication, Division).
+        *   Powers with natural number exponents (Lũy thừa với số mũ tự nhiên).
+        *   Order of operations (Thứ tự thực hiện các phép tính).
+    *   *Note:* Depending on the specific textbook series (Kết nối tri thức, Chân trời sáng tạo, Cánh diều), the exact order might vary slightly, but the core mathematical content for Week 2 in Grade 6 is almost always related to operations and powers.
+
+    *   *Theory:*
+        *   Lũy thừa (Power): $a^n = a \cdot a \cdot ... \cdot a$ ($n$ times). $a$ is base, $n$ is exponent.
+        *   Nhân/Chia hai lũy thừa cùng cơ số: $a^m \cdot a^n = a^{m+n}$; $a^m : a^n = a^{m-n}$ ($a \neq 0, m \ge n$).
+        *   Thứ tự thực hiện phép tính: Ngoặc $() \to [] \to \{\}$; Lũy thừa $\to$ Nhân/Chia $\to$ Cộng/Trừ.
+
+    *   *Exercises:*
+        1.  Calculate powers (e.g., $2^5, 3^4$).
+        2.  Apply order of operations (a mix of brackets, powers, and arithmetic).
+        3.  Find $x$ (finding an unknown in a power equation or basic arithmetic).
+        4.  Apply rules of multiplying/dividing powers.
+
+    *   *Title:* Ôn tập và Nâng cao: Lũy thừa và Thứ tự thực hiện phép tính.
+    *   *Objective:* Củng cố kiến thức về lũy thừa với số mũ tự nhiên, các quy tắc nhân, chia lũy thừa cùng cơ số và rèn luyện kỹ năng thực hiện phép tính theo đúng thứ tự.
+    *   *Theory:* Lũy thừa của một số $a$ với số mũ tự nhiên $n$ (ký hiệu $a^n$) là tích của $n$ thừa số $a$. Trong đó $a$ là cơ số, $n$ là số mũ. Quy tắc: $a^m \cdot a^n = a^{m+n}$ và $a^m : a^n = a^{m-n}$ (với $a \neq 0, m \ge n$). Khi thực hiện phép tính, cần tuân thủ thứ tự: Ưu tiên trong ngoặc trước $() \to [] \to \{\}$, sau đó đến Lũy thừa $\to$ Nhân và Chia $\to$ Cộng và Trừ. Nếu chỉ có nhân/chia hoặc cộng/trừ, thực hiện từ trái sang phải.
+    *   *Exercises:*
+        1. Tính giá trị biểu thức: $A = 2^3 \cdot 5 - 3^2 \cdot 2$.
+        2. Viết kết quả dưới dạng một lũy thừa: $B = 3^5 \cdot 3^2$ và $C = 7^8 : 7^3$.
+        3. Tìm số tự nhiên $x$, biết: $2^x = 16$.
+        4. Thực hiện phép tính hợp lý: $25 \cdot 12 + 25 \cdot 88$.
+
+    *   JSON Format? Yes.
+    *   Title included? Yes.
+    *   Objective included? Yes.
+    *   Theory < 150 words? Yes (~80 words).
+    *   Exercises included? Yes.
+    *   No extra explanation? Yes.
+    *   Follows GDPT 2018? Yes.
+
+    
+    {
+        "title": "Lũy thừa và Thứ tự thực hiện phép tính",
+        "objective": "Nắm vững khái niệm lũy thừa, quy tắc nhân/chia hai lũy thừa cùng cơ số và rèn luyện kỹ năng tính toán theo thứ tự ưu tiên.",
+        "theory": "Lũy thừa bậc n của a (a^n) là tích của n thừa số a. Quy tắc: a^m . a^n = a^{m+n}; a^m : a^n = a^{m-n} (a khác 0, m >= n). Thứ tự thực hiện phép tính: 1. Trong ngoặc (tròn -> vuông -> nhọn); 2. Lũy thừa; 3. Nhân và Chia; 4. Cộng và Trừ. Nếu chỉ có nhân/chia hoặc cộng/trừ, thực hiện từ trái sang phải.",
+        "exercises": [
+            "Bài tập 1: Tính giá trị các biểu thức sau: a) 3^4 - 2^3; b) 5^2 . 2^3.",
+            "Bài tập 2: Viết các tích/thương sau dưới dạng một lũy thừa: a) 4^5 . 4^3; b) 10^7 : 10^4.",
+            "Bài tập 3: Tìm số tự nhiên x, biết: 2^x = 32.",
+            "Bài tập 4: Thực hiện phép tính theo thứ tự: 100 : [54 - (5^2 . 2)]."
+        ]
+    }
+    
+
+    *Self-Correction during drafting:* Ensure the word count for theory is strictly under 150. The draft is well under. Ensure the exercises are varied.
+
+    *Refined JSON content for final output:*
+    Theory: Lũy thừa bậc n của số a (ký hiệu $a^n$) là tích của n thừa số $a$ ($a$ là cơ số, $n$ là số mũ). Khi nhân hai lũy thừa cùng cơ số, ta giữ nguyên cơ số và cộng các số mũ ($a^m \cdot a^n = a^{m+n}$). Khi chia hai lũy thừa cùng cơ số (với $a \neq 0$), ta giữ nguyên cơ số và trừ các số mũ ($a^m : a^n = a^{m-n}$). Thứ tự thực hiện phép tính: Ưu tiên ngoặc ( ) $\to$ [ ] $\to$ { }; tiếp đến Lũy thừa $\to$ Nhân/Chia $\to$ Cộng/Trừ. Nếu chỉ có các phép tính cùng cấp, thực hiện từ trái sang phải. (115 words) - Perfect.
+
+{
+    "title": "Lũy thừa và Thứ tự thực hiện phép tính",
+    "objective": "Củng cố khái niệm lũy thừa, các quy tắc biến đổi lũy thừa cùng cơ số và rèn luyện kỹ năng tính toán theo thứ tự ưu tiên chuẩn xác.",
+    "theory": "Lũy thừa bậc n của số a (a^n) là tích của n thừa số a (a là cơ số, n là số mũ). Quy tắc: Nhân hai lũy thừa cùng cơ số: a^m . a^n = a^{m+n}; Chia hai lũy thừa cùng cơ số (a ≠ 0): a^m : a^n = a^{m-n}. Thứ tự thực hiện phép tính: 1. Thực hiện trong ngoặc trước: ( ) $\to$ [ ] $\to$ { }; 2. Lũy thừa; 3. Nhân và Chia; 4. Cộng và Trừ. Nếu phép tính chỉ có nhân/chia hoặc cộng/trừ, thực hiện theo thứ tự từ trái sang phải.",
+    "exercises": [
+        "Bài tập 1: Tính giá trị biểu thức: a) 2^5 - 3^3; b) 5^2 . 2^3.",
+        "Bài tập 2: Viết các kết quả sau dưới dạng một lũy thừa: a) 7^4 . 7^5; b) 10^9 : 10^3.",
+        "Bài tập 3: Tìm số tự nhiên x, biết: 3^x = 81.",
+        "Bài tập 4: Thực hiện phép tính hợp lý: 120 : [54 - (5^2 . 2)]."
+    ]
+}

@@ -1,0 +1,63 @@
+*   Role: Education Expert.
+    *   Task: Prepare a "transition lesson" (lesson summary/review) for Literature (Ngữ văn), Grade 8, Week 3.
+    *   Content Requirement: Summarize key theory and central exercises for Week 3, following the 2018 General Education Program standards.
+    *   Constraint 1: Do NOT copy the textbook directly.
+    *   Constraint 2: Output format MUST be JSON (as specified).
+    *   Constraint 3: NO additional explanation/text outside the JSON.
+
+    *   Under the 2018 program (Kết nối tri thức, Chân trời sáng tạo, or Cánh diều), Grade 8, Week 3 usually focuses on specific genres.
+    *   Typically, Week 3 involves:
+        *   *Reading:* Poetry (often 6-word or 7-word poems) or Story/Narrative (Novels/Short stories).
+        *   *Language (Tiếng Việt):* Vocabulary (words with meanings/nuances), idioms, or word formation.
+        *   *Writing:* Writing a narrative essay or a paragraph analyzing a character/poem.
+    *   *Common Topic for Week 3:* Analyzing poems (often 6-word or 7-word) or specific narrative elements. Let's focus on the core competence: **Analyzing the characteristics of 6-word and 7-word poems (Thơ sáu chữ, bảy chữ)** as this is a staple in the early part of the Grade 8 curriculum in the 2018 program.
+
+    *   *Theory:* Focus on structure, rhythm, imagery, and emotion in 6-word and 7-word poems.
+        *   Structure: Number of words per line (6 or 7).
+        *   Rhyme: End rhymes or internal rhymes.
+        *   Rhythm: Usually 2/4, 3/3, or 4/3.
+        *   Content/Art: Expressing feelings through imagery.
+    *   *Exercises:*
+        *   Exercise 1: Identifying rhythm/rhyme in a sample poem.
+        *   Exercise 2: Analyzing an image/emotion in a short passage.
+        *   Exercise 3: Writing a small paragraph.
+
+    *   *Title:* Tổng kết kiến thức Ngữ văn 8 - Tuần 3: Thơ sáu chữ, bảy chữ.
+    *   *Objective:* Giúp học sinh nắm vững đặc điểm hình thức (số chữ, vần, nhịp) và khả năng biểu đạt cảm xúc của thể thơ sáu chữ, bảy chữ.
+    *   *Theory:* Thơ sáu chữ và bảy chữ là những thể thơ có quy luật về số lượng tiếng trong mỗi dòng. Điểm đặc trưng nằm ở cách gieo vần (vần chân, vần lưng) và ngắt nhịp linh hoạt (thường là 2/2/2 hoặc 3/3 đối với thơ sáu chữ; 4/3 hoặc 2/2/3 đối với thơ bảy chữ). Việc kết hợp hình ảnh giàu sức gợi cùng các biện pháp tu từ giúp tác giả truyền tải tâm tư, tình cảm một cách tinh tế. Khi phân tích, cần chú trọng mối quan hệ giữa nhịp điệu và nội dung cảm xúc mà bài thơ muốn gửi gắm.
+    *   *Exercises:*
+        *   Bài tập 1: Xác định số chữ, cách ngắt nhịp và vần của một đoạn thơ sáu chữ/bảy chữ cụ thể.
+        *   Bài tập 2: Phân tích tác dụng của một biện pháp tu từ (so sánh, ẩn dụ) trong khổ thơ đã học để thấy được vẻ đẹp của hình ảnh.
+        *   Bài tập 3: Viết đoạn văn ngắn (5-7 câu) ghi lại cảm xúc về một thông điệp ý nghĩa rút ra từ bài thơ trong chương trình.
+
+    *   JSON format? Yes.
+    *   No extra explanation? Yes.
+    *   Under 150 words for theory? Yes (~85 words).
+    *   Grade 8, Week 3, 2018 Program standards? Yes.
+    *   No copying textbook? Yes.
+
+    
+    {
+        "title": "Ôn tập Ngữ văn 8 - Tuần 3: Đặc điểm thơ sáu chữ, bảy chữ",
+        "objective": "Củng cố kiến thức về đặc trưng thể thơ (số chữ, vần, nhịp) và kỹ năng phân tích hình ảnh, cảm xúc trong văn bản thơ.",
+        "theory": "Thơ sáu chữ và bảy chữ tập trung vào sự điều phối số tiếng trong mỗi dòng để tạo nhạc điệu. Thơ sáu chữ thường ngắt nhịp 2/2/2 hoặc 3/3; thơ bảy chữ linh hoạt hơn với nhịp 4/3 hoặc 2/2/3. Vần trong thơ có thể là vần chân (cuối dòng) hoặc vần lưng (giữa dòng), tạo sự kết nối giữa các câu. Khi đọc hiểu, học sinh cần chú ý cách tác giả sử dụng hình ảnh, biện pháp tu từ (ẩn dụ, so sánh, nhân hóa) để khơi gợi cảm xúc và làm nổi bật chủ đề của tác phẩm.",
+        "exercises": [
+            "Bài tập 1: Đọc một đoạn thơ tự chọn và chỉ ra cách gieo vần, ngắt nhịp đặc trưng của thể thơ đó.",
+            "Bài tập 2: Phân tích tác dụng của một hình ảnh thơ tiêu biểu trong việc thể hiện tâm trạng của nhân vật trữ tình.",
+            "Bài tập 3: Viết đoạn văn khoảng 150 chữ ghi lại cảm nhận về một khổ thơ sáu chữ hoặc bảy chữ mà em yêu thích."
+        ]
+    }
+    
+
+    *Self-Correction during drafting:* Ensure the theory is concise and strictly avoids copying textbook definitions word-for-word. Ensure JSON syntax is perfect.
+
+{
+    "title": "Ôn tập Ngữ văn 8 - Tuần 3: Đặc điểm thơ sáu chữ, bảy chữ",
+    "objective": "Củng cố kiến thức về đặc trưng hình thức (số chữ, vần, nhịp) và kỹ năng phân tích hình ảnh, cảm xúc trong văn bản thơ.",
+    "theory": "Thơ sáu chữ và bảy chữ tập trung vào việc điều phối số tiếng trong mỗi dòng để tạo nhạc điệu. Thơ sáu chữ thường ngắt nhịp 2/2/2 hoặc 3/3; thơ bảy chữ linh hoạt hơn với nhịp 4/3 hoặc 2/2/3. Vần trong thơ có thể là vần chân (cuối dòng) hoặc vần lưng (giữa dòng), tạo sự kết nối chặt chẽ giữa các câu. Khi tiếp cận văn bản, cần chú trọng cách tác giả sử dụng hình ảnh, biện pháp tu từ (ẩn dụ, so sánh, nhân hóa) để khơi gợi cảm xúc và làm nổi bật chủ đề, tư tưởng của tác phẩm.",
+    "exercises": [
+        "Bài tập 1: Xác định số chữ, cách gieo vần và ngắt nhịp của một đoạn thơ sáu chữ hoặc bảy chữ cụ thể trong sách giáo khoa.",
+        "Bài tập 2: Phân tích tác dụng của một biện pháp tu từ nổi bật trong khổ thơ đã học để thấy được vẻ đẹp của hình ảnh thơ.",
+        "Bài tập 3: Viết đoạn văn ngắn (khoảng 7-10 câu) ghi lại cảm xúc của em về một thông điệp ý nghĩa được rút ra từ bài thơ trong chương trình."
+    ]
+}

@@ -1,0 +1,71 @@
+*   Role: Education Expert.
+    *   Task: Prepare a transition lesson for Computer Science (Tin học), Grade 6, Week 5.
+    *   Objective: Summarize theory and key exercises for Week 5 according to the 2018 General Education Curriculum standards.
+    *   Constraint 1: Do NOT copy the textbook directly.
+    *   Constraint 2: Output ONLY a specific JSON format.
+    *   Constraint 3: No extra explanation.
+    *   Format:
+        
+        {
+            "title": "...",
+            "objective": "...",
+            "theory": "...",
+            "exercises": ["...", "..."]
+        }
+        
+
+    *   Grade 6 Computer Science, Week 5.
+    *   According to the 2018 curriculum (Commonly used books like *Kết nối tri thức*, *Cánh diều*, or *Chân trời sáng tạo*):
+    *   Week 5 usually covers "Internet" or "Information searching" or "Information and decision making" (depending on the specific book sequence, but most commonly it's about **Internet** or **Searching information on the Internet**).
+    *   *Refining Topic:* In the standard sequence, Week 5 often deals with "Internet" (Mạng máy tính và Internet) or "Information processing". Let's focus on the core concept of **Internet** (Mạng toàn cầu) as it's a central pillar of the Week 5 module in most 2018 series.
+
+    *   *Topic:* Internet (Mạng Internet).
+    *   *Objective:* Understand the concept of Internet, its characteristics, and its role in life.
+    *   *Theory (under 150 words):* Internet is a global network connecting millions of computers and devices worldwide. It uses a standardized protocol (TCP/IP) to exchange information. Key characteristics include being vast, diverse in content, and providing many services (email, web, social media, file sharing). It allows people to communicate and access knowledge instantly across borders.
+    *   *Exercises:*
+        1.  Multiple choice on characteristics of Internet.
+        2.  Scenario-based question about using Internet services.
+
+    *   *Title:* Khám phá Thế giới Internet.
+    *   *Objective:* Hiểu đặc điểm, vai trò và các dịch vụ phổ biến trên Internet.
+    *   *Theory:* Internet là mạng kết nối các máy tính và thiết bị trên toàn cầu, hoạt động dựa trên các quy tắc chung. Đặc điểm nổi bật là tính toàn cầu, phạm vi rộng lớn và kho thông tin khổng lồ, đa dạng. Internet cung cấp nhiều dịch vụ hữu ích như: tìm kiếm thông tin (Search Engine), thư điện tử (Email), mạng xã hội (Social Media), giải trí và học trực tuyến. Nhờ Internet, con người có thể giao tiếp, học tập và làm việc mọi lúc, mọi nơi một cách nhanh chóng.
+    *   *Exercises:*
+        1.  Câu hỏi trắc nghiệm: Đâu không phải là đặc điểm của mạng Internet? (A. Phạm vi toàn cầu; B. Kết nối mọi người; C. Chỉ dùng để chơi game; D. Kho thông tin lớn).
+        2.  Tình huống: Em hãy nêu 3 lợi ích của Internet đối với việc học tập của học sinh lớp 6.
+
+    *   JSON format? Yes.
+    *   No extra explanation? Yes.
+    *   Theory < 150 words? Yes (~80 words).
+    *   Grade 6/Week 5/2018 standard? Yes.
+    *   No direct copying from textbook? Yes.
+
+    
+    {
+        "title": "Khám phá Thế giới Internet",
+        "objective": "Giúp học sinh nắm vững khái niệm, đặc điểm cơ bản và các ứng dụng thực tiễn của Internet trong đời sống.",
+        "theory": "Internet là mạng kết nối hàng triệu máy tính và thiết bị thông minh trên toàn cầu thông qua các giao thức chuẩn. Đặc điểm chính của Internet là tính toàn cầu, khả năng lưu trữ thông tin khổng lồ và sự đa dạng về loại hình nội dung. Thông qua Internet, người dùng có thể truy cập nhiều dịch vụ thiết yếu như: tìm kiếm thông tin, trao đổi thư điện tử (email), kết nối mạng xã hội, giải trí trực tuyến và học tập từ xa. Internet đóng vai trò là kho tri thức nhân loại, xóa bỏ rào cản về khoảng cách địa lý trong giao tiếp và làm việc.",
+        "exercises": [
+            "Bài tập 1: Trắc nghiệm - Trong các đặc điểm sau, đâu KHÔNG phải là đặc điểm của mạng Internet? (A. Phạm vi kết nối toàn cầu; B. Có thể truy cập mọi lúc, mọi nơi; C. Chỉ kết nối được các máy tính trong một văn phòng; D. Cung cấp kho thông tin cực lớn).",
+            "Bài tập 2: Tự luận - Em hãy liệt kê 3 dịch vụ trên Internet mà em thường dùng để phục vụ việc học tập và giải thích ngắn gọn lý do vì sao."
+        ]
+    }
+    
+
+    *Self-correction during drafting:* Ensure the theory is concise and fits the "transition lesson" (ôn tập/chuyển tiếp) vibe.
+
+    *Wait, let's check if Week 5 is "Internet" or "Information safety/Ethics".*
+    In *Kết nối tri thức*: Week 5 is often "Internet".
+    In *Cánh diều*: Week 5 is often "Internet".
+    In *Chân trời sáng tạo*: Week 5 is often "Internet".
+    Okay, Internet is the safest and most accurate theme for Week 5.
+
+{
+    "title": "Khám phá Thế giới Internet",
+    "objective": "Giúp học sinh nắm vững khái niệm, đặc điểm cơ bản và các dịch vụ hữu ích của Internet trong đời sống hiện đại.",
+    "theory": "Internet là mạng kết nối hàng triệu máy tính và thiết bị thông minh trên phạm vi toàn cầu. Điểm khác biệt của Internet là tính kết nối không giới hạn về khoảng cách và khả năng lưu trữ kho thông tin khổng lồ, đa dạng. Internet hoạt động dựa trên các quy tắc chung, cho phép người dùng truy cập các dịch vụ đa dạng như: tìm kiếm thông tin (Search Engine), trao đổi thư điện tử (Email), mạng xã hội (Social Media), học trực tuyến (E-learning) và giải trí. Nhờ Internet, việc giao tiếp và tiếp cận tri thức trở nên nhanh chóng, xóa bỏ mọi rào cản địa lý.",
+    "exercises": [
+        "Bài tập 1: Trắc nghiệm - Đặc điểm nào sau đây là của mạng Internet? (A. Chỉ kết nối các máy tính trong một phòng học; B. Có phạm vi kết nối toàn cầu; C. Không thể dùng để gửi thư điện tử; D. Chỉ cung cấp thông tin về giải trí).",
+        "Bài tập 2: Tình huống - Nếu không có Internet, việc tìm kiếm tài liệu để làm bài tập nhóm của em sẽ gặp những khó khăn gì? Hãy nêu ít nhất 2 khó khăn.",
+        "Bài tập 3: Nối cột - Hãy nối các dịch vụ Internet (Email, Google Search, Facebook, YouTube) với mục đích sử dụng tương ứng (Liên lạc, Tìm kiếm, Kết nối bạn bè, Xem video)."
+    ]
+}

@@ -1,0 +1,54 @@
+*   Role: Education expert.
+    *   Topic: Transition lesson for Math, Grade 7, Week 2.
+    *   Requirement: "Summarize core theory and exercises for Week 2 Math Grade 7 according to the 2018 General Education Program (GDPT 2018) standards."
+    *   Constraint 1: Absolutely do not copy the textbook word-for-word.
+    *   Constraint 2: Return *only* a specific JSON format. No extra explanation.
+    *   JSON Structure:
+        *   `title`: Short title.
+        *   `objective`: Core objective.
+        *   `theory`: Theory summary (< 150 words).
+        *   `exercises`: Array of strings.
+
+    *   In the 2018 curriculum for Grade 7 Math, Week 2 typically covers topics related to:
+        *   *Arithmetic/Algebra:* Rational numbers (properties, operations like addition, subtraction, multiplication, division, or square roots/powers).
+        *   *Geometry:* Lines and angles (parallel lines, angles formed by a transversal).
+    *   *Refining for "Week 2":* Most textbooks (Kết nối tri thức, Chân trời sáng tạo, Cánh diều) cover **Rational Numbers (Số hữu tỉ)** or **Properties of Rational Numbers** and potentially **Repeated Addition/Multiplication** in the first weeks.
+    *   *Specific topic choice:* "Các phép tính với số hữu tỉ" (Operations with rational numbers) or "Lũy thừa của một số hữu tỉ" (Powers of a rational number). Let's focus on the core concept of performing operations and the order of operations with rational numbers to ensure it's a solid "transition/review" lesson.
+
+    *   *Title:* Chinh phục Số hữu tỉ và Lũy thừa (Conquering Rational Numbers and Powers).
+    *   *Objective:* Giúp học sinh củng cố kỹ năng thực hiện các phép tính cộng, trừ, nhân, chia số hữu tỉ và vận dụng tính chất lũy thừa để giải toán.
+    *   *Theory (Summary):*
+        Số hữu tỉ là số viết được dưới dạng phân số $a/b$ ($a, b \in \mathbb{Z}, b \neq 0$). Khi thực hiện phép tính, ta quy đồng mẫu số (với cộng, trừ) hoặc nhân/chia trực tiếp (với nhân, chia). Lưu ý quy tắc dấu và thứ tự thực hiện phép tính: Ngoặc $\rightarrow$ Lũy thừa $\rightarrow$ Nhân, chia $\rightarrow$ Cộng, trừ.
+        Về lũy thừa: $x^m \cdot x^n = x^{m+n}$; $x^m : x^n = x^{m-n}$ ($x \neq 0, m \geq n$); $(x^m)^n = x^{m \cdot n}$.
+    *   *Exercises:*
+        1. Tính: $A = \frac{3}{4} + \left(-\frac{1}{2}\right) \cdot \frac{2}{3}$.
+        2. Tìm x: $x - \frac{1}{5} = \frac{2}{3}$.
+        3. Tính nhanh: $B = \left(\frac{-1}{2}\right)^3 \cdot 8 + \left(\frac{3}{4}\right)^2 : \frac{9}{16}$.
+        4. Tìm x biết: $(x + 1)^2 = 25$.
+
+    *   `title`: "Làm chủ Số hữu tỉ và Lũy thừa"
+    *   `objective`: "Củng cố quy tắc tính toán số hữu tỉ và vận dụng linh hoạt các tính chất lũy thừa trong giải toán."
+    *   `theory`: "Số hữu tỉ là số biểu diễn dưới dạng phân số a/b (a, b thuộc Z, b khác 0). Thực hiện phép tính cộng, trừ bằng cách quy đồng mẫu; nhân, chia bằng cách nhân/chia tử và mẫu tương ứng. Quy tắc dấu cần được tuân thủ nghiêm ngặt. Đối với lũy thừa: nhân hai lũy thừa cùng cơ số thì cộng số mũ ($x^m \cdot x^n = x^{m+n}$); chia hai lũy thừa cùng cơ số thì trừ số mũ ($x^m : x^n = x^{m-n}$); lũy thừa của lũy thừa thì nhân số mũ ($(x^m)^n = x^{m \cdot n}$)."
+    *   `exercises`:
+        * "Bài tập 1: Thực hiện phép tính: A = 0,5 - 3/4 + 1/2."
+        * "Bài tập 2: Tìm x, biết: x + 2/5 = -1/3."
+        * "Bài tập 3: Tính giá trị biểu thức: B = (1/2)^3 : (1/2)^2 + 2^3 * (1/4)."
+        * "Bài tập 4: Áp dụng tính chất lũy thừa để rút gọn: C = (2^3 * 2^4) / 2^5."
+
+    *   JSON format? Yes.
+    *   No extra text? Yes.
+    *   Theory < 150 words? Yes (approx 80 words).
+    *   Standard GDPT 2018? Yes.
+    *   Not copied from textbook? Yes (rewritten/summarized).
+
+{
+    "title": "Làm chủ Số hữu tỉ và Lũy thừa",
+    "objective": "Củng cố kỹ năng thực hiện các phép tính trên tập hợp số hữu tỉ và vận dụng linh hoạt các tính chất của lũy thừa để giải toán.",
+    "theory": "Số hữu tỉ là số viết được dưới dạng phân số a/b (a, b ∈ Z, b ≠ 0). Khi tính toán: Cộng/trừ cần quy đồng mẫu số; Nhân/chia thực hiện trực tiếp trên tử và mẫu. Cần tuân thủ thứ tự: Ngoặc → Lũy thừa → Nhân, chia → Cộng, trừ. Về lũy thừa: Nhân hai lũy thừa cùng cơ số (cộng số mũ: x^m . x^n = x^{m+n}); Chia hai lũy thừa cùng cơ số (trừ số mũ: x^m : x^n = x^{m-n}); Lũy thừa của lũy thừa (nhân số mũ: (x^m)^n = x^{m.n}).",
+    "exercises": [
+        "Bài tập 1: Thực hiện phép tính một cách hợp lý: A = 3/4 + (-1/2) . 2/3.",
+        "Bài tập 2: Tìm x, biết: x - 1/5 = 2/3.",
+        "Bài tập 3: Tính giá trị biểu thức lũy thừa: B = (1/2)^3 : (1/2)^2 + (0,5)^2.",
+        "Bài tập 4: Rút gọn biểu thức sau: C = (2^5 . 2^3) : 2^6."
+    ]
+}

@@ -1,0 +1,59 @@
+*   Role: Education Expert.
+    *   Subject: Literature (Ngữ văn - VAN), Grade 6.
+    *   Topic: Transition Lesson (Bài học chuyển tiếp), Week 2.
+    *   Goal: Summarize theory and key exercises for Week 2 according to the 2018 General Education Program (GDPT 2018).
+    *   Constraint 1: Absolutely do not copy the textbook verbatim.
+    *   Constraint 2: Output MUST be in a specific JSON format.
+    *   Constraint 3: No additional explanation.
+
+    *   In the 2018 GDPT curriculum for Grade 6 (various sets like *Kết nối tri thức*, *Cánh diều*, *Chân trời sáng tạo*), Week 2 usually falls under the first theme (e.g., "Tôi và các bạn" or "Gõ cửa trái tim").
+    *   Focus areas in Week 2 typically include:
+        *   Reading comprehension of stories/poems (often focused on character development, plot, or imagery).
+        *   Language skills: Metaphor (Ẩn dụ) or Simile (So sánh), or potentially Pronouns (Đại từ).
+        *   Writing: Writing a short paragraph about a person or an experience.
+    *   *Decision for a "Transition Lesson"*: Since it's a transition/summary lesson, I should focus on the core skills being introduced in the first few weeks: **Reading stories (elements like plot, character, narrator)** and **Language (Simile/Metaphor)**.
+
+    *   *Title*: Ôn tập Kỹ năng Đọc hiểu Truyện và Tiếng Việt (Tuần 2).
+    *   *Objective*: Củng cố kiến thức về các yếu tố cốt lõi của truyện (nhân vật, cốt truyện) và nhận biết, phân tích tác dụng của biện pháp tu từ So sánh/Ẩn dụ.
+    *   *Theory*:
+        *   Truyện: Gồm nhân vật (người thực hiện hành động), cốt truyện (diễn biến sự việc), lời người kể chuyện và lời nhân vật.
+        *   Tiếng Việt (So sánh): Là đối chiếu sự vật này với sự vật khác có nét tương đồng để tăng sức gợi hình, gợi cảm.
+        *   Tiếng Việt (Ẩn dụ): Gọi tên sự vật này bằng tên sự vật khác dựa trên nét tương đồng nhằm tăng tính hàm súc.
+    *   *Exercises*:
+        1.  Identify simile/metaphor in a given sentence.
+        2.  Briefly analyze a character's trait based on a short excerpt.
+
+    *   *Theory check*: Keep it under 150 words.
+    *   *Formatting*: Strict JSON.
+
+    *   *Theory*: "Để hiểu một tác phẩm truyện, cần nắm vững: (1) Nhân vật: Người thực hiện hành động, bộc lộ tính cách qua lời nói, cử chỉ; (2) Cốt truyện: Chuỗi sự việc liên kết với nhau; (3) Người kể chuyện: Ngôi thứ nhất (xưng 'tôi') hoặc ngôi thứ ba (giấu mặt). Về Tiếng Việt, biện pháp So sánh dùng để đối chiếu sự vật có nét tương đồng (A như B), giúp hình ảnh sinh động. Ẩn dụ là gọi tên sự vật này bằng tên sự vật khác dựa trên nét tương đồng, giúp câu văn hàm súc, sâu sắc hơn." (98 words - Good).
+
+    
+    {
+        "title": "Ôn tập Kỹ năng Đọc hiểu Truyện và Biện pháp Tu từ",
+        "objective": "Hệ thống hóa kiến thức về các yếu tố truyện và vận dụng thành thạo biện pháp so sánh, ẩn dụ.",
+        "theory": "Để nắm bắt văn bản truyện, học sinh cần chú ý: (1) Nhân vật: trung tâm của hành động, thể hiện qua ngoại hình, lời nói, tâm trạng; (2) Cốt truyện: các sự kiện nối tiếp tạo nên diễn biến; (3) Ngôi kể: ngôi thứ nhất (tăng độ tin cậy) hoặc ngôi thứ ba (tăng tính khách quan). Về Tiếng Việt, So sánh là đối chiếu hai sự vật có nét tương đồng (thường dùng từ 'như', 'là') để tăng sức gợi hình. Ẩn dụ là gọi tên sự vật này bằng tên sự vật khác dựa trên nét tương đồng về tính chất/hình dáng, giúp lời văn giàu hình ảnh và hàm súc hơn.",
+        "exercises": [
+            "Bài tập 1: Tìm và nêu tác dụng của biện pháp so sánh trong câu văn: 'Trẻ em như búp trên cành'.",
+            "Bài tập 2: Đọc một đoạn trích ngắn và xác định nhân vật chính cùng một nét tính cách nổi bật của nhân vật đó.",
+            "Bài tập 3: Viết 2-3 câu sử dụng biện pháp ẩn dụ để miêu tả vẻ đẹp của một loài hoa."
+        ]
+    }
+    
+
+    *   Subject: Grade 6, Week 2.
+    *   GDPT 2018 standard: Yes (Story elements + Simile/Metaphor).
+    *   No copying: Checked.
+    *   JSON format: Checked.
+    *   No extra text: Checked.
+
+{
+    "title": "Ôn tập Kỹ năng Đọc hiểu Truyện và Biện pháp Tu từ",
+    "objective": "Củng cố kiến thức về các yếu tố cốt lõi của truyện và vận dụng thành thạo biện pháp so sánh, ẩn dụ vào phân tích văn bản.",
+    "theory": "Để hiểu một tác phẩm truyện, cần nắm vững: (1) Nhân vật: trung tâm của hành động, bộc lộ qua ngoại hình, cử chỉ, lời nói; (2) Cốt truyện: chuỗi các sự kiện liên kết tạo nên diễn biến; (3) Ngôi kể: ngôi thứ nhất (xưng 'tôi') hoặc ngôi thứ ba (người kể giấu mặt). Về Tiếng Việt, So sánh là đối chiếu sự vật này với sự vật khác có nét tương đồng (dùng từ 'như', 'là'...) giúp hình ảnh sinh động. Ẩn dụ là gọi tên sự vật này bằng tên sự vật khác dựa trên nét tương đồng, giúp câu văn hàm súc và giàu sức gợi hình hơn.",
+    "exercises": [
+        "Bài tập 1: Xác định biện pháp tu từ trong câu sau và nêu tác dụng: 'Mặt trời xuống biển như hòn lửa'.",
+        "Bài tập 2: Đọc một đoạn trích truyện ngắn được cung cấp, sau đó chỉ ra nhân vật chính và một chi tiết miêu tả tâm trạng của nhân vật đó.",
+        "Bài tập 3: Viết một đoạn văn ngắn (3-5 câu) về chủ đề tình bạn, trong đó có sử dụng ít nhất một hình ảnh so sánh hoặc ẩn dụ."
+    ]
+}

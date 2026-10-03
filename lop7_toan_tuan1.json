@@ -1,0 +1,53 @@
+*   Role: Education Expert.
+    *   Task: Create a transition lesson for Mathematics, Grade 7, Week 1.
+    *   Requirement: Summarize key theory and exercises for Week 1 based on the 2018 General Education Curriculum standards.
+    *   Constraint 1: Do NOT copy from textbooks.
+    *   Constraint 2: Strictly follow the JSON format.
+    *   Constraint 3: No additional explanation.
+
+    *   Grade 7 Math, Week 1 (based on common curriculum structures like *Kết nối tri thức*, *Chân trời sáng tạo*, or *Cánh diều*).
+    *   Common topics in Week 1: Rational Numbers (Số hữu tỉ) - concepts, representation on number line, comparing rational numbers.
+
+    *   Title: Ôn tập và Mở rộng: Số hữu tỉ.
+    *   Objective: Giúp học sinh nắm vững khái niệm số hữu tỉ, cách biểu diễn trên trục số và so sánh các số hữu tỉ để chuẩn bị tốt cho chương trình lớp 7.
+    *   Theory (Under 150 words): Số hữu tỉ là số có thể viết được dưới dạng phân số $\frac{a}{b}$ với $a, b \in \mathbb{Z}, b \neq 0$. Tập hợp các số hữu tỉ được ký hiệu là $\mathbb{Q}$. Mọi số nguyên, số thập phân, hỗn số đều là số hữu tỉ. Trên trục số, mỗi số hữu tỉ được biểu diễn bởi một điểm. Để so sánh hai số hữu tỉ, ta thường đưa chúng về cùng mẫu số dương rồi so sánh tử số, hoặc sử dụng số trung gian.
+    *   Exercises:
+        1.  Determine if the given numbers (-0.5, 3, 2/5, 0) are rational numbers.
+        2.  Represent the number 3/4 on a number line.
+        3.  Compare -2/3 and -1/2.
+        4.  Find a rational number $x$ such that $-1 < x < 0$.
+
+    *   `title`: "Khởi động Lớp 7: Thế giới Số hữu tỉ"
+    *   `objective`: "Nắm vững định nghĩa, cách biểu diễn và phương pháp so sánh số hữu tỉ."
+    *   `theory`: "Số hữu tỉ là tập hợp các số có thể viết dưới dạng phân số $a/b$ (với $a, b \in \mathbb{Z}, b \neq 0$). Ký hiệu là $\mathbb{Q}$. Bao gồm số nguyên, số thập phân, hỗn số. Trên trục số, mỗi số hữu tỉ tương ứng với một điểm duy nhất. Để so sánh hai số hữu tỉ, ta có thể đưa về cùng mẫu số dương hoặc sử dụng số trung gian (như số 0) để xác định giá trị lớn hơn hoặc nhỏ hơn."
+    *   `exercises`:
+        *   "Bài 1: Trong các số sau, số nào là số hữu tỉ: $-5; 0; 1,2; \frac{3}{0}; \sqrt{2}$? Giải thích ngắn gọn."
+        *   "Bài 2: Biểu diễn số hữu tỉ $\frac{-3}{4}$ và $\frac{5}{4}$ trên cùng một trục số."
+        *   "Bài 3: So sánh hai số hữu tỉ sau bằng cách đưa về cùng mẫu số: $A = \frac{-2}{3}$ và $B = \frac{-3}{5}$."
+        *   "Bài 4: Tìm số nguyên $x$ sao cho $\frac{-1}{2} < x < \frac{3}{2}$."
+
+    *   JSON format? Yes.
+    *   No extra text? Yes.
+    *   Under 150 words theory? Yes.
+    *   Content for Grade 7 Week 1? Yes.
+    *   No textbook copying? Yes (rephrased).
+
+    *Self-Correction during drafting:* Ensure the JSON is valid (escaping quotes if necessary, though here I'll just use standard strings).
+
+    *Note on Math Symbols:* Since it's JSON, I should ensure standard characters or basic LaTeX-style formatting that is readable.
+
+    *Theory word count check:*
+    "Số hữu tỉ là tập hợp các số có thể viết dưới dạng phân số a/b (với a, b là số nguyên và b khác 0). Ký hiệu là Q. Tập hợp này bao gồm cả số nguyên, số thập phân và hỗn số. Mỗi số hữu tỉ được biểu diễn bởi một điểm duy nhất trên trục số. Để so sánh hai số hữu tỉ, ta thường quy đồng mẫu số (mẫu dương) để so sánh tử số, hoặc sử dụng số trung gian như số 0 để xác định vị trí của chúng trên trục số."
+    -> ~85 words. Perfect.
+
+{
+    "title": "Khởi động Lớp 7: Thế giới Số hữu tỉ",
+    "objective": "Giúp học sinh nhận biết, biểu diễn và so sánh thành thạo số hữu tỉ để làm nền tảng cho các phép tính đại số.",
+    "theory": "Số hữu tỉ là số có thể viết dưới dạng phân số a/b, trong đó a, b là các số nguyên và b khác 0. Tập hợp các số hữu tỉ được ký hiệu là Q. Mọi số nguyên, số thập phân và hỗn số đều là số hữu tỉ. Trên trục số, mỗi số hữu tỉ được biểu diễn bởi một điểm cụ thể. Để so sánh hai số hữu tỉ, ta thường đưa chúng về cùng mẫu số dương rồi so sánh tử số, hoặc so sánh thông qua số trung gian (như số 0) để xác định giá trị lớn hơn hoặc nhỏ hơn.",
+    "exercises": [
+        "Bài 1: Trong các số sau, số nào là số hữu tỉ? Giải thích tại sao: -7; 0,25; 0; 2/(-3); 5/0.",
+        "Bài 2: Biểu diễn các số hữu tỉ sau trên cùng một trục số: 1/2; -3/2; 0; 1.",
+        "Bài 3: So sánh cặp số hữu tỉ sau bằng cách quy đồng mẫu số: A = -2/5 và B = -3/4.",
+        "Bài 4: Tìm tất cả các số nguyên x thỏa mãn điều kiện: -1,5 < x < 2."
+    ]
+}

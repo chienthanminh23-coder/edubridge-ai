@@ -1,0 +1,73 @@
+*   Role: Education Expert.
+    *   Topic: Transition lesson for English, Grade 7, Week 2.
+    *   Goal: Summarize key theory and exercises for Week 2, Grade 7 English, following the 2018 General Education Program (GDPT 2018) standards.
+    *   Constraints:
+        *   Do not copy the textbook directly.
+        *   Output MUST be in a specific JSON format.
+        *   No additional explanation.
+        *   Theory length: < 150 words.
+    *   Standard Context (Grade 7, Week 2 - Global Success/iLearn Smart World/etc. under GDPT 2018): Usually covers "Hobbies" or "Healthy Living" (depending on the specific series, but typically Unit 1: Hobbies). Key grammar often involves Present Simple for habits/hobbies or Verbs of liking + V-ing.
+
+    *   *Subject:* English Grade 7.
+    *   *Unit 1 (Common for Week 2):* Hobbies.
+    *   *Grammar focus:* Present Simple (review/extension) and Verbs of liking + Gerunds (V-ing).
+    *   *Vocabulary focus:* Common hobbies (collecting, gardening, making models, etc.).
+
+    *   *Theory:*
+        - Present Simple: Structure (S + V(s/es)), used for habits/truths.
+        - Verbs of liking + V-ing: Love, like, enjoy, prefer, hate + Verb-ing (e.g., I love reading books).
+    *   *Exercises:*
+        - 1. Fill in the blanks with correct verb forms (Present Simple).
+        - 2. Multiple choice (Verbs of liking + Gerunds).
+        - 3. Sentence transformation/matching.
+
+    *   *Title:* English Grade 7 - Week 2: Hobbies & Verbs of Liking.
+    *   *Objective:* Master vocabulary about hobbies and apply "Verbs of liking + V-ing" in context.
+    *   *Theory (Vietnamese/English mix for clarity in VN context):*
+        Tập trung vào chủ đề "Hobbies" (Sở thích).
+        1. Verbs of liking + V-ing: Sử dụng các động từ chỉ sự yêu thích/ghét như: love, enjoy, like, prefer, hate, detest + V-ing (Ví dụ: I enjoy swimming).
+        2. Present Simple (Thì Hiện tại đơn): Diễn tả thói quen hoặc sở thích ở hiện tại.
+        Cấu trúc: S + V(s/es) + O. Lưu ý chia động từ theo chủ ngữ số ít/số nhiều.
+    *   *Exercises:*
+        - Exercise 1: Put the verbs in brackets into the correct form (Present Simple).
+        - Exercise 2: Choose the correct answer (A, B, C, or D) involving Gerunds.
+        - Exercise 3: Rewrite sentences using the words provided.
+
+    
+    {
+        "title": "English 7 - Week 2: Hobbies & Verbs of Liking",
+        "objective": "Nắm vững từ vựng về sở thích và cách sử dụng danh động từ (V-ing) sau các động từ chỉ sự yêu thích.",
+        "theory": "1. Verbs of liking + V-ing: Để diễn tả cảm xúc về một hành động, ta dùng: love, like, enjoy, prefer, hate, detest + V-ing (Ví dụ: She loves collecting stamps). 2. Present Simple (Thì Hiện tại đơn): Dùng để nói về sở thích hoặc thói quen thường xuyên. Cấu trúc: S + V(s/es). Lưu ý: Chủ ngữ số ít (He/She/It) động từ thêm 's/es', chủ ngữ số nhiều (I/You/We/They) động từ giữ nguyên.",
+        "exercises": [
+            "Bài tập 1: Chia động từ trong ngoặc ở thì Hiện tại đơn: 1. My brother (collect) _______ dolls. 2. They (not/like) _______ playing football.",
+            "Bài tập 2: Chọn đáp án đúng: 1. I enjoy (read/reading/reads) books in my free time. 2. Does she hate (cook/cooking/cooks) meals?",
+            "Bài tập 3: Sắp xếp từ thành câu hoàn chỉnh: love / My / making / models / brother / ."
+        ]
+    }
+    
+
+    *   Role: Expert? Yes.
+    *   Grade 7, Week 2? Yes.
+    *   GDPT 2018? Yes (Unit 1 focus).
+    *   No direct copying? Yes.
+    *   JSON format only? Yes.
+    *   Theory < 150 words? Yes.
+
+    *Self-correction on Theory word count:* The theory is about 75 words. Perfect.
+
+    *Final Polish of Content:*
+    Title: English 7 - Week 2: Hobbies & Verbs of Liking
+    Objective: Nắm vững từ vựng về sở thích và cấu trúc Gerunds (V-ing) sau các động từ chỉ cảm xúc.
+    Theory: 1. Verbs of liking + V-ing: Các động từ như love, like, enjoy, prefer, hate, detest được theo sau bởi một động từ thêm đuôi -ing để diễn tả sở thích (Ví dụ: I love swimming). 2. Present Simple (Thì Hiện tại đơn): Dùng để diễn tả thói quen hoặc sở thích lặp đi lặp lại. Cấu trúc: S + V(s/es) + O. Lưu ý: Chủ ngữ là ngôi thứ 3 số ít (He/She/It) cần thêm 's' hoặc 'es' vào động từ.
+    Exercises: (as planned).
+
+{
+    "title": "English 7 - Week 2: Hobbies & Verbs of Liking",
+    "objective": "Nắm vững từ vựng về sở thích và sử dụng thành thạo cấu trúc Gerunds (V-ing) sau các động từ chỉ cảm xúc.",
+    "theory": "1. Verbs of liking + V-ing: Để diễn tả cảm xúc về một hoạt động, ta sử dụng các động từ như: love, like, enjoy, prefer, hate, detest + V-ing (Ví dụ: She enjoys dancing). 2. Present Simple (Thì Hiện tại đơn): Dùng để nói về sở thích hoặc thói quen ở hiện tại. Cấu trúc: S + V(s/es). Lưu ý: Với chủ ngữ số ít (He/She/It/Danh từ số ít), động từ phải thêm 's' hoặc 'es'. Với chủ ngữ số nhiều (I/You/We/They/Danh từ số nhiều), động từ giữ nguyên mẫu.",
+    "exercises": [
+        "Bài tập 1: Chia động từ trong ngoặc ở thì Hiện tại đơn: 1. My father (collect) _______ old coins. 2. They (not/like) _______ playing computer games.",
+        "Bài tập 2: Chọn đáp án đúng (A, B, C hoặc D): 1. I love _______ models in my free time. (A. make / B. making / C. makes / D. made). 2. Does your sister enjoy _______ judo? (A. do / B. does / C. doing / D. did).",
+        "Bài tập 3: Sắp xếp các từ sau thành câu hoàn chỉnh: hobby / My / is / gardening / favorite / ."
+    ]
+}

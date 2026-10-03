@@ -1,0 +1,93 @@
+*   Role: Education Expert.
+    *   Subject: Mathematics, Grade 10 (Transition lesson/Review).
+    *   Topic: Week 1 - Sets (Representation, symbols $\in, \notin$, subsets $\subseteq$).
+    *   Constraint 1: Do not copy the textbook verbatim.
+    *   Constraint 2: Output ONLY a specific JSON format.
+    *   Constraint 3: No extra explanation.
+    *   JSON Structure:
+        *   `title`: Short title.
+        *   `objective`: Core objective.
+        *   `theory`: Summary < 150 words.
+        *   `exercises`: List of exercises.
+
+    *   *Title:* Ôn tập về Tập hợp (Review of Sets).
+    *   *Objective:* Nắm vững cách mô tả tập hợp và sử dụng thành thạo các ký hiệu quan hệ giữa phần tử và tập hợp, giữa các tập hợp với nhau.
+    *   *Theory:*
+        *   Cách mô tả: Liệt kê các phần tử hoặc nêu tính chất đặc trưng.
+        *   Ký hiệu phần tử: $x \in A$ (x thuộc A), $x \notin A$ (x không thuộc A).
+        *   Ký hiệu tập con: $A \subseteq B$ (A là tập con của B) nếu mọi phần tử của A đều nằm trong B.
+        *   Tập rỗng ($\emptyset$): Tập không chứa phần tử nào, là tập con của mọi tập hợp.
+    *   *Exercises:*
+        *   Ex 1: Cho $A = \{x \in \mathbb{N} \mid x < 5\}$. Liệt kê phần tử.
+        *   Ex 2: Cho $B = \{2, 4, 6, 8\}$. Kiểm tra tính đúng/sai của các mệnh đề: $2 \in B$, $5 \in B$, $\{4, 6\} \subseteq B$, $0 \subseteq B$.
+        *   Ex 3: Cho $C = \{1, 2, 3\}$. Viết tất cả các tập con của $C$.
+
+    *   *Title:* Làm quen với Tập hợp.
+    *   *Objective:* Biết cách biểu diễn tập hợp bằng hai phương pháp và sử dụng chính xác các ký hiệu $\in, \notin, \subseteq$.
+    *   *Theory:* Tập hợp được mô tả bằng cách liệt kê phần tử hoặc chỉ ra tính chất chung. Ký hiệu $\in$ dùng để chỉ một phần tử nằm trong tập hợp, $\notin$ dùng khi phần tử đó không nằm trong tập hợp. Nếu mọi phần tử của tập $A$ đều là phần tử của tập $B$, ta nói $A$ là tập con của $B$, ký hiệu $A \subseteq B$. Lưu ý: Tập rỗng ($\emptyset$) là tập không có phần tử nào và là tập con của mọi tập hợp khác.
+    *   *Exercises:*
+        1. Cho tập hợp $A = \{x \in \mathbb{Z} \mid -2 < x \le 3\}$. Hãy liệt kê các phần tử của $A$.
+        2. Cho tập hợp $B = \{a, b, c\}$. Điền ký hiệu $\in, \notin, \subseteq$ thích hợp vào ô trống: $a \dots B$; $d \dots B$; $\{a, b\} \dots B$; $\emptyset \dots B$.
+        3. Cho $M = \{1, 2, 3, 4, 5\}$. Tìm tất cả các tập con của $M$ có đúng 2 phần tử.
+
+    *   Check word count of theory: ~85 words (Good).
+    *   Check JSON format: Valid.
+    *   Check requirements: No textbook copying, meets objectives.
+
+    
+    {
+        "title": "Khởi động: Thế giới của các Tập hợp",
+        "objective": "Biểu diễn thành thạo tập hợp và sử dụng chính xác các ký hiệu $\\in, \\notin, \\subseteq$.",
+        "theory": "Để mô tả một tập hợp, ta có hai cách chính: Liệt kê các phần tử hoặc chỉ ra tính chất đặc trưng của chúng. Một phần tử $x$ được gọi là thuộc tập hợp $A$ nếu $x \\in A$, ngược lại là $x \\notin A$. Khi mọi phần tử của tập $A$ đều nằm trong tập $B$, ta nói $A$ là tập con của $B$, ký hiệu $A \\subseteq B$. Đặc biệt, tập rỗng ($\\emptyset$) là tập hợp không chứa phần tử nào và luôn là tập con của mọi tập hợp.",
+        "exercises": [
+            "Bài tập 1: Cho tập hợp $A = \\{x \\in \\mathbb{N} \\mid x^2 < 20\\}$. Hãy viết tập $A$ bằng cách liệt kê các phần tử.",
+            "Bài tập 2: Cho $B = \\{2, 4, 6, 8, 10\\}$. Xét tính đúng/sai của các khẳng định sau: $2 \\in B$; $5 \\notin B$; $\\{4, 6\\} \\in B$; $\\{2, 4\\} \\subseteq B$.",
+            "Bài tập 3: Cho tập hợp $C = \\{x, y\\}$. Hãy liệt kê tất cả các tập con của tập hợp $C$."
+        ]
+    }
+    
+
+    *Self-Correction during drafting:* Ensure LaTeX-style math symbols are used for professional look in JSON strings.
+
+    *Final Content Check:*
+    - Title: "Khởi động: Thế giới của các Tập hợp"
+    - Objective: "Nắm vững cách mô tả tập hợp và sử dụng thành thạo các ký hiệu quan hệ giữa phần tử và tập hợp, giữa các tập hợp với nhau."
+    - Theory length: ~80 words.
+    - Exercises: 3 levels (Identify elements, use symbols, sub-sets).
+
+    *Wait, the prompt asks for Grade 10, Week 1 transition. Usually, this means reviewing middle school knowledge to prepare for high school concepts.*
+
+    Let's refine the theory to be concise and clear.
+
+    *Final JSON Construction:*
+    
+    {
+        "title": "Ôn tập và Chuyển tiếp: Khái niệm Tập hợp",
+        "objective": "Biết cách mô tả tập hợp bằng hai phương pháp và sử dụng đúng các ký hiệu $\\in, \\notin, \\subseteq$.",
+        "theory": "Một tập hợp có thể được mô tả bằng cách liệt kê các phần tử hoặc nêu tính chất đặc trưng. Ký hiệu $\\in$ chỉ một phần tử thuộc tập hợp, $\\notin$ chỉ phần tử không thuộc tập hợp. Nếu mọi phần tử của tập $A$ đều thuộc tập $B$, ta nói $A$ là tập con của $B$, ký hiệu $A \\subseteq B$. Tập rỗng ($\\emptyset$) là tập không chứa phần tử nào và là tập con của mọi tập hợp.",
+        "exercises": [
+            "Bài tập 1: Cho tập hợp $A = \\{x \\in \\mathbb{Z} \\mid |x| \\le 3\\}$. Hãy viết tập $A$ bằng cách liệt kê phần tử.",
+            "Bài tập 2: Cho $B = \\{1, 3, 5, 7\\}$. Điền ký hiệu $\\in, \\notin, \\subseteq$ vào ô trống: $3 \\dots B$; $0 \\dots B$; $\\{1, 3\\} \\dots B$; $\\{5, 7, 9\\} \\dots B$.",
+            "Bài tập 3: Viết tất cả các tập con của tập hợp $M = \\{a, b, c\\}$."
+        ]
+    }
+    
+
+    *Double checking JSON validity.*
+
+    *Constraint Check:* "Tuyệt đối không chép sách giáo khoa" -> The definitions are standard mathematical truths, but phrased to be a summary rather than a paragraph from a specific textbook.
+
+    *One detail:* Grade 10 math usually starts with Sets.
+
+    Let's go.
+
+{
+    "title": "Ôn tập và Chuyển tiếp: Khái niệm Tập hợp",
+    "objective": "Nắm vững cách mô tả tập hợp và sử dụng thành thạo các ký hiệu quan hệ giữa phần tử và tập hợp, giữa các tập hợp với nhau.",
+    "theory": "Để mô tả một tập hợp, ta có hai cách chính: Liệt kê các phần tử hoặc chỉ ra tính chất đặc trưng. Một phần tử $x$ được gọi là thuộc tập hợp $A$ nếu $x \\in A$, ngược lại là $x \\notin A$. Khi mọi phần tử của tập $A$ đều nằm trong tập $B$, ta nói $A$ là tập con của $B$, ký hiệu $A \\subseteq B$. Đặc biệt, tập rỗng (ký hiệu $\\emptyset$) là tập hợp không chứa phần tử nào và luôn là tập con của mọi tập hợp khác.",
+    "exercises": [
+        "Bài tập 1: Cho tập hợp $A = \\{x \\in \\mathbb{Z} \\mid -3 < x \\le 2\\}$. Hãy viết tập $A$ bằng cách liệt kê các phần tử.",
+        "Bài tập 2: Cho tập hợp $B = \\{2, 4, 6, 8\\}$. Xét tính đúng/sai của các khẳng định sau: $2 \\in B$; $5 \\notin B$; $\\{4, 6\\} \\in B$; $\\{2, 4\\} \\subseteq B$; $\\emptyset \\subseteq B$.",
+        "Bài tập 3: Cho tập hợp $C = \\{m, n\\}$. Hãy liệt kê tất cả các tập con của tập hợp $C$."
+    ]
+}

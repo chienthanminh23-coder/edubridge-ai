@@ -1,0 +1,91 @@
+*   Role: Education Expert.
+*   Topic: Transition lesson for Biology (Sinh học), Grade 7, Week 2.
+*   Standard: GDPT 2018 curriculum.
+*   Requirement: Summarize theory and key exercises for Week 2.
+*   Constraint 1: Do NOT copy the textbook verbatim.
+*   Constraint 2: Output format must be EXACTLY the provided JSON schema.
+*   Constraint 3: NO additional explanation.
+*   Constraint 4: Theory under 150 words.
+
+    *   Grade 7 Biology (Natural Science - Khoa học tự nhiên 7) usually covers topics like "Trao đổi chất và chuyển hóa năng lượng" (Metabolism and Energy Transformation) in the early weeks, specifically focusing on cells, photosynthesis, or respiration depending on the specific textbook series (Kết nối tri thức, Chân trời sáng tạo, or Cánh diều).
+    *   In the 2018 program, Biology is part of "Khoa học tự nhiên 7" (Natural Science 7).
+    *   Week 2 typically covers: *Trao đổi chất và chuyển hóa năng lượng ở sinh vật* (Metabolism and energy transformation in organisms) or more specifically *Quang hợp ở thực vật* (Photosynthesis) or *Hô hấp tế bào* (Cellular respiration) depending on the sequence.
+    *   Actually, looking at the common structure of KHTN 7 (Natural Science 7):
+        *   Chapter 1: Introduction/Measurement (Week 1).
+        *   Chapter 2: Cell (Week 2-3).
+        *   Wait, let's check the common 2018 curriculum flow for KHTN 7 (Biology part):
+            *   Usually, Week 2 is about **"Tế bào - Đơn vị cơ sở của sự sống"** (The Cell - Basic unit of life) or specifically **"Sự lớn lên và phân chia của tế bào"** (Cell growth and division).
+            *   *Correction:* In many KHTN 7 books, Week 1-2 focuses on the cell structure or the concept of life.
+            *   Let's focus on: **"Sự trao đổi chất và chuyển hóa năng lượng"** (Metabolism and energy conversion) OR **"Cấu tạo tế bào"** (Cell structure).
+            *   Actually, a safer and more standard approach for "Week 2" in the 2018 Natural Science 7 program is **"Trao đổi chất và chuyển hóa năng lượng ở sinh vật"** (Metabolism and energy conversion in organisms) - specifically the concept of nutrient uptake and excretion.
+
+    *   *Refined Topic:* **Trao đổi chất và chuyển hóa năng lượng ở sinh vật** (Metabolism and Energy Transformation).
+
+    *   *Theory:*
+        Organisms need nutrients from the environment to survive and grow. Metabolism involves two processes: taking in substances (uptake) and releasing waste (excretion). During this, energy is transformed (e.g., chemical energy to kinetic energy). This process is essential for maintaining life, growth, and reproduction. Key components include: taking in nutrients, conversion (transformation), and eliminating waste.
+
+    *   *Exercises:*
+        1. Multiple choice on the definition of metabolism.
+        2. Multiple choice on the importance of energy transformation.
+        3. Short answer: Comparing metabolism in plants vs. animals.
+
+    *   *Title:* Tổng hợp kiến thức: Trao đổi chất và chuyển hóa năng lượng.
+    *   *Objective:* Giúp học sinh nắm vững khái niệm trao đổi chất, chuyển hóa năng lượng và vai trò của chúng đối với sự sống.
+    *   *Theory:* Trao đổi chất là quá trình cơ thể lấy các chất từ môi trường (thức ăn, nước, khí...), biến đổi chúng thành các chất cần thiết cho tế bào và thải các chất cặn bã ra ngoài. Chuyển hóa năng lượng là sự biến đổi năng lượng từ dạng này sang dạng khác (ví dụ: từ hóa năng trong thức ăn thành nhiệt năng hoặc cơ năng) để duy trì các hoạt động sống. Hai quá trình này luôn diễn ra đồng thời, là cơ sở để sinh vật sinh trưởng, phát triển và duy trì sự sống. Nếu không có trao đổi chất và chuyển hóa năng lượng, mọi hoạt động sống sẽ dừng lại.
+    *   *Exercises:*
+        1. Trắc nghiệm: Quá trình biến đổi các chất dinh dưỡng thành các chất cần thiết cho cơ thể được gọi là gì?
+        2. Trắc nghiệm: Nguồn năng lượng chính giúp thực vật thực hiện quá trình tổng hợp chất hữu cơ là gì?
+        3. Tự luận: Tại sao nói trao đổi chất và chuyển hóa năng lượng là đặc trưng cơ bản của sự sống?
+
+    *   Title: Short? Yes.
+    *   Objective: Core? Yes.
+    *   Theory < 150 words? (Current count: ~85 words). Yes.
+    *   Exercises: 2-3 items? Yes.
+    *   JSON format correct? Yes.
+    *   No explanation? Yes.
+
+    *   *Note on Curriculum:* In KHTN 7 (Biology part), Week 2 often falls into "Trao đổi chất và chuyển hóa năng lượng".
+
+    
+    {
+        "title": "Trao đổi chất và chuyển hóa năng lượng ở sinh vật",
+        "objective": "Hiểu rõ bản chất của quá trình trao đổi chất và chuyển hóa năng lượng, vai trò của chúng đối với sự sinh trưởng và duy trì sự sống.",
+        "theory": "Trao đổi chất là quá trình sinh vật lấy các chất từ môi trường (như thức ăn, nước, khí), biến đổi thành các chất cần thiết cho cơ thể và thải các chất thừa, chất độc hại ra ngoài. Chuyển hóa năng lượng là sự biến đổi năng lượng từ dạng này sang dạng khác (ví dụ: từ hóa năng trong thức ăn thành nhiệt năng hoặc động năng) để cung cấp cho các hoạt động sống. Hai quá trình này luôn diễn ra song hành: trao đổi chất cung cấp nguyên liệu, còn chuyển hóa năng lượng cung cấp sức mạnh để thực hiện các hoạt động sinh học. Đây là đặc trưng cơ bản nhất để phân biệt vật sống và vật không sống.",
+        "exercises": [
+            "Bài tập 1 (Trắc nghiệm): Quá trình cơ thể lấy chất dinh dưỡng từ môi trường và thải các chất cặn bã ra ngoài được gọi là gì?",
+            "Bài tập 2 (Trắc nghiệm): Sự biến đổi năng lượng từ dạng hóa năng trong thực phẩm thành nhiệt năng để giữ ấm cơ thể là biểu hiện của quá trình nào?",
+            "Bài tập 3 (Tự luận): Hãy giải thích tại sao nếu một sinh vật ngừng trao đổi chất thì nó sẽ nhanh chóng bị chết?"
+        ]
+    }
+    
+
+    *   *Theory check:* "Trao đổi chất là quá trình sinh vật lấy các chất từ môi trường (như thức ăn, nước, khí), biến đổi thành các chất cần thiết cho cơ thể và thải các chất thừa, chất độc hại ra ngoài. Chuyển hóa năng lượng là sự biến đổi năng lượng từ dạng này sang dạng khác (ví dụ: từ hóa năng trong thức ăn thành nhiệt năng hoặc động năng) để cung cấp cho các hoạt động sống. Hai quá trình này luôn diễn ra song hành: trao đổi chất cung cấp nguyên liệu, còn chuyển hóa năng lượng cung cấp sức mạnh để thực hiện các hoạt động sinh học. Đây là đặc trưng cơ bản nhất để phân biệt vật sống và vật không sống." -> ~115 words. Perfect.
+
+    *   *Exercises check:* Follows requirements.
+
+    *   *Constraint Check:* No extra text. JSON only.
+
+    (Wait, the user said "Tuần 2". In most KHTN 7 books (GDPT 2018), Week 2 is actually "Sự trao đổi chất và chuyển hóa năng lượng" or "Cấu tạo tế bào". I will stick with the Metabolism topic as it is the core of the second major concept in the Biology section of the 7th-grade Natural Science curriculum).
+
+    *Actually, let's re-verify the curriculum:*
+    KHTN 7 - Chương 1: Nguyên tử, nguyên tố hóa học, Sơ lược về bảng tuần hoàn (Week 1-2).
+    KHTN 7 - Chương 2: Tốc độ (Week 3-4).
+    Wait, if the user asks for "Sinh, Lớp 7" (Biology, Grade 7), they are referring to the Biology part of the KHTN 7 textbook.
+    The Biology part starts with "Trao đổi chất và chuyển hóa năng lượng".
+    Common progression:
+    Week 1: Intro/Review.
+    Week 2: Concept of Metabolism/Energy.
+    This fits.
+
+    Final JSON Construction.
+
+{
+    "title": "Trao đổi chất và chuyển hóa năng lượng ở sinh vật",
+    "objective": "Giúp học sinh nắm vững khái niệm, mối quan hệ giữa trao đổi chất và chuyển hóa năng lượng, cũng như vai trò sống còn của chúng đối với sinh vật.",
+    "theory": "Trao đổi chất là quá trình sinh vật lấy các chất từ môi trường (như thức ăn, nước, khí) và thải các chất cặn bã, chất độc hại ra ngoài. Trong quá trình này, các chất được biến đổi thành chất dinh dưỡng cần thiết cho tế bào. Chuyển hóa năng lượng là sự biến đổi năng lượng từ dạng này sang dạng khác (ví dụ: từ hóa năng trong thức ăn thành nhiệt năng hoặc động năng) để cung cấp cho các hoạt động sống. Hai quá trình này luôn diễn ra song hành và gắn bó mật thiết: trao đổi chất cung cấp nguyên liệu, còn chuyển hóa năng lượng cung cấp sức mạnh để duy trì sự sống, giúp sinh vật sinh trưởng, phát triển và sinh sản.",
+    "exercises": [
+        "Bài tập 1 (Trắc nghiệm): Quá trình sinh vật lấy các chất từ môi trường và thải các chất không cần thiết ra ngoài được gọi là gì?",
+        "Bài tập 2 (Trắc nghiệm): Sự biến đổi từ hóa năng trong các chất hữu cơ thành nhiệt năng để duy trì thân nhiệt là biểu hiện của quá trình nào?",
+        "Bài tập 3 (Tự luận): Tại sao nói trao đổi chất và chuyển hóa năng lượng là đặc trưng cơ bản nhất để phân biệt vật sống và vật không sống?"
+    ]
+}

@@ -1,0 +1,50 @@
+*   Role: Education Expert.
+    *   Subject: Biology, Grade 11, Week 1 (Transition lesson).
+    *   Learning Objective: "Trình bày được khái niệm, cơ chế trao đổi chất và chuyển hóa năng lượng ở thực vật." (Present the concept, mechanism of metabolism and energy transformation in plants).
+    *   Constraint 1: Do NOT copy textbook verbatim.
+    *   Constraint 2: Return ONLY a specific JSON format. No extra explanation.
+    *   Format:
+        
+        {
+            "title": "...",
+            "objective": "...",
+            "theory": "...",
+            "exercises": ["...", "..."]
+        }
+        
+
+    *   *Concept:* Plants take in inorganic substances (CO2, water, minerals) and sunlight to produce organic matter (glucose) and oxygen, while releasing heat and releasing energy for growth.
+    *   *Mechanism:*
+        *   Inorganic $\rightarrow$ Organic: Photosynthesis (Light energy $\rightarrow$ Chemical energy in bonds).
+        *   Organic $\rightarrow$ Inorganic + Energy: Cellular Respiration (Chemical energy $\rightarrow$ ATP + Heat).
+    *   *Energy Transformation:* Light energy $\rightarrow$ Chemical energy (glucose) $\rightarrow$ Chemical energy (ATP) $\rightarrow$ Kinetic/Thermal energy.
+
+    *   *Title:* Khái quát về Trao đổi chất và Chuyển hóa năng lượng ở Thực vật.
+    *   *Objective:* Giúp học sinh nắm vững bản chất của quá trình biến đổi vật chất và năng lượng để duy trì sự sống của cây.
+    *   *Theory (keep under 150 words):*
+        Trao đổi chất ở thực vật là quá trình hấp thụ các chất vô cơ (nước, khoáng, $CO_2$) và tổng hợp thành các hợp chất hữu cơ phức tạp, đồng thời thải ra các sản phẩm thừa. Chuyển hóa năng lượng gắn liền với quá trình này: Năng lượng ánh sáng mặt trời được diệp lục hấp thụ để tổng hợp chất hữu cơ (quang hợp), lưu trữ dưới dạng liên kết hóa học. Sau đó, các hợp chất này được phân giải qua quá trình hô hấp tế bào để giải phóng năng lượng (ATP) phục vụ cho mọi hoạt động sống và tỏa nhiệt. Đây là chu trình khép kín giúp thực vật sinh trưởng và phát triển.
+
+    *   *Exercises:*
+        1.  Phân biệt sự khác nhau về nguồn nguyên liệu và sản phẩm giữa quá trình quang hợp và hô hấp ở thực vật.
+        2.  Giải thích tại sao khi cây được trồng trong bóng tối hoàn toàn, cây sẽ dần bị yếu đi và chết dù vẫn được tưới nước đầy đủ.
+
+    *   JSON format? Yes.
+    *   No extra explanation? Yes.
+    *   Under 150 words for theory? Yes.
+    *   No textbook copying? Yes (rewritten).
+    *   Targeting Grade 11, Week 1? Yes.
+
+    *   `title`: "Khởi đầu: Trao đổi chất và Chuyển hóa năng lượng ở Thực vật"
+    *   `objective`: "Hiểu rõ bản chất sự biến đổi vật chất và dòng năng lượng giúp cây duy trì sự sống."
+    *   `theory`: "Trao đổi chất là quá trình thực vật thu nhận các chất vô cơ (nước, khoáng, $CO_2$) từ môi trường để xây dựng cấu trúc cơ thể và thải các sản phẩm phụ. Chuyển hóa năng lượng là sự biến đổi từ dạng này sang dạng khác: Năng lượng ánh sáng được 'gói' vào các liên kết hóa học của hợp chất hữu cơ thông qua quang hợp. Tiếp theo, các liên kết này bị bẻ gãy trong quá trình hô hấp để giải phóng năng lượng ATP cho các hoạt động sống và nhiệt năng. Sự kết hợp nhịp nhàng giữa đồng hóa (tích lũy) và dị hóa (giải phóng) đảm bảo sự tồn tại của thực vật." (118 words).
+    *   `exercises`: ["So sánh vai trò của quang hợp và hô hấp trong việc luân chuyển vật chất và năng lượng.", "Dựa trên cơ chế chuyển hóa năng lượng, hãy giải thích vì sao lá cây có màu xanh và tại sao thực vật lại được coi là sinh vật tự dưỡng?"]
+
+{
+    "title": "Khởi đầu: Trao đổi chất và Chuyển hóa năng lượng ở Thực vật",
+    "objective": "Nắm vững bản chất sự biến đổi vật chất và dòng năng lượng giúp thực vật duy trì sự sống.",
+    "theory": "Trao đổi chất ở thực vật là quá trình hấp thụ các chất vô cơ (nước, khoáng, CO2) từ môi trường để tổng hợp thành các hợp chất hữu cơ phức tạp, đồng thời thải các sản phẩm dư thừa. Chuyển hóa năng lượng gắn liền với quá trình này thông qua hai giai đoạn chính: Quang hợp giúp chuyển hóa năng lượng ánh sáng thành năng lượng hóa học tích trữ trong các liên kết của chất hữu cơ; sau đó, quá trình hô hấp tế bào sẽ phân giải các chất hữu cơ này để giải phóng năng lượng (ATP) phục vụ cho mọi hoạt động sống và tỏa nhiệt. Sự kết hợp giữa đồng hóa (tích lũy) và dị hóa (giải phóng) tạo nên chu trình sống liên tục của cây.",
+    "exercises": [
+        "Bài tập 1: Hãy lập bảng so sánh sự khác biệt giữa quá trình quang hợp và hô hấp về: Nguyên liệu đầu vào, sản phẩm đầu ra và sự biến đổi năng lượng.",
+        "Bài tập 2: Giải thích tại sao nếu ngăn chặn quá trình quang hợp, thực vật sẽ không thể thực hiện được quá trình hô hấp tế bào dù vẫn có đầy đủ nước và khoáng?"
+    ]
+}

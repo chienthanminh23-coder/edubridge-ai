@@ -1,0 +1,48 @@
+*   Role: Education expert.
+*   Task: Create a transition lesson for Literature (Ngữ văn), Grade 7, Week 2.
+*   Requirement: Summarize key theory and central exercises for Week 2, Grade 7 Literature based on the 2018 General Education Program.
+*   Constraint 1: Do NOT copy the textbook verbatim.
+*   Constraint 2: Output MUST be in a specific JSON format.
+*   Constraint 3: NO additional explanation.
+
+    *   In the 2018 Program (various book series like Kết nối tri thức, Chân trời sáng tạo, Cánh diều), Week 2 of Grade 7 Literature usually focuses on:
+        *   *Genre:* Poetry (4-word, 5-word) or Short stories (Fables/Stories about characters).
+        *   *Common themes:* Feelings about family, nature, or folk stories/fables.
+        *   *Language focus (Tiếng Việt):* Metaphor (Ẩn dụ) or Simile (So sánh) or Expanding sentences (Mở rộng thành phần câu).
+    *   *Specific focus for a "Transition Lesson" in Week 2:* Usually deepens the understanding of poetic elements (rhythm, imagery, emotion) or specific language devices. Let's focus on **Poetry (4-word/5-word)** and **Metaphor (Ẩn dụ)** as these are core components in Week 2 of most series.
+
+    *   *Title:* Ôn tập và Nâng cao: Đặc điểm Thơ bốn chữ, năm chữ và Biện pháp Ẩn dụ.
+    *   *Objective:* Giúp học sinh nắm vững đặc điểm thể thơ bốn chữ, năm chữ và nhận biết, phân tích được tác dụng của biện pháp tu từ ẩn dụ trong văn bản.
+    *   *Theory:*
+        *   Thơ bốn chữ/năm chữ: Số chữ trong mỗi dòng lần lượt là 4 hoặc 5. Nhịp thường là 2/2 hoặc 3/2, 2/3. Vần có thể là vần chân hoặc vần lưng, vần liền hoặc vần cách.
+        *   Ẩn dụ: Là gọi tên sự vật, hiện tượng này bằng tên sự vật, hiện tượng khác có nét tương đồng nhằm tăng sức gợi hình, gợi cảm cho lời văn.
+        *   Cách phân tích: Gọi tên biện pháp $\rightarrow$ Chỉ ra từ ngữ sử dụng $\rightarrow$ Nêu tác dụng (làm nổi bật vẻ đẹp/cảm xúc gì).
+    *   *Exercises:*
+        1.  Xác định thể thơ, cách gieo vần và ngắt nhịp của một đoạn thơ tự chọn (ví dụ: một đoạn trong bài "Sang thu" hoặc bài thơ 4 chữ tương đương).
+        2.  Phân tích tác dụng của biện pháp ẩn dụ trong câu thơ: "Ngoài thềm rơi chiếc lá đa / Tiếng rơi rất mỏng như là rơi nghiêng" (Wait, that's simile, let's use a clear metaphor: "Mặt trời của bắp thì nằm trên đồi / Mặt trời của mẹ em nằm trên lưng").
+        3.  Viết đoạn văn ngắn (5-7 câu) ghi lại cảm xúc về một bài thơ bốn chữ/năm chữ đã học.
+
+    *   Title: "Khám phá Thơ bốn chữ, năm chữ và Biện pháp Ẩn dụ"
+    *   Objective: "Củng cố kiến thức về đặc điểm thể thơ bốn chữ, năm chữ và kỹ năng nhận diện, phân tích tác dụng của biện pháp tu từ ẩn dụ."
+    *   Theory: "Thơ bốn chữ và năm chữ có số chữ cố định trong mỗi dòng, nhịp điệu linh hoạt (thường là 2/2 hoặc 3/2, 2/3), tạo sự nhịp nhàng. Vần thường được sử dụng linh hoạt (vần chân, vần lưng, vần liền hoặc vần cách) để kết nối các dòng thơ. Biện pháp ẩn dụ là việc thay thế tên gọi sự vật này bằng tên gọi sự vật khác dựa trên quan hệ tương đồng, giúp hình ảnh thơ trở nên hàm súc, giàu sức biểu cảm và tăng tính hình tượng cho văn bản."
+    *   Exercises:
+        1. "Xác định thể thơ, cách ngắt nhịp và gieo vần của đoạn thơ sau: [Trích đoạn thơ 4 chữ/5 chữ về thiên nhiên]."
+        2. "Tìm và phân tích tác dụng của biện pháp ẩn dụ trong câu thơ: 'Mặt trời của mẹ em nằm trên lưng' (Nguyễn Khoa Điềm)."
+        3. "Viết đoạn văn ngắn (khoảng 5-7 câu) thể hiện cảm nhận của em về một hình ảnh đẹp trong bài thơ bốn chữ hoặc năm chữ đã học ở tuần 2."
+
+    *   JSON format? Yes.
+    *   No extra explanation? Yes.
+    *   Under 150 words for theory? Yes (~75 words).
+    *   No direct textbook copying? Yes.
+    *   Content matches Grade 7, Week 2 (2018 program)? Yes.
+
+{
+    "title": "Khám phá Thơ bốn chữ, năm chữ và Biện pháp Ẩn dụ",
+    "objective": "Củng cố đặc điểm thể thơ bốn chữ, năm chữ và rèn luyện kỹ năng nhận diện, phân tích tác dụng của biện pháp tu từ ẩn dụ.",
+    "theory": "Thơ bốn chữ và năm chữ có số chữ trong mỗi dòng cố định, tạo nhịp điệu linh hoạt (thường là 2/2, 3/2 hoặc 2/3). Vần trong thơ có thể là vần chân (cuối dòng) hoặc vần lưng (giữa dòng), sử dụng vần liền hoặc vần cách để tạo sự kết nối. Biện pháp ẩn dụ là gọi tên sự vật, hiện tượng này bằng tên sự vật, hiện tượng khác có nét tương đồng, nhằm tăng sức gợi hình, gợi cảm và làm cho lời thơ hàm súc, sâu sắc hơn.",
+    "exercises": [
+        "Bài tập 1: Xác định thể thơ, cách ngắt nhịp và cách gieo vần của một đoạn thơ bốn chữ hoặc năm chữ trong chương trình học.",
+        "Bài tập 2: Tìm biện pháp ẩn dụ trong câu thơ: 'Mặt trời của mẹ em nằm trên lưng' và phân tích tác dụng của nó trong việc thể hiện tình cảm mẫu tử.",
+        "Bài tập 3: Viết đoạn văn ngắn (5-7 câu) ghi lại cảm nhận về một hình ảnh thơ giàu tính biểu cảm mà em ấn tượng nhất trong các bài thơ đã học ở tuần 2."
+    ]
+}

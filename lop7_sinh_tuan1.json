@@ -1,0 +1,49 @@
+*   Role: Education Expert.
+    *   Topic: Transition lesson for Biology, Grade 7, Week 1.
+    *   Targeted Outcome: "Summarize theory and core exercises for Week 1 Biology Grade 7 according to the 2018 General Education Program standards."
+    *   Constraints:
+        *   Do NOT copy from the textbook.
+        *   Output format: Strict JSON.
+        *   Language: Vietnamese.
+        *   JSON structure: `{"title": "...", "objective": "...", "theory": "...", "exercises": ["...", "..."]}`.
+        *   `theory` limit: Under 150 words.
+        *   No additional explanation outside the JSON.
+
+    *   The 2018 Biology program for Grade 7 is integrated into "Khoa học tự nhiên 7" (Natural Science 7).
+    *   Week 1 usually covers: Introduction to Natural Science, Methods of studying Natural Science (observation, experimentation), and Safety rules in the laboratory.
+    *   Since the user specifically asked for "SINH, Lớp 7, Tuần 1" (Biology, Grade 7, Week 1), I should treat it as the Biology component/context within the Natural Science 7 curriculum.
+
+    *   *Title:* Khởi động hành trình khám phá Khoa học tự nhiên 7.
+    *   *Objective:* Giúp học sinh nắm vững các phương pháp nghiên cứu khoa học và quy tắc an toàn khi thực hành sinh học.
+    *   *Theory (Summary):*
+        Để nghiên cứu các hiện tượng sinh học, ta sử dụng các phương pháp: quan sát (dùng giác quan/thiết bị), thực nghiệm (thiết lập thí nghiệm có đối chứng) và phân tích dữ liệu. Quy trình nghiên cứu thường gồm: đặt câu hỏi, lập giả thuyết, tiến hành thí nghiệm, thu thập dữ liệu và kết luận. Khi làm việc trong phòng thí nghiệm, cần tuyệt đối tuân thủ các quy tắc an toàn: mặc đồ bảo hộ, không ăn uống, sử dụng đúng dụng cụ, biết cách xử lý mẫu vật và hóa chất để tránh nguy hiểm cho bản thân và môi trường.
+    *   *Word count check (Theory):* ~90 words. Good.
+    *   *Exercises:*
+        1.  Phân biệt giữa phương pháp quan sát và phương pháp thực nghiệm thông qua một ví dụ cụ thể về sự phát triển của cây xanh.
+        2.  Xử lý tình huống: Nếu trong lúc làm thí nghiệm với kính hiển vi, em vô tình làm vỡ lam kính có chứa mẫu vật, em sẽ thực hiện các bước nào để đảm bảo an toàn?
+
+    
+    {
+        "title": "Khám phá Phương pháp Nghiên cứu và An toàn trong Sinh học 7",
+        "objective": "Nắm vững các phương pháp nghiên cứu khoa học tự nhiên và các quy tắc an toàn phòng thí nghiệm.",
+        "theory": "Để nghiên cứu các vấn đề sinh học, học sinh cần sử dụng các phương pháp: Quan sát (dùng giác quan hoặc thiết bị hỗ trợ), Thực nghiệm (tạo ra các điều kiện khác nhau để kiểm chứng) và Phân tích dữ liệu. Quy trình khoa học gồm các bước: Đặt câu hỏi -> Lập giả thuyết -> Thực hiện thí nghiệm -> Thu thập/Phân tích kết quả -> Kết luận. Ngoài ra, việc tuân thủ quy tắc an toàn trong phòng thực hành là bắt buộc: sử dụng đúng dụng cụ, trang bị bảo hộ, không ăn uống và biết cách xử lý sự cố mẫu vật/hóa chất để bảo vệ sức khỏe và môi trường.",
+        "exercises": [
+            "Bài tập 1: Hãy nêu sự khác biệt cơ bản giữa phương pháp quan sát và phương pháp thực nghiệm khi nghiên cứu sự nảy mầm của hạt đậu.",
+            "Bài tập 2: Em hãy thiết lập các bước cần làm để đảm bảo an toàn khi sử dụng kính hiển vi quang học trong phòng thực hành sinh học."
+        ]
+    }
+    
+
+    *   Check JSON syntax.
+    *   Check constraints (Under 150 words for theory).
+    *   Check prompt requirements (No extra text).
+
+{
+    "title": "Khởi động: Phương pháp Nghiên cứu và An toàn trong Sinh học 7",
+    "objective": "Nắm vững các phương pháp nghiên cứu khoa học và quy tắc an toàn khi thực hành sinh học.",
+    "theory": "Để nghiên cứu các hiện tượng sinh học, ta sử dụng các phương pháp chính: Quan sát (dùng giác quan hoặc thiết bị hỗ trợ), Thực nghiệm (thiết lập các điều kiện có kiểm soát) và Phân tích dữ liệu. Quy trình nghiên cứu thường đi từ: Đặt câu hỏi -> Lập giả thuyết -> Tiến hành thí nghiệm -> Thu thập/Phân tích kết quả -> Kết luận. Trong phòng thí nghiệm, học sinh phải tuyệt đối tuân thủ quy tắc an toàn: mặc đồ bảo hộ, sử dụng đúng dụng cụ, không ăn uống, biết cách xử lý mẫu vật và hóa chất để tránh rủi ro cho bản thân và môi trường.",
+    "exercises": [
+        "Bài tập 1: Hãy phân biệt sự khác nhau giữa phương pháp quan sát và phương pháp thực nghiệm thông qua ví dụ về việc nghiên cứu sự lớn lên của một cái cây.",
+        "Bài tập 2: Nêu 3 quy tắc an toàn quan trọng nhất khi em làm việc với các mẫu vật sinh học (như lá cây, côn trùng hoặc vi sinh vật) trong phòng thực hành."
+    ]
+}

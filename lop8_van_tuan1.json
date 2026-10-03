@@ -1,0 +1,65 @@
+*   Role: Education Expert.
+    *   Topic: Transition lesson for Literature (Ngữ văn - VAN), Grade 8, Week 1.
+    *   Goal: Summarize core theory and exercises for Week 1, Grade 8, following the 2018 General Education Program (GDPT 2018) standards.
+    *   Constraint 1: Do NOT copy the textbook directly.
+    *   Constraint 2: Output MUST be in a specific JSON format.
+    *   Constraint 3: NO additional explanation, ONLY the JSON.
+
+    *   Grade 8 Literature (GDPT 2018) usually starts with themes like "Stories/Narratives" (Truyện) or "Poetry" (Thơ).
+    *   Week 1 typically focuses on:
+        *   Reviewing knowledge from Grade 7.
+        *   Introduction to new genres (e.g., *Truyện ngắn* - Short stories or *Thơ sáu chữ, bảy chữ* - 6-word or 7-word poems).
+        *   Reading comprehension skills (identifying characters, plot, setting, theme).
+        *   Language focus (Direct/Indirect speech, or specific poetic devices).
+
+    *Let's focus on the core skills required for the start of Grade 8 (Transitioning from Grade 7): Narrative elements and Poetic structures.*
+
+    *   *Title:* Khởi động hành trình Ngữ văn 8: Kỹ năng đọc hiểu truyện và thơ. (Kickstarting Grade 8 Literature: Reading comprehension of stories and poems).
+    *   *Objective:* Củng cố kỹ năng nhận diện đặc điểm thể loại (truyện và thơ) và rèn luyện tư duy phân tích văn bản theo chương trình mới. (Consolidate genre recognition skills and practice text analysis).
+    *   *Theory (Summary < 150 words):*
+        Để học tốt Ngữ văn 8, cần nắm vững hai trụ cột:
+        1. Đọc hiểu truyện: Chú trọng cốt truyện, nhân vật (ngoại hình, hành động, nội tâm), bối cảnh và chủ đề. Cần phân biệt được người kể chuyện ngôi thứ nhất và ngôi thứ ba.
+        2. Đọc hiểu thơ (chủ yếu là thơ 6-7 chữ): Chú ý vần, nhịp, hình ảnh thơ và các biện pháp tu từ (so sánh, ẩn dụ, nhân hóa). Quan trọng nhất là cảm nhận được cảm xúc, tâm trạng của nhân vật trữ tình thông qua ngôn ngữ hàm súc.
+        (Approx 90 words - Good).
+    *   *Exercises:*
+        1. So sánh sự khác biệt giữa người kể chuyện ngôi thứ nhất và ngôi thứ ba trong một đoạn trích ngắn.
+        2. Xác định vần và nhịp của một đoạn thơ 6 chữ/7 chữ, sau đó nêu tác dụng của biện pháp tu từ được sử dụng.
+        3. Viết đoạn văn ngắn (5-7 câu) nêu cảm nhận về một nhân vật văn học vừa được đọc.
+
+    *   `title`: "Kết nối tri thức: Chìa khóa đọc hiểu văn bản lớp 8"
+    *   `objective`: "Hệ thống hóa kỹ năng nhận diện đặc điểm thể loại truyện và thơ, chuẩn bị nền tảng phân tích văn bản theo chương trình GDPT 2018."
+    *   `theory`: "Trong chương trình lớp 8, trọng tâm là phát triển năng lực đọc hiểu theo thể loại. Với văn bản truyện, học sinh cần tập trung vào: cốt truyện, nhân vật (ngoại hình, tâm lý, hành động), ngôi kể và chủ đề. Với văn bản thơ (đặc biệt là thơ 6 chữ, 7 chữ), cần chú ý đến: vần, nhịp, hình ảnh thơ, các biện pháp tu từ và cảm xúc của nhân vật trữ tình. Việc kết nối giữa hình thức nghệ thuật và nội dung ý nghĩa là chìa khóa để giải mã văn bản."
+    *   `exercises`: ["Bài tập 1: Phân biệt vai trò của người kể chuyện ngôi thứ nhất và ngôi thứ ba trong việc dẫn dắt cốt truyện.", "Bài tập 2: Xác định vần, nhịp và chỉ ra một biện pháp tu từ trong đoạn thơ 6 chữ hoặc 7 chữ tự chọn.", "Bài tập 3: Viết đoạn văn ngắn phân tích đặc điểm tính cách của một nhân vật qua một hành động cụ thể."]
+
+    *   JSON format? Yes.
+    *   No extra explanation? Yes.
+    *   Theory < 150 words? Yes (~85 words).
+    *   Standard GDPT 2018? Yes.
+    *   Not copying textbook? Yes.
+
+    *Self-Correction during drafting:* Make sure the JSON is valid (double quotes, proper nesting).
+
+    
+    {
+        "title": "Khởi động Ngữ văn 8: Kỹ năng đọc hiểu thể loại",
+        "objective": "Hệ thống hóa kỹ năng nhận diện đặc điểm truyện và thơ, tạo nền tảng phân tích văn bản theo chuẩn GDPT 2018.",
+        "theory": "Để làm chủ chương trình lớp 8, học sinh cần nắm vững: 1. Văn bản truyện: Tập trung vào cốt truyện, nhân vật (ngoại hình, nội tâm, hành động), ngôi kể và chủ đề. Cần phân biệt rõ sự khác nhau giữa người kể chuyện ngôi thứ nhất và ngôi thứ ba. 2. Văn bản thơ (trọng tâm là thơ 6 chữ, 7 chữ): Chú ý đến vần, nhịp, hình ảnh thơ và các biện pháp tu từ (ẩn dụ, nhân hóa, so sánh). Quan trọng nhất là kết nối các yếu tố nghệ thuật này để hiểu được tình cảm, cảm xúc của nhân vật trữ tình.",
+        "exercises": [
+            "Bài tập 1: So sánh ưu điểm của việc sử dụng ngôi kể thứ nhất và ngôi kể thứ ba trong việc thể hiện thế giới nội tâm nhân vật.",
+            "Bài tập 2: Đọc một đoạn thơ 6 chữ hoặc 7 chữ, xác định cách gieo vần và tác dụng của nhịp thơ đối với việc biểu đạt cảm xúc.",
+            "Bài tập 3: Viết đoạn văn (khoảng 7-10 câu) nêu cảm nhận về một chi tiết nghệ thuật đặc sắc trong một tác phẩm truyện đã học ở lớp 7."
+        ]
+    }
+    
+
+
+{
+    "title": "Khởi động Ngữ văn 8: Kỹ năng đọc hiểu thể loại",
+    "objective": "Hệ thống hóa kỹ năng nhận diện đặc điểm truyện và thơ, tạo nền tảng phân tích văn bản theo chuẩn GDPT 2018.",
+    "theory": "Để làm chủ chương trình lớp 8, học sinh cần nắm vững hai trụ cột: 1. Văn bản truyện: Tập trung vào cốt truyện, nhân vật (ngoại hình, nội tâm, hành động), ngôi kể và chủ đề. Cần phân biệt rõ sự khác biệt giữa người kể chuyện ngôi thứ nhất (xưng 'tôi') và ngôi thứ ba (khách quan). 2. Văn bản thơ (trọng tâm là thơ 6 chữ, 7 chữ): Chú ý đến vần, nhịp, hình ảnh thơ và các biện pháp tu từ (ẩn dụ, nhân hóa, so sánh). Quan trọng nhất là kết nối các yếu tố hình thức nghệ thuật này để giải mã cảm xúc, tâm trạng của nhân vật trữ tình.",
+    "exercises": [
+        "Bài tập 1: So sánh ưu điểm của việc sử dụng ngôi kể thứ nhất và ngôi kể thứ ba trong việc thể hiện thế giới nội tâm nhân vật.",
+        "Bài tập 2: Đọc một đoạn thơ 6 chữ hoặc 7 chữ, xác định cách gieo vần và phân tích tác dụng của nhịp thơ đối với việc biểu đạt cảm xúc.",
+        "Bài tập 3: Viết đoạn văn (khoảng 7-10 câu) phân tích một chi tiết tiêu biểu về hành động của nhân vật để làm nổi bật tính cách của họ."
+    ]
+}

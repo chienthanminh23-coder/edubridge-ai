@@ -1,0 +1,137 @@
+*   Role: Education Expert.
+    *   Task: Prepare a transition lesson for "HOA" (Biology/Science related to Plants/Flowers, but in the context of the new 2018 General Education Program for Grade 9, "HOA" is likely a typo or specific terminology for a sub-topic. However, looking at the Grade 9 curriculum 2018, there isn't a subject called "HOA". Most likely, the user meant "HÓA" (Chemistry) or is referring to a specific biology component. *Wait*, re-reading: "môn HOA". In the new curriculum, Grade 9 includes Natural Sciences (KHTN). "HOA" is very likely a typo for **HÓA** (Chemistry) or a request for something about Flowers (Biology). Given the context of "Grade 9, Week 1", and the 2018 program, Grade 9 Chemistry is integrated into Natural Sciences.
+    *   *Self-Correction/Refinement:* "Môn HOA" is almost certainly a typo for **"Môn HÓA"** (Chemistry). In the 2018 curriculum, Chemistry is part of "Khoa học tự nhiên" (Natural Sciences). Week 1 of Grade 9 Chemistry usually covers the transition from Grade 8, focusing on the concept of *Mole* or *Molecules/Atoms/Chemical Formulas* or starting with *Metals/Non-metals* depending on the specific textbook series (Kết nối tri thức, Chân trời sáng tạo, Cánh diều). However, standard "Week 1" content for Grade 9 Chemistry (integrated) often starts with reviewing the concepts of **Mole (Mol), Molar Mass, and Molar Volume** to prepare for chemical calculations.
+    *   *Alternative Interpretation:* If the user literally meant "Flowers" (Biology), it's highly unlikely for a "Transition Lesson" in Grade 9 Week 1.
+    *   *Decision:* I will assume "HOA" = **HÓA** (Chemistry) because it's a common typo and makes sense for "theory and core exercises".
+    *   Target: Grade 9, Week 1, 2018 Program.
+    *   Requirement: Summarize theory (< 150 words) and core exercises. No copying textbook.
+    *   Output Format: JSON only.
+
+    *   Grade 9 KHTN (Chemistry part) - Week 1.
+    *   Standard Content: Reviewing basic concepts: Atom, Molecule, Ion, Chemical Formula, and most importantly, **Mol (Mole), Molar Mass ($M$), and Molar Volume ($V$)**. This is crucial for everything in Grade 9.
+
+    *   *Title:* Ôn tập về Mol và Tính toán hóa học.
+    *   *Objective:* Củng cố kiến thức về mol, khối lượng mol và thể tích khí ở điều kiện chuẩn để áp dụng vào các bài toán hóa học lớp 9.
+    *   *Theory:* Mol là lượng chất chứa $6,022 \times 10^{23}$ hạt vi mô (nguyên tử hoặc phân tử). Khối lượng mol ($M$) là khối lượng tính bằng gam của một mol chất, có trị số bằng nguyên tử khối hoặc phân tử khối. Thể tích mol của chất khí ở điều kiện chuẩn (25°C, 1 bar) là $24,79$ lít. Các công thức quan trọng: $n = m/M$; $n = V/24,79$; $C_M = n/V$.
+    *   *Exercises:*
+        1. Tính số mol của 11,2g sắt (Fe). Biết $M_{Fe} = 56$.
+        2. Tính thể tích khí $CO_2$ ở điều kiện chuẩn thu được khi cho 0,2 mol $CO_2$ phản ứng.
+        3. Một dung dịch có nồng độ 0,5M, tính số mol chất tan có trong 200ml dung dịch đó.
+
+    *   JSON format check.
+    *   No extra explanation.
+    *   Theory < 150 words.
+    *   Compliance with 2018 program (Standard $24,79$ L for gas volume).
+
+    
+    {
+        "title": "Ôn tập Mol và các đại lượng tính toán hóa học",
+        "objective": "Củng cố kiến thức về khái niệm mol, khối lượng mol và thể tích mol khí ở điều kiện chuẩn để giải quyết các bài toán hóa học lớp 9.",
+        "theory": "Mol là lượng chất có chứa $6,022 \times 10^{23}$ hạt vi mô (nguyên tử hoặc phân tử). Khối lượng mol (M) là khối lượng của một mol chất, tính bằng gam và có trị số bằng nguyên tử khối hoặc phân tử khối. Ở điều kiện chuẩn (25°C, 1 bar), thể tích của 1 mol chất khí bất kỳ là 24,79 lít. Các công thức nền tảng: Số mol $n = m/M$ (với m là khối lượng); Số mol $n = V/24,79$ (với V là thể tích khí ở đkc); Nồng độ mol $C_M = n/V_{dd}$.",
+        "exercises": [
+            "Bài tập 1: Tính số mol của 12 gam Magie (Mg). Cho biết nguyên tử khối của Mg là 24.",
+            "Bài tập 2: Tính thể tích (đkc) của 0,15 mol khí Oxygen ($O_2$).",
+            "Bài tập 3: Hòa tan 0,5 mol NaCl vào nước để được 2 lít dung dịch. Tính nồng độ mol của dung dịch thu được."
+        ]
+    }
+    
+
+    *Note on "HOA":* If the user meant "Hóa", this is perfect. If "HOA" was actually a specific niche topic, it would be impossible to guess without more context, but in 99% of Vietnamese student queries, "HOA" is a typo for "HÓA".
+
+    *Refining Theory word count:*
+    "Mol là lượng chất có chứa $6,022 \times 10^{23}$ hạt vi mô (nguyên tử hoặc phân tử). Khối lượng mol (M) là khối lượng của một mol chất, tính bằng gam và có trị số bằng nguyên tử khối hoặc phân tử khối. Ở điều kiện chuẩn (25°C, 1 bar), thể tích của 1 mol chất khí bất kỳ là 24,79 lít. Các công thức nền tảng: Số mol $n = m/M$ (với m là khối lượng); Số mol $n = V/24,79$ (với V là thể tích khí ở đkc); Nồng độ mol $C_M = n/V_{dd}$." -> ~85 words. Perfect.
+
+    *Final Check on 2018 Curriculum:*
+    The 2018 curriculum for Natural Science (Chemistry part) uses $24,79$ L (standard condition at 1 bar, 25°C) instead of the old $22,4$ L. My answer reflects this correctly.
+
+    *   Title: Short.
+    *   Objective: Core.
+    *   Theory: < 150 words.
+    *   Exercises: List.
+    *   Format: JSON only.
+
+    *One small detail:* The prompt asks for "môn HOA". If it's a typo for "HÓA" (Chemistry), I proceed. If it's a specific subject I don't know, I'd fail, but in the context of Grade 9 Week 1 and the 2018 curriculum, Chemistry (Hóa học) is the only logical subject that fits the "Theory and Exercises" requirement for a transition lesson.
+
+    *Self-Correction:* Let's make sure the JSON is valid.
+
+    
+    {
+        "title": "Ôn tập Mol và các đại lượng tính toán hóa học",
+        "objective": "Củng cố kiến thức về mol, khối lượng mol và thể tích mol khí ở điều kiện chuẩn để chuẩn bị cho chương trình Khoa học tự nhiên 9.",
+        "theory": "Mol là lượng chất chứa $6,022 \times 10^{23}$ hạt vi mô (nguyên tử hoặc phân tử). Khối lượng mol (M) là khối lượng tính bằng gam của một mol chất, có trị số bằng nguyên tử khối hoặc phân tử khối. Ở điều kiện chuẩn (25°C, 1 bar), thể tích của 1 mol chất khí là 24,79 lít. Các công thức chính: 1. $n = m/M$ (tính số mol từ khối lượng); 2. $n = V/24,79$ (tính số mol từ thể tích khí ở đkc); 3. $C_M = n/V$ (tính nồng độ mol).",
+        "exercises": [
+            "Bài tập 1: Tính số mol của 11,2 gam sắt (Fe), biết nguyên tử khối Fe = 56.",
+            "Bài tập 2: Tính thể tích (đkc) của 0,2 mol khí Carbon dioxide ($CO_2$).",
+            "Bài tập 3: Tính khối lượng của 0,5 mol phân tử nước ($H_2O$), biết H=1, O=16."
+        ]
+    }
+    
+
+    Wait, I should check if there's any "HOA" subject. No. It's definitely "HÓA".
+
+    Final JSON structure check.
+
+    
+    {
+      "title": "Ôn tập về Mol và các đại lượng hóa học cơ bản",
+      "objective": "Giúp học sinh nắm vững khái niệm mol, khối lượng mol và thể tích mol khí ở điều kiện chuẩn (25°C, 1 bar) để áp dụng vào các bài toán tính toán trong chương trình lớp 9.",
+      "theory": "Mol là lượng chất chứa $6,022 \times 10^{23}$ hạt vi mô. Khối lượng mol (M) là khối lượng tính bằng gam của một mol chất, có trị số bằng nguyên tử khối hoặc phân tử khối. Ở điều kiện chuẩn (25°C, 1 bar), thể tích của 1 mol chất khí là 24,79 lít. Các công thức cần nhớ: $n = m/M$ (tính số mol theo khối lượng); $n = V/24,79$ (tính số mol theo thể tích khí ở đkc); $C_M = n/V$ (tính nồng độ mol).",
+      "exercises": [
+        "Bài tập 1: Tính số mol của 16 gam Oxygen ($O_2$). Biết nguyên tử khối O = 16.",
+        "Bài tập 2: Một chất khí có thể tích 4,958 lít ở điều kiện chuẩn. Tính số mol của chất khí đó.",
+        "Bài tập 3: Tính khối lượng của 0,25 mol muối ăn (NaCl). Biết Na = 23, Cl = 35,5."
+      ]
+    }
+    
+
+    *Constraint Check:* "Tuyệt đối không chép sách giáo khoa." -> I used standard formulas but expressed them in summary form. "Chỉ trả về đúng định dạng JSON" -> OK.
+
+    Wait, I will double-check if the user meant "Hóa" (Chemistry) or maybe "Hoa" (Biology - Flowers). Grade 9 Biology (part of KHTN) doesn't have a "Flowers" specific unit in Week 1. Chemistry is much more likely to have a "Transition Lesson" (Lesson 0 or Review) focusing on math/mole.
+
+    Let's proceed with HÓA.
+
+    One minor fix: the user wrote "môn HOA". I will treat this as "Môn Hóa".
+
+    Final Polish of JSON content.
+
+    Title: Ôn tập về Mol và các đại lượng hóa học
+    Objective: Củng cố kiến thức về mol, khối lượng mol và thể tích mol khí ở điều kiện chuẩn để giải quyết các bài toán trong chương trình lớp 9.
+    Theory: Mol là lượng chất có chứa $6,022 \times 10^{23}$ hạt vi mô. Khối lượng mol (M) là khối lượng của một mol chất (g), có trị số bằng nguyên tử khối hoặc phân tử khối. Ở điều kiện chuẩn (25°C, 1 bar), 1 mol khí chiếm thể tích 24,79 lít. Các công thức quan trọng: $n = m/M$; $n = V/24,79$; $C_M = n/V$.
+    Exercises:
+    1. Tính số mol của 5,4g Aluminium (Al). Biết Al = 27.
+    2. Tính thể tích (đkc) của 0,1 mol khí Hydrogen ($H_2$).
+    3. Tính khối lượng của 0,5 mol $H_2SO_4$. Biết H=1, S=32, O=16.
+
+    Total words in theory: ~75 words. Perfect.
+
+    Wait, the prompt says "môn HOA". I will output the JSON for Chemistry. If the user actually meant a specific Biology topic, they would likely specify "Sinh học". "Hoa" is a common typo for "Hóa".
+
+    *Final Check of 2018 Science Grade 9 (KHTN 9):*
+    First topics are usually "Năng lượng cơ học" (Physics) or "Mô hình nguyên tử" (Chemistry). Chemistry review is essential.
+
+    Let's ensure the JSON is valid and clean.
+
+    
+    {
+        "title": "Ôn tập về Mol và các đại lượng hóa học cơ bản",
+        "objective": "Củng cố kiến thức về mol, khối lượng mol và thể tích mol khí ở điều kiện chuẩn để phục vụ các bài toán tính toán hóa học lớp 9.",
+        "theory": "Mol là lượng chất chứa $6,022 \times 10^{23}$ hạt vi mô (nguyên tử hoặc phân tử). Khối lượng mol (M) là khối lượng của một mol chất, tính bằng gam và có trị số bằng nguyên tử khối hoặc phân tử khối. Ở điều kiện chuẩn (25°C, 1 bar), thể tích của 1 mol chất khí là 24,79 lít. Các công thức nền tảng: $n = m/M$ (tính số mol theo khối lượng); $n = V/24,79$ (tính số mol theo thể tích khí ở đkc); $C_M = n/V$ (tính nồng độ mol).",
+        "exercises": [
+            "Bài tập 1: Tính số mol của 11,2 gam sắt (Fe). Biết nguyên tử khối Fe = 56.",
+            "Bài tập 2: Tính thể tích (đkc) của 0,2 mol khí Carbon dioxide (CO2).",
+            "Bài tập 3: Hòa tan 0,4 mol NaCl vào nước để được 2 lít dung dịch. Tính nồng độ mol của dung dịch thu được."
+        ]
+    }
+    
+
+
+{
+    "title": "Ôn tập về Mol và các đại lượng hóa học cơ bản",
+    "objective": "Củng cố kiến thức về mol, khối lượng mol và thể tích mol khí ở điều kiện chuẩn để phục vụ các bài toán tính toán trong chương trình Khoa học tự nhiên 9.",
+    "theory": "Mol là lượng chất chứa $6,022 \times 10^{23}$ hạt vi mô (nguyên tử hoặc phân tử). Khối lượng mol (M) là khối lượng tính bằng gam của một mol chất, có trị số bằng nguyên tử khối hoặc phân tử khối. Ở điều kiện chuẩn (25°C, 1 bar), thể tích của 1 mol chất khí bất kỳ là 24,79 lít. Các công thức cốt lõi: 1. Tính số mol theo khối lượng: $n = m/M$; 2. Tính số mol theo thể tích khí (đkc): $n = V/24,79$; 3. Tính nồng độ mol: $C_M = n/V$.",
+    "exercises": [
+        "Bài tập 1: Tính số mol của 11,2 gam sắt (Fe). Biết nguyên tử khối của Fe là 56.",
+        "Bài tập 2: Tính thể tích (đkc) của 0,15 mol khí Oxygen ($O_2$).",
+        "Bài tập 3: Hòa tan 0,5 mol muối NaCl vào nước để được 2 lít dung dịch. Tính nồng độ mol của dung dịch thu được."
+    ]
+}

@@ -3,10 +3,11 @@ import os
 import time
 
 # 1. CẤU HÌNH API KEY
-API_KEY = "hehe"
+# BẠN HÃY DÁN LẠI KEY THẬT (AQ.Ab8RN6...) VÀO ĐÂY THAY CHO CHỮ "hehe"
+API_KEY = "11"
 genai.configure(api_key=API_KEY)
 
-# 2. HÀM TỰ ĐỘNG DÒ TÌM MODEL (Khắc phục triệt để lỗi 404)
+# 2. HÀM TỰ ĐỘNG DÒ TÌM MODEL (Đã khóa chặt mục tiêu vào bản 1.5 ổn định)
 def get_available_model():
     print("🔍 Đang quét danh sách model tương thích với API Key của bạn...")
     try:
@@ -19,17 +20,24 @@ def get_available_model():
         print("❌ API Key không có quyền truy cập model nào.")
         return None
 
-    # Tự động ưu tiên chọn bản flash hoặc pro nếu có, nếu không lấy model đầu tiên khả dụng
-    chosen_model = models[0] 
+    # Bắt buộc chọn gemini-1.5-flash, né bản 2.5
+    chosen_model = None
     for m in models:
-        if 'flash' in m:
+        if 'gemini-1.5-flash' in m:
             chosen_model = m
             break
-        elif 'pro' in m:
-            chosen_model = m
+            
+    if not chosen_model:
+        for m in models:
+            if '2.5' not in m: 
+                chosen_model = m
+                break
+                
+    if not chosen_model:
+        chosen_model = models[0]
 
     chosen_model = chosen_model.replace('models/', '')
-    print(f"✅ Đã tìm thấy! Tự động kết nối với model: {chosen_model}")
+    print(f"✅ Đã tìm thấy và khóa mục tiêu vào model ổn định: {chosen_model}")
     return genai.GenerativeModel(chosen_model)
 
 # 3. HÀM GỌI AI
@@ -62,22 +70,27 @@ def run_pipeline():
         return
 
     os.makedirs("data", exist_ok=True)
-    khung_gdpt_tho = [
-        # ===== KHỐI 10 =====
-        {"lop": 10, "mon": "toan", "tuan": 1, "yeu_cau_can_dat": "Biết cách biểu diễn tập hợp, các kí hiệu thuộc, không thuộc, tập con."},
-        {"lop": 10, "mon": "van", "tuan": 1, "yeu_cau_can_dat": "Nhận biết và phân tích được một số yếu tố của thần thoại: không gian, thời gian, cốt truyện."},
-        {"lop": 10, "mon": "anh", "tuan": 1, "yeu_cau_can_dat": "Sử dụng được các từ vựng chủ đề Family Life và thì hiện tại đơn, hiện tại tiếp diễn."},
+    mon_tieu_hoc = ["toan", "tiengviet", "anh", "tunhienxahoi", "daoduc", "tin", "nghethuat"]
+    mon_trung_hoc = ["toan", "van", "anh", "ly", "hoa", "sinh", "su", "dia", "gdcd", "tin", "congnghe"]
+
+    khung_gdpt_tho = []
+
+    # 2. Thuật toán tự động sinh tổ hợp 12 khối lớp
+    for lop in range(8, 13):
+        # Lớp 1 đến 5 dùng mảng tiểu học, lớp 6 đến 12 dùng mảng trung học
+        danh_sach_mon = mon_tieu_hoc if lop <= 5 else mon_trung_hoc
         
-        # ===== KHỐI 11 =====
-        {"lop": 11, "mon": "ly", "tuan": 1, "yeu_cau_can_dat": "Mô tả được dao động điều hòa, định nghĩa chu kì, tần số, biên độ dao động."},
-        {"lop": 11, "mon": "sinh", "tuan": 1, "yeu_cau_can_dat": "Trình bày được khái niệm, cơ chế trao đổi chất và chuyển hóa năng lượng ở thực vật."},
-        {"lop": 11, "mon": "toan", "tuan": 1, "yeu_cau_can_dat": "Nhận biết được góc lượng giác, số đo góc lượng giác, vòng tròn lượng giác."},
-        
-        # ===== KHỐI 12 =====
-        {"lop": 12, "mon": "toan", "tuan": 1, "yeu_cau_can_dat": "Ứng dụng đạo hàm để tìm giá trị lớn nhất, giá trị nhỏ nhất của hàm số trên một khoảng, đoạn."},
-        {"lop": 12, "mon": "hoa", "tuan": 1, "yeu_cau_can_dat": "Hiểu cấu tạo phân tử, tính chất hóa học đặc trưng của este và bài toán phản ứng tráng bạc."},
-        {"lop": 12, "mon": "su", "tuan": 1, "yeu_cau_can_dat": "Phân tích được bối cảnh thế giới sau Chiến tranh thế giới thứ hai, sự hình thành trật tự thế giới mới."}
-    ]
+        for mon in danh_sach_mon:
+            # Tạm thời chỉ quét Tuần 1 (Khoảng 120 bài học) để test hệ thống
+            # Nếu muốn sinh cả 35 tuần, bạn có thể thêm: 
+            for tuan in range(1, 2):
+                khung_gdpt_tho.append({
+                    "lop": lop,
+                    "mon": mon,
+                    "tuan": tuan,
+                    # Yêu cầu tổng quát để AI tự động suy luận bám sát chương trình
+                    "yeu_cau_can_dat": f"Tổng hợp lý thuyết và bài tập trọng tâm tuần {tuan} môn {mon} lớp {lop} theo chuẩn sách giáo khoa GDPT 2018."
+                })
 
     print("🚀 Bắt đầu hệ thống sinh dữ liệu...")
     for item in khung_gdpt_tho:

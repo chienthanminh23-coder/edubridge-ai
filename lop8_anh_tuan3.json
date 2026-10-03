@@ -1,0 +1,47 @@
+*   Role: Education Expert.
+    *   Task: Prepare a transition lesson for English, Grade 8, Week 3.
+    *   Requirement: Summarize theory and core exercises for Week 3 (based on 2018 GDPT standard) without copying the textbook directly.
+    *   Output Format: Strict JSON only. No explanation.
+
+    *   Subject: Grade 8 English (Global Success or similar 2018 curriculum).
+    *   Week 3 usually covers Unit 1: Leisure Time (specifically focus on Gerunds/Verbs of liking + V-ing/To-V or Lexical items related to leisure activities).
+    *   Common topics: Verbs of liking/disliking + V-ing, Leisure activities vocabulary.
+
+    *   *Theory:* Focus on Verbs of liking/disliking (like, love, enjoy, fancy, adore, dislike, detest, hate) + Gerunds (V-ing). Explain that some verbs can take both V-ing and To-infinitive with slight nuance.
+    *   *Exercises:*
+        1.  Multiple choice (Grammar focus).
+        2.  Sentence transformation or Verb form (Gerunds).
+
+    *   `title`: "English Grade 8 - Week 3: Leisure Activities & Verbs of Liking"
+    *   `objective`: "Master vocabulary about leisure activities and the usage of verbs followed by Gerunds (V-ing)."
+    *   `theory`: "To express preferences, we use verbs of liking/disliking. Most of these are followed by a Gerund (V-ing). Examples: 'love', 'like', 'enjoy', 'fancy', 'adore' + V-ing; 'dislike', 'detest', 'hate' + V-ing. Some verbs like 'love', 'like', 'hate', 'prefer' can also be followed by a To-infinitive with minimal change in meaning. Usage tip: Use V-ing to emphasize the feeling of the action itself."
+    *   `exercises`:
+        *   "Exercise 1: Choose the best option: I fancy (making/to make) origami in my free time."
+        *   "Exercise 2: Supply the correct form of the verbs: My brother detests (wash) ____ the dishes after dinner."
+        *   "Exercise 3: Rewrite the sentence: She loves playing badminton. -> She is fond of ..." (Wait, let's stick to the grammar target: Verb + V-ing). Let's try: "Exercise 3: Fill in the blanks with suitable leisure activities: My sister enjoys ____ (read) books and ____ (listen) to music."
+
+    *   Check word count for `theory`: ~60 words (well under 150).
+    *   Check JSON structure.
+    *   Check compliance with "No copying textbook" and "2018 GDPT standard".
+
+    *   `title`: "Luyện tập Tiếng Anh 8 - Tuần 3: Sở thích và Danh động từ"
+    *   `objective`: "Củng cố từ vựng về các hoạt động giải trí và nắm vững cấu trúc động từ đi kèm V-ing."
+    *   `theory`: "Để diễn tả sự yêu thích hoặc ghét, chúng ta sử dụng nhóm động từ chỉ cảm xúc (verbs of liking/disliking). Quy tắc chính: Các động từ như enjoy, fancy, adore, dislike, detest thường được theo sau bởi một Danh động từ (V-ing). Một số từ như love, like, hate, prefer có thể đi kèm cả V-ing hoặc To-infinitive mà không thay đổi đáng kể ý nghĩa. Ví dụ: 'I love dancing' hoặc 'I love to dance'. Việc sử dụng V-ing nhấn mạnh vào tính chất của hành động đang diễn ra."
+    *   `exercises`:
+        *   "Bài tập 1: Chọn đáp án đúng: My friends enjoy (play/playing/to play) computer games in their leisure time."
+        *   "Bài tập 2: Chia dạng đúng của động từ trong ngoặc: She detests (do) _______ housework on weekends."
+        *   "Bài tập 3: Hoàn thành câu với từ gợi ý: I / fancy / hanging / out / with / friends. -> ..."
+
+    (Self-Correction: Ensure the JSON is valid and contains no extra text.)
+
+{
+    "title": "Tiếng Anh 8 - Tuần 3: Sở thích và Danh động từ (Verbs of Liking + V-ing)",
+    "objective": "Củng cố từ vựng về các hoạt động giải trí và nắm vững cấu trúc sử dụng danh động từ (Gerunds) sau các động từ chỉ sự yêu thích/ghét.",
+    "theory": "Để diễn tả sở thích hoặc sự không thích, ta sử dụng các động từ chỉ cảm xúc (verbs of liking/disliking). Quy tắc trọng tâm: Các động từ như enjoy, fancy, adore, dislike, detest thường bắt buộc theo sau bởi một Danh động từ (V-ing). Một số động từ như love, like, hate, prefer có thể đi kèm cả V-ing hoặc To-infinitive với sắc thái ý nghĩa tương đương. Ví dụ: 'I love swimming' hoặc 'I love to swim'. Sử dụng V-ing giúp nhấn mạnh vào bản chất của hành động đó.",
+    "exercises": [
+        "Bài tập 1: Chọn đáp án đúng: My sister fancies (make/making/to make) origami in her free time.",
+        "Bài tập 2: Chia dạng đúng của động từ trong ngoặc: He detests (wash) ________ the dishes after every meal.",
+        "Bài tập 3: Viết lại câu sử dụng từ gợi ý: I love hanging out with my friends. -> I am fond of ________ ________ ________ my friends.",
+        "Bài tập 4: Tìm lỗi sai trong câu: They enjoys playing football in the school yard every Sunday."
+    ]
+}

@@ -1,0 +1,38 @@
+*   Role: Education expert.
+    *   Topic: Transition lesson for Subject SU (likely Lịch sử - History, based on the content), Grade 12, Week 1.
+    *   Learning Objective: "Analyze the world context after World War II and the formation of the new world order."
+    *   Constraint 1: Do not copy the textbook directly.
+    *   Constraint 2: Strictly follow a specific JSON format.
+    *   Constraint 3: No additional explanation, just the JSON.
+
+    *   *Context after WWII:* End of war, destruction, balance of power shifts.
+    *   *Two superpowers:* USA (capitalism/imperialism) vs. USSR (socialism).
+    *   *Formation of New World Order:* Cold War, bipolarity (Yalta Conference), creation of UN, NATO, Warsaw Pact, etc.
+
+    *   *Title:* Bối cảnh thế giới và Trật tự hai cực Yalta.
+    *   *Objective:* Giúp học sinh nắm bắt được sự dịch chuyển quyền lực toàn cầu và sự hình thành cục diện lưỡng cực sau năm 1945.
+    *   *Theory:* Sau năm 1945, thế giới chứng kiến sự thay đổi sâu sắc về địa chính trị. Sự tàn phá của Chiến tranh thế giới thứ hai khiến các cường quốc cũ (Anh, Pháp) suy yếu, nhường chỗ cho sự trỗi dậy của hai siêu cường: Mỹ và Liên Xô. Hội nghị Yalta (2/1945) đã đặt nền móng cho một trật tự thế giới mới, phân chia phạm vi ảnh hưởng giữa hai phe: tư bản chủ nghĩa (do Mỹ đứng đầu) và xã hội chủ nghĩa (do Liên Xô đứng đầu). Trật tự này, còn gọi là Trật tự hai cực Yalta, đã chi phối quan hệ quốc tế trong suốt thời kỳ Chiến tranh Lạnh, tạo nên sự đối đầu căng thẳng nhưng cũng định hình cấu trúc an ninh toàn cầu mới.
+    *   *Exercises:*
+        1. So sánh sự khác biệt về vị thế của các cường quốc châu Âu trước và sau năm 1945.
+        2. Phân tích vai trò của Hội nghị Yalta trong việc thiết lập trật tự thế giới mới.
+
+    *   `title`: "Bối cảnh thế giới và Trật tự hai cực Yalta"
+    *   `objective`: "Phân tích được sự chuyển dịch quyền lực toàn cầu và cơ chế hình thành trật tự thế giới lưỡng cực sau năm 1945."
+    *   `theory`: "Sau năm 1945, cán cân quyền lực thế giới thay đổi mạnh mẽ. Các cường quốc truyền thống như Anh, Pháp suy yếu, tạo điều kiện cho sự trỗi dậy của hai siêu cường đối lập: Mỹ (đại diện phe tư bản chủ nghĩa) và Liên Xô (đại diện phe xã hội chủ nghĩa). Hội nghị Yalta là cột mốc quyết định, xác lập việc phân chia phạm vi ảnh hưởng giữa hai phe, hình thành nên Trật tự hai cực Yalta. Trật tự này không chỉ định hình lại bản đồ chính trị thế giới mà còn là nền tảng dẫn đến cuộc đối đầu căng thẳng trong thời kỳ Chiến tranh Lạnh, chi phối mọi quan hệ quốc tế suốt nhiều thập kỷ." (116 words - fits < 150 limit).
+    *   `exercises`: ["Giải thích tại sao sự suy yếu của các nước châu Âu lại tạo điều kiện cho sự hình thành trật tự hai cực?", "Sử dụng sơ đồ để mô tả sự phân chia phạm vi ảnh hưởng của Mỹ và Liên Xô theo kết quả Hội nghị Yalta."]
+
+    *   JSON format? Yes.
+    *   No extra explanation? Yes.
+    *   Objective met? Yes.
+    *   No textbook copying? Yes.
+    *   Theory < 150 words? Yes.
+
+{
+    "title": "Sự dịch chuyển quyền lực và Trật tự hai cực Yalta",
+    "objective": "Phân tích sự thay đổi cán cân quyền lực toàn cầu và cơ chế hình thành trật tự thế giới lưỡng cực sau năm 1945.",
+    "theory": "Sau năm 1945, thế giới chứng kiến sự chuyển dịch địa chính trị sâu sắc. Các cường quốc truyền thống như Anh, Pháp suy yếu sau chiến tranh, nhường chỗ cho sự trỗi dậy của hai siêu cường đối lập: Mỹ và Liên Xô. Hội nghị Yalta (2/1945) đã đóng vai trò quyết định khi thiết lập sự phân chia phạm vi ảnh hưởng giữa hai phe: tư bản chủ nghĩa (do Mỹ đứng đầu) và xã hội chủ nghĩa (do Liên Xô đứng đầu). Trật tự này, gọi là Trật tự hai cực Yalta, đã trở thành khung khổ chi phối quan hệ quốc tế, tạo tiền đề cho cuộc đối đầu căng thẳng trong thời kỳ Chiến tranh Lạnh.",
+    "exercises": [
+        "Bài tập 1: Tại sao sự suy yếu của các nước châu Âu lại là điều kiện cần để hình thành trật tự hai cực?",
+        "Bài tập 2: Phân tích mối liên hệ giữa các quyết định tại Hội nghị Yalta với việc hình thành cục diện lưỡng cực thế giới."
+    ]
+}

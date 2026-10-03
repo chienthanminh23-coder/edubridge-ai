@@ -1,0 +1,59 @@
+*   Role: Education Expert.
+*   Topic: Transition lesson for Physics, Grade 11, Week 1.
+*   Learning Objective (Requirement): "Describe simple harmonic motion (SHM), define period, frequency, and amplitude."
+*   Constraint 1: Absolutely NO copying from textbooks.
+*   Constraint 2: Return ONLY a specific JSON format.
+*   Constraint 3: No extra explanation.
+*   Constraint 4: Theory must be under 150 words.
+
+    *   *Concept:* Simple Harmonic Motion (SHM) is a specific type of periodic motion where the acceleration is proportional to the displacement and directed towards the equilibrium position.
+    *   *Amplitude (A):* Maximum distance from the equilibrium position.
+    *   *Period (T):* Time taken for one complete cycle (seconds).
+    *   *Frequency (f):* Number of cycles per unit time (Hertz).
+
+    *   *Title:* Khởi đầu với Dao động điều hòa (Starting with Simple Harmonic Motion).
+    *   *Objective:* Giúp học sinh nhận diện và định lượng được các đại lượng đặc trưng của một dao động điều hòa. (Help students identify and quantify characteristic quantities of SHM).
+    *   *Theory:*
+        Dao động điều hòa là chuyển động lặp đi lặp lại quanh một vị trí cân bằng, với đặc điểm là li độ biến thiên theo hàm sin hoặc cosin theo thời gian.
+        - Biên độ (A): Độ lệch lớn nhất của vật so với vị trí cân bằng.
+        - Chu kỳ (T): Khoảng thời gian ngắn nhất để vật thực hiện xong một dao động toàn phần (đơn vị: giây).
+        - Tần số (f): Số dao động toàn phần thực hiện được trong một giây (đơn vị: Hertz).
+        Mối liên hệ: $f = 1/T$.
+    *   *Exercises:*
+        1. Một vật dao động với biên độ 5cm, thực hiện được 20 dao động trong 10 giây. Tính chu kỳ và tần số của vật.
+        2. Xác định các đại lượng A, T, f nếu biết phương trình li độ là $x = 10\cos(4\pi t + \pi/2)$ cm. (Actually, since it's a *transition* lesson, maybe keep it more conceptual/basic).
+        *Refined Exercises:*
+        1. Một con lắc thực hiện 30 dao động toàn phần trong vòng 60 giây. Hãy xác định chu kỳ và tần số của con lắc này.
+        2. Nếu một vật đang dao động với biên độ 4cm, sau đó ta tác động làm biên độ tăng lên 6cm. Hãy cho biết độ lệch cực đại so với vị trí cân bằng đã thay đổi như thế nào?
+
+    *   *Theory word count check:* ~70 words. Good.
+    *   *No textbook copying:* Check.
+    *   *Format:* JSON.
+
+    
+    {
+        "title": "Nhập môn Dao động điều hòa",
+        "objective": "Nhận biết và phân biệt được các thông số cơ bản: biên độ, chu kỳ, tần số trong dao động điều hòa.",
+        "theory": "Dao động điều hòa là dạng chuyển động lặp lại quanh một vị trí cố định (vị trí cân bằng), trong đó li độ biến thiên theo hàm sin hoặc cosin của thời gian. Các thông số quan trọng gồm: 1. Biên độ (A): Giá trị cực đại của li độ (khoảng cách xa nhất từ vật đến vị trí cân bằng). 2. Chu kỳ (T): Thời gian để vật hoàn thành một vòng lặp chuyển động hoàn chỉnh. 3. Tần số (f): Số lần vật thực hiện dao động trong một đơn vị thời gian (thường là 1 giây). Ta luôn có mối quan hệ nghịch đảo: f = 1/T.",
+        "exercises": [
+            "Bài tập 1: Một vật dao động quanh vị trí cân bằng, thực hiện được 50 chu kỳ trong vòng 100 giây. Hãy tính chu kỳ (T) và tần số (f) của dao động này.",
+            "Bài tập 2: Một con lắc lò xo có biên độ dao động là 10cm. Nếu ta kéo vật ra xa vị trí cân bằng thêm 2cm rồi thả nhẹ, hãy xác định biên độ mới của vật."
+        ]
+    }
+    
+
+    *   Title: "Nhập môn Dao động điều hòa"
+    *   Objective: "Nhận biết và phân biệt được các thông số cơ bản: biên độ, chu kỳ, tần số trong dao động điều hòa."
+    *   Theory length: ~90 words (< 150).
+    *   No textbook copy.
+    *   JSON only.
+
+{
+    "title": "Nhập môn Dao động điều hòa",
+    "objective": "Nhận biết và định lượng được các thông số đặc trưng: biên độ, chu kỳ, tần số của một dao động điều hòa.",
+    "theory": "Dao động điều hòa là chuyển động lặp đi lặp lại quanh một vị trí cố định (vị trí cân bằng), với li độ biến thiên theo hàm sin hoặc cosin của thời gian. Ba đại lượng cốt lõi bao gồm: 1. Biên độ (A): Khoảng cách lớn nhất từ vật đến vị trí cân bằng. 2. Chu kỳ (T): Khoảng thời gian cần thiết để vật thực hiện trọn vẹn một dao động. 3. Tần số (f): Số lần dao động thực hiện được trong một giây. Các đại lượng này liên hệ với nhau qua công thức: f = 1/T.",
+    "exercises": [
+        "Bài tập 1: Một vật thực hiện được 60 dao động toàn phần trong vòng 120 giây. Hãy tính chu kỳ và tần số của vật đó.",
+        "Bài tập 2: Một con lắc đang dao động với biên độ 5cm. Nếu ta tăng độ lệch cực đại của vật so với vị trí cân bằng lên thêm 3cm thì biên độ mới của vật là bao nhiêu?"
+    ]
+}

@@ -1,0 +1,60 @@
+*   Role: Education Expert.
+    *   Topic: Transition lesson for Literature (Ngữ văn - VAN), Grade 6, Week 1.
+    *   Requirement: Synthesize key theory and exercises for Week 1, Grade 6, based on the 2018 General Education Program (GDPT 2018).
+    *   Constraint 1: Do NOT copy textbooks directly.
+    *   Constraint 2: Output format must be EXACTLY a JSON object.
+    *   Constraint 3: No extra explanation.
+    *   JSON Structure:
+        *   `title`: Short lesson title.
+        *   `objective`: Core objective.
+        *   `theory`: Summary of theory (< 150 words).
+        *   `exercises`: Array of strings containing exercises.
+
+    *   In the 2018 program, Grade 6, Week 1 usually focuses on:
+        *   Introduction to the subject (Literature).
+        *   Reading strategies (How to read a text).
+        *   Text types (often Narrative/Stories - Truyện).
+        *   Key concepts: Plot (Cốt truyện), Characters (Nhân vật), Setting (Bối cảnh), Narrator (Người kể chuyện).
+        *   Skills: Reading comprehension, connecting text to life.
+
+    *   *Title:* Khởi động hành trình khám phá Ngữ văn 6.
+    *   *Objective:* Giúp học sinh làm quen với phương pháp đọc hiểu văn bản truyện và nắm vững các yếu tố nền tảng của một tác phẩm văn học.
+    *   *Theory:* Văn bản truyện là loại hình kể lại một chuỗi sự việc có liên quan đến nhau. Để hiểu một câu chuyện, cần chú ý bốn yếu tố: (1) Cốt truyện: chuỗi diễn biến từ mở đầu đến kết thúc; (2) Nhân vật: người hoặc vật thực hiện hành động; (3) Người kể chuyện: ngôi kể thứ nhất (xưng "tôi") hoặc ngôi thứ ba (người kể ẩn danh); (4) Bối cảnh: thời gian và không gian diễn ra câu chuyện. Việc nắm vững các yếu tố này giúp người đọc giải mã ý nghĩa và thông điệp mà tác giả gửi gắm.
+    *   *Exercises:*
+        1.  Phân biệt sự khác nhau giữa người kể chuyện ngôi thứ nhất và ngôi thứ ba qua một ví dụ ngắn.
+        2.  Xác định các thành phần: nhân vật, bối cảnh, cốt truyện trong một truyện dân gian đã học ở tiểu học.
+        3.  Lập sơ đồ tư duy về các bước để đọc hiểu một văn bản mới.
+
+    *   Check theory word count: ~100 words (Pass).
+    *   Check JSON format: Valid JSON.
+    *   Check content: Aligned with GDPT 2018 (focus on reading strategies and story elements).
+    *   Check "No copying": Synthesized in my own words.
+
+    
+    {
+        "title": "Khởi động hành trình khám phá Ngữ văn 6",
+        "objective": "Giúp học sinh nắm vững phương pháp đọc hiểu văn bản truyện và nhận diện các yếu tố nền tảng của tác phẩm văn học.",
+        "theory": "Để đọc hiểu một văn bản truyện theo chương trình mới, học sinh cần tập trung vào bốn thành phần chính: Một là Cốt truyện, bao gồm chuỗi các sự kiện diễn ra từ mở đầu đến kết thúc. Hai là Nhân vật, là trung tâm thể hiện tư tưởng tác phẩm qua hành động và lời nói. Ba là Người kể chuyện, có thể là ngôi thứ nhất (xưng 'tôi') để tạo sự gần gũi hoặc ngôi thứ ba (người kể giấu mặt) để cái nhìn khách quan. Bốn là Bối cảnh, tức không gian và thời gian xảy ra câu chuyện. Việc kết nối các yếu tố này giúp hiểu sâu chủ đề và thông điệp của tác giả.",
+        "exercises": [
+            "Bài tập 1: So sánh đặc điểm của người kể chuyện ngôi thứ nhất và ngôi thứ ba trong việc dẫn dắt câu chuyện.",
+            "Bài tập 2: Đọc một đoạn trích ngắn và xác định: Nhân vật chính, bối cảnh diễn ra sự việc và cốt truyện sơ lược.",
+            "Bài tập 3: Thiết lập quy trình 3 bước để tự tìm hiểu một văn bản mới (Trước - Trong - Sau khi đọc)."
+        ]
+    }
+    
+
+    *   JSON format only? Yes.
+    *   No extra explanation? Yes.
+    *   Theory < 150 words? Yes.
+    *   Grade 6 Week 1 theme? Yes.
+
+{
+    "title": "Khởi động hành trình khám phá Ngữ văn 6",
+    "objective": "Giúp học sinh nắm vững phương pháp đọc hiểu văn bản truyện và nhận diện các yếu tố nền tảng của một tác phẩm văn học.",
+    "theory": "Để tiếp cận văn bản truyện theo chương trình GDPT 2018, học sinh cần chú trọng bốn yếu tố cốt lõi: (1) Cốt truyện: chuỗi các sự kiện nối tiếp nhau tạo nên nội dung; (2) Nhân vật: con người hoặc sự vật được nhân hóa, thể hiện qua ngoại hình, hành động và suy nghĩ; (3) Người kể chuyện: có thể là ngôi thứ nhất (xưng 'tôi') để tăng tính chân thực, hoặc ngôi thứ ba (ẩn mình) để cái nhìn khách quan; (4) Bối cảnh: không gian và thời gian diễn ra câu chuyện. Việc kết nối các yếu tố này giúp người đọc giải mã chủ đề và thông điệp của tác giả.",
+    "exercises": [
+        "Bài tập 1: Phân biệt sự khác nhau về vai trò của người kể chuyện ngôi thứ nhất và ngôi thứ ba trong việc dẫn dắt câu chuyện.",
+        "Bài tập 2: Đọc một đoạn trích truyện ngắn và liệt kê các yếu tố: nhân vật chính, bối cảnh thời gian, bối cảnh không gian.",
+        "Bài tập 3: Xây dựng sơ đồ tư duy về các bước chuẩn bị trước khi đọc một văn bản mới (đọc tiêu đề, quan sát tranh minh họa, dự đoán nội dung)."
+    ]
+}

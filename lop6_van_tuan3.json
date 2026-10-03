@@ -1,0 +1,40 @@
+*   Role: Education Expert.
+    *   Task: Create a transition lesson for Literature (Ngữ văn), Grade 6, Week 3.
+    *   Requirement: "Summarize theory and key exercises for Week 3, Grade 6 Literature according to the 2018 General Education Program standards."
+    *   Constraint: Do not copy the textbook directly.
+    *   Output Format: Strict JSON only. No extra explanation.
+
+    *   In the 2018 Program (Kết nối tri thức, Cánh diều, or Chân trời sáng tạo), Week 3 of Grade 6 usually falls into the theme of "Gõ cửa trái tim" (Knocking on the heart's door - emotions/poetry) or "Miền cổ tích" (Fairytales/Legends) or "Tôi và các bạn" (Me and my friends) depending on the specific book series.
+    *   However, a common thread across most series in Week 3 is: **Reading comprehension of legends/tales (Truyền thuyết/Truyện dân gian)** or **Poetry/Emotions**.
+    *   Let's aim for a general but high-quality summary that fits the common curriculum: **Reading comprehension of Legends (Truyền thuyết)** and **Language skills (Word types/Imagery)**.
+
+    *   *Title:* Ôn tập kiến thức tuần 3: Thế giới truyền thuyết và Truyện dân gian.
+    *   *Objective:* Củng cố kỹ năng đọc hiểu văn bản truyền thuyết và nhận biết các yếu tố kỳ ảo, cốt truyện.
+    *   *Theory:* Truyền thuyết là loại truyện dân gian kể về các nhân vật và sự kiện có liên quan đến lịch sử, nhưng được hư cấu thêm các chi tiết kỳ ảo (vật báu, sức mạnh siêu nhiên). Mục đích là thể hiện thái độ và cách đánh giá của nhân dân đối với lịch sử. Khi đọc, cần chú ý: 1. Cốt truyện (diễn biến sự kiện); 2. Nhân vật (ngoại hình, tài năng kỳ lạ); 3. Yếu tố kỳ ảo (tạo sự hấp dẫn và tôn vinh nhân vật); 4. Ý nghĩa (bài học hoặc niềm tự hào dân tộc).
+    *   *Exercises:*
+        1. Phân biệt sự khác nhau giữa nhân vật lịch sử và nhân vật truyền thuyết qua các chi tiết hư cấu.
+        2. Đọc một đoạn trích truyện cổ tích/truyền thuyết ngắn và chỉ ra các chi tiết kỳ ảo giúp thể hiện sức mạnh của nhân vật.
+        3. Viết đoạn văn ngắn (3-5 câu) nêu cảm nhận về một nhân vật anh hùng trong các câu chuyện đã học ở tuần 3.
+
+    *   `title`: "Ôn tập kiến thức tuần 3: Khám phá thế giới Truyền thuyết"
+    *   `objective`: "Củng cố kỹ năng nhận diện đặc điểm thể loại truyền thuyết và phân tích vai trò của yếu tố kỳ ảo."
+    *   `theory`: "Truyền thuyết là thể loại truyện dân gian kể về các nhân vật và sự kiện liên quan đến lịch sử. Điểm đặc trưng là sự kết hợp giữa cốt lõi lịch sử với các chi tiết hư cấu, kỳ ảo (nhân vật có sức mạnh phi thường, vật báu...). Yếu tố kỳ ảo không chỉ làm câu chuyện thêm hấp dẫn mà còn nhằm tôn vinh vẻ đẹp, sức mạnh của người anh hùng và thể hiện thái độ, sự ngưỡng mộ của nhân dân đối với các sự kiện lịch sử quan trọng."
+    *   `exercises`: ["Bài tập 1: Liệt kê 3 chi tiết kỳ ảo trong văn bản đã học và giải thích tác dụng của chúng đối với việc xây dựng hình tượng nhân vật.", "Bài tập 2: So sánh sự khác biệt giữa nhân vật thực tế trong lịch sử và nhân vật trong truyền thuyết qua một ví dụ cụ thể.", "Bài tập 3: Viết đoạn văn ngắn (khoảng 5-7 câu) trình bày suy nghĩ của em về ý nghĩa của một truyền thuyết dân tộc."]
+
+    *   JSON format? Yes.
+    *   No extra explanation? Yes.
+    *   Grade 6, Week 3? Yes.
+    *   2018 Program standard? Yes.
+    *   Theory < 150 words? Yes (approx 70 words).
+    *   No textbook copying? Yes.
+
+{
+    "title": "Ôn tập kiến thức tuần 3: Khám phá thế giới Truyền thuyết",
+    "objective": "Củng cố kỹ năng nhận diện đặc điểm thể loại truyền thuyết và phân tích vai trò của yếu tố kỳ ảo trong văn bản.",
+    "theory": "Truyền thuyết là loại truyện dân gian kể về các nhân vật và sự kiện có liên quan đến lịch sử. Đặc điểm nổi bật là sự kết hợp giữa cốt lõi sự thật lịch sử với các chi tiết hư cấu, kỳ ảo (nhân vật có sức mạnh phi thường, sự vật linh thiêng...). Yếu tố kỳ ảo không chỉ tạo nên sự hấp dẫn, lung linh cho câu chuyện mà còn nhằm tôn vinh vẻ đẹp, tầm vóc của người anh hùng và thể hiện thái độ, sự ngưỡng mộ của nhân dân đối với các sự kiện lịch sử trọng đại.",
+    "exercises": [
+        "Bài tập 1: Liệt kê các chi tiết kỳ ảo xuất hiện trong văn bản đã học ở tuần 3 và nêu tác dụng của chúng trong việc khắc họa tính cách nhân vật.",
+        "Bài tập 2: Phân biệt sự khác nhau giữa nhân vật lịch sử (người thật, việc thật) và nhân vật truyền thuyết (người được thần thánh hóa) qua các ví dụ cụ thể.",
+        "Bài tập 3: Viết đoạn văn ngắn (5-7 câu) nêu cảm nhận của em về ý nghĩa của một nhân vật anh hùng trong các câu chuyện truyền thuyết đã học."
+    ]
+}

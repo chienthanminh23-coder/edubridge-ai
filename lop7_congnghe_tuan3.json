@@ -1,0 +1,67 @@
+*   Role: Education Expert.
+    *   Topic: Transition lesson for Technology (Công nghệ), Grade 7, Week 3.
+    *   Requirements: Summarize theory and key exercises for Week 3 based on the 2018 General Education Program (GDPT 2018).
+    *   Constraint 1: Do *not* copy the textbook directly.
+    *   Constraint 2: Output format must be *strictly* JSON.
+    *   Constraint 3: No extra explanation.
+    *   JSON Structure:
+        
+        {
+            "title": "...",
+            "objective": "...",
+            "theory": "...",
+            "exercises": ["...", "..."]
+        }
+        
+
+    *   Grade 7 Technology (GDPT 2018) typically follows themes like:
+        *   Chapter 1: Trồng trọt (Planting/Agriculture).
+        *   Week 3 often falls under "Quy trình trồng trọt" (Planting processes) or "Các yếu tố ảnh hưởng đến sự sinh trưởng và phát triển của cây trồng" (Factors affecting plant growth).
+    *   Specifically, in many textbooks (like Kết nối tri thức or Chân trời sáng tạo), Week 3 focuses on **"Các yếu tố ảnh hưởng đến sự sinh trưởng và phát triển của cây trồng"** (Factors affecting growth and development of plants) or **"Quy trình trồng trọt"**.
+    *   Let's focus on "Các yếu tố ảnh hưởng đến sự sinh trưởng và phát triển của cây trồng" as it's a core concept in Week 3 for most Grade 7 curricula.
+
+    *   *Theory Points:*
+        *   Light (Ánh sáng): Photosynthesis.
+        *   Temperature (Nhiệt độ): Metabolic activities.
+        *   Water (Nước): Nutrient transport, cell structure.
+        *   Soil/Nutrients (Đất và dinh dưỡng): Mineral sources.
+        *   Air (Không khí): Respiration and photosynthesis.
+
+    *   *Objective:* Giúp học sinh nắm vững các nhân tố sinh học và phi sinh học ảnh hưởng đến cây trồng và biết cách ứng dụng trong thực tế.
+
+    *   *Theory Summary (< 150 words):*
+        Sự sinh trưởng và phát triển của cây trồng phụ thuộc vào các nhóm yếu tố chính:
+        1. Nhóm yếu tố vô sinh:
+        - Ánh sáng: Cung cấp năng lượng cho quang hợp.
+        - Nhiệt độ: Ảnh hưởng đến tốc độ trao đổi chất.
+        - Nước: Dung môi hòa tan chất dinh dưỡng và điều hòa nhiệt độ cây.
+        - Không khí: Cung cấp CO2 (quang hợp) và O2 (hô hấp).
+        - Đất và dinh dưỡng: Cung cấp khoáng chất cần thiết.
+        2. Nhóm yếu tố hữu sinh: Con người (chăm sóc, tác động) và các sinh vật khác (sâu bệnh, vi sinh vật đất).
+        Việc kiểm soát các yếu tố này giúp tối ưu hóa năng suất cây trồng.
+
+    *   *Exercises:*
+        1. Câu hỏi trắc nghiệm: Tại sao khi trồng cây trong nhà, người ta thường phải đặt cây ở nơi có ánh sáng hoặc dùng đèn điện? (A. Để làm đẹp; B. Để cung cấp năng lượng quang hợp; C. Để giữ ấm; D. Để tránh sâu bệnh).
+        2. Câu hỏi tình huống: Nếu một vườn cây bị thiếu nước trong thời gian dài, hiện tượng gì sẽ xảy ra và giải pháp khắc phục là gì?
+
+    *   `title`: "Các yếu tố ảnh hưởng đến sự sinh trưởng và phát triển của cây trồng"
+    *   `objective`: "Nắm vững các nhân tố chính ảnh hưởng đến cây trồng và biết cách điều tiết chúng để đạt năng suất cao."
+    *   `theory`: "Sự phát triển của cây trồng chịu tác động bởi hai nhóm yếu tố chính: 1) Yếu tố vô sinh gồm: Ánh sáng (quan trọng cho quang hợp), Nhiệt độ (điều tiết trao đổi chất), Nước (dung môi vận chuyển chất), Không khí (hỗ trợ hô hấp, quang hợp) và Đất (cung cấp dinh dưỡng). 2) Yếu tố hữu sinh gồm: Con người (tác động qua canh tác) và các sinh vật (sâu bệnh, vi sinh vật). Hiểu rõ các yếu tố này giúp người trồng chủ động điều chỉnh môi trường sống, đảm bảo cây phát triển khỏe mạnh và đạt năng suất tối ưu."
+    *   `exercises`: ["Câu 1: Trong các yếu tố sau, yếu tố nào đóng vai trò là nguồn năng lượng chính cho quá trình quang hợp của cây? A. Nước; B. Ánh sáng; C. Đất; D. Không khí.", "Câu 2: Hãy giải thích tại sao khi bón phân quá nhiều hoặc quá ít đều có thể gây hại cho sự phát triển của cây trồng?"]
+
+    *   JSON format? Yes.
+    *   No extra explanation? Yes.
+    *   Theory < 150 words? Yes (~85 words).
+    *   Content matches Grade 7 Week 3 (Planting/Factors)? Yes.
+    *   Not copied from textbook? Yes (paraphrased/synthesized).
+
+{
+    "title": "Các yếu tố ảnh hưởng đến sự sinh trưởng và phát triển của cây trồng",
+    "objective": "Giúp học sinh nhận biết và hiểu rõ vai trò của các nhân tố môi trường đối với cây trồng, từ đó biết cách điều tiết để nâng cao năng suất.",
+    "theory": "Sự phát triển của cây trồng chịu tác động bởi hai nhóm yếu tố chính: 1) Nhóm yếu tố vô sinh: Ánh sáng (cung cấp năng lượng quang hợp), Nhiệt độ (điều tiết tốc độ trao đổi chất), Nước (dung môi hòa tan và vận chuyển chất dinh dưỡng), Không khí (cung cấp CO2 cho quang hợp và O2 cho hô hấp), Đất và dinh dưỡng (nguồn khoáng thiết yếu). 2) Nhóm yếu tố hữu sinh: Bao gồm con người (tác động qua kỹ thuật canh tác) và các sinh vật khác (sâu bệnh, vi sinh vật đất). Việc kiểm soát hợp lý các yếu tố này là chìa khóa để tối ưu hóa sự sinh trưởng của cây.",
+    "exercises": [
+        "Bài tập 1: Trắc nghiệm: Trong các yếu tố sau, yếu tố nào đóng vai trò là nguồn năng lượng chính giúp cây thực hiện quá trình quang hợp? A. Nước; B. Ánh sáng; C. Đất; D. Không khí.",
+        "Bài tập 2: Tình huống: Tại sao khi trồng cây trong môi trường nhà kính, người ta thường phải chú trọng đến việc điều chỉnh nhiệt độ và độ ẩm? Hãy giải thích dựa trên lý thuyết đã học.",
+        "Bài tập 3: Nối ý: Hãy nối cột A (Yếu tố) với cột B (Vai trò) sao cho phù hợp: 1. Nước - a. Cung cấp khoáng chất; 2. Ánh sáng - b. Điều hòa quá trình trao đổi chất; 3. Đất - c. Tham gia vận chuyển chất dinh dưỡng."
+    ]
+}

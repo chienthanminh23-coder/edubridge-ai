@@ -1,0 +1,57 @@
+*   Role: Education Expert.
+    *   Task: Prepare a transition lesson for TECHNOLOGY (Công nghệ), Grade 7, Week 1.
+    *   Requirement: "Summarize core theory and key exercises for Week 1, Grade 7 Technology according to the 2018 General Education Program standards."
+    *   Constraint 1: Absolutely do not copy the textbook directly.
+    *   Constraint 2: Output must be ONLY in the specified JSON format. No extra explanation.
+    *   JSON Schema:
+        
+        {
+            "title": "Short title",
+            "objective": "Core objective",
+            "theory": "Summary of theory (< 150 words)",
+            "exercises": ["Exercise 1: ...", "Exercise 2: ..."]
+        }
+        
+
+    *   Subject: Công nghệ 7 (Technology 7).
+    *   Curriculum: GDPT 2018 (New program).
+    *   Week 1 Content (Commonly): Introduction to Agriculture (Trồng trọt), role of agriculture, common plants, or soil/environment.
+    *   *Self-Correction/Refinement:* Most textbooks (Kết nối tri thức, Chân trời sáng tạo, Cánh diều) for Grade 7 Technology start with "Giới thiệu về trồng trọt" (Introduction to Plant Cultivation).
+
+    *   *Title:* Tổng quan về ngành Trồng trọt (Overview of Plant Cultivation).
+    *   *Objective:* Giúp học sinh nhận biết vai trò, triển vọng và các nhóm cây trồng chính trong nền nông nghiệp hiện đại.
+    *   *Theory:* Trồng trọt là ngành sản xuất cung cấp lương thực, thực phẩm, nguyên liệu cho công nghiệp và thức ăn chăn nuôi. Ngành này đóng vai trò quan trọng trong việc đảm bảo an ninh lương thực và phát triển kinh tế. Các nhóm cây trồng phổ biến bao gồm: cây lương thực (lúa, ngô), cây ăn quả (cam, xoài), cây công nghiệp (cà phê, cao su) và cây rau/củ/quả. Hiện nay, trồng trọt đang hướng tới ứng dụng công nghệ cao để tăng năng suất và bảo vệ môi trường. (Approx 90 words).
+    *   *Exercises:*
+        1.  Phân biệt vai trò của cây lương thực và cây công nghiệp qua ví dụ cụ thể.
+        2.  Nêu 3 lợi ích của việc ứng dụng công nghệ cao trong trồng trọt hiện nay.
+
+    
+    {
+        "title": "Tổng quan về ngành Trồng trọt",
+        "objective": "Nắm vững vai trò, triển vọng và các nhóm cây trồng cơ bản trong nông nghiệp.",
+        "theory": "Trồng trọt là hoạt động sản xuất tạo ra sản phẩm thực vật, đóng vai trò then chốt trong việc cung cấp lương thực, thực phẩm, nguyên liệu công nghiệp và thức ăn cho chăn nuôi. Ngành này không chỉ đảm bảo an ninh lương thực quốc gia mà còn thúc đẩy xuất khẩu, phát triển kinh tế. Các nhóm cây trồng chính bao gồm: cây lương thực, cây ăn quả, cây công nghiệp, cây rau và cây hoa/cảnh. Trong thời đại mới, trồng trọt đang chuyển dịch mạnh mẽ sang hướng công nghệ cao, áp dụng các biện pháp khoa học để tối ưu hóa năng suất, chất lượng sản phẩm và bảo vệ hệ sinh thái bền vững.",
+        "exercises": [
+            "Bài tập 1: Hãy liệt kê 3 loại cây trồng phổ biến tại địa phương em và phân loại chúng vào các nhóm cây trồng tương ứng.",
+            "Bài tập 2: Giải thích tại sao việc phát triển ngành trồng trọt lại có ý nghĩa quan trọng đối với việc đảm bảo an ninh lương thực và phát triển kinh tế đất nước."
+        ]
+    }
+    
+
+    *   Role: Expert? Yes.
+    *   Subject: Tech 7, Week 1? Yes.
+    *   Target: Summarize theory + exercises (2018 standards)? Yes.
+    *   No textbook copying? Yes.
+    *   JSON format only? Yes.
+    *   Theory < 150 words? (Word count: ~105 words). Yes.
+
+    *Drafting the final JSON string.*
+
+{
+    "title": "Tổng quan về ngành Trồng trọt",
+    "objective": "Giúp học sinh nhận biết vai trò, triển vọng và phân loại được các nhóm cây trồng chính trong nền nông nghiệp.",
+    "theory": "Trồng trọt là ngành sản xuất cung cấp lương thực, thực phẩm, nguyên liệu cho công nghiệp và thức ăn cho chăn nuôi. Ngành này đóng vai trò quan trọng trong việc đảm bảo an ninh lương thực và phát triển kinh tế. Các nhóm cây trồng chính bao gồm: cây lương thực (lúa, ngô...), cây ăn quả (cam, xoài...), cây công nghiệp (cà phê, cao su...), cây rau và cây hoa/cảnh. Xu hướng hiện nay là phát triển trồng trọt ứng dụng công nghệ cao nhằm tăng năng suất, chất lượng sản phẩm, đồng thời thích ứng với biến đổi khí hậu và bảo vệ môi trường bền vững.",
+    "exercises": [
+        "Bài tập 1: Em hãy phân loại các loại cây sau đây vào nhóm phù hợp: lúa, cà phê, rau muống, xoài, cao su, sắn.",
+        "Bài tập 2: Hãy nêu 2 lợi ích của việc ứng dụng công nghệ cao (như tưới nước tự động, nhà kính) trong trồng trọt hiện đại."
+    ]
+}

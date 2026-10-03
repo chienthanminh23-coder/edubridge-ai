@@ -1,0 +1,53 @@
+*   Role: Education Expert.
+    *   Task: Create a transitional lesson for Biology, Grade 7, Week 5.
+    *   Requirement: Summarize theory and key exercises for Week 5, Grade 7 Biology based on the 2018 General Education Curriculum.
+    *   Constraint 1: Do NOT copy the textbook directly.
+    *   Constraint 2: Output MUST be in a specific JSON format.
+    *   Constraint 3: NO additional explanation.
+
+    *   Subject: Biology (Natural Sciences/Khoa học tự nhiên - part Biology) Grade 7.
+    *   Curriculum: GDPT 2018.
+    *   Content for Week 5 (typically follows the progression of "Exchange of substances and energy in organisms" or specific organism groups like "Exchange of substances and energy in plants" depending on the specific school textbook - e.g., Kết nối tri thức, Chân trời sáng tạo, Cánh diều).
+    *   *Common Week 5 topic for Grade 7 (KHTN 7):* Photosynthesis (Quang hợp) or Transport of substances in plants (Vận chuyển các chất trong cây). Let's focus on "Photosynthesis" (Quang hợp) as it's a core concept usually taught around this time.
+
+    *   *Title:* Tổng hợp kiến thức: Quang hợp ở thực vật.
+    *   *Objective:* Hiểu bản chất quá trình quang hợp, vai trò của lá cây và các yếu tố ảnh hưởng.
+    *   *Theory (under 150 words):* Quang hợp là quá trình lá cây sử dụng năng lượng ánh sáng mặt trời để tổng hợp chất hữu cơ (glucose) từ nước và khí carbon dioxide, đồng thời giải phóng khí oxygen. Quá trình này diễn ra chủ yếu tại lục lạp, nơi chứa sắc tố diệp lục giúp hấp thụ ánh sáng. Quang hợp đóng vai trò quyết định sự sống trên Trái Đất: cung cấp thức ăn cho sinh vật và làm cân bằng hàm lượng khí trong khí quyển. Các yếu tố ảnh hưởng bao gồm cường độ ánh sáng, nồng độ CO2, nhiệt độ và lượng nước.
+    *   *Exercises:*
+        1.  Trắc nghiệm: Trong quá trình quang hợp, sản phẩm chính được tạo ra là gì? (A. Glucose và Oxygen; B. Nước và CO2; C. Tinh bột và Nitrogen; D. Oxygen và nước).
+        2.  Tự luận: Giải thích tại sao khi trồng cây trong nhà, người ta thường phải bổ sung thêm ánh sáng nhân tạo?
+
+    *   *Title:* Tổng hợp kiến thức: Quang hợp ở thực vật.
+    *   *Objective:* Nắm vững cơ chế quang hợp, vai trò của các thành phần tham gia và ý nghĩa của quá trình đối với sinh giới.
+    *   *Theory:* Quang hợp là quá trình thực vật sử dụng năng lượng ánh sáng để chuyển hóa nước và khí carbon dioxide thành chất hữu cơ (glucose) và giải phóng oxygen. Quá trình này xảy ra tại lục lạp nhờ sự hỗ trợ của chất diệp lục. Đây là nguồn cung cấp năng lượng và thức ăn sơ cấp cho hầu hết các sinh vật, đồng thời giúp điều hòa thành phần khí quyển. Các yếu tố then chốt tác động đến tốc độ quang hợp bao gồm: ánh sáng, nồng độ CO2, nhiệt độ và nguồn nước.
+    *   *Exercises:*
+        1.  Câu hỏi trắc nghiệm: Thành phần nào sau đây là nguyên liệu đầu vào của quá trình quang hợp? (A. Oxygen; B. Glucose; C. Carbon dioxide và nước; D. Tinh bột).
+        2.  Câu hỏi tư duy: Tại sao việc bảo vệ rừng lại có ý nghĩa quan trọng trong việc giảm thiểu hiệu ứng nhà kính?
+
+    
+    {
+        "title": "Tổng hợp kiến thức: Quang hợp ở thực vật",
+        "objective": "Nắm vững cơ chế quang hợp, các yếu tố ảnh hưởng và vai trò quan trọng của quá trình này đối với sự sống.",
+        "theory": "Quang hợp là quá trình lá cây sử dụng năng lượng ánh sáng mặt trời để chuyển hóa nước và khí carbon dioxide thành chất hữu cơ (glucose) và giải phóng khí oxygen. Quá trình này diễn ra chủ yếu tại lục lạp nhờ sắc tố diệp lục. Đây là nguồn cung cấp thức ăn sơ cấp cho sinh giới và giúp cân bằng nồng độ khí trong khí quyển. Các yếu tố tác động trực tiếp đến quang hợp bao gồm cường độ ánh sáng, nồng độ CO2, nhiệt độ và độ ẩm.",
+        "exercises": [
+            "Bài tập 1 (Trắc nghiệm): Trong quá trình quang hợp, chất khí nào được giải phóng ra môi trường? (A. Nitrogen; B. Carbon dioxide; C. Oxygen; D. Hydrogen)",
+            "Bài tập 2 (Tự luận): Hãy giải thích tại sao việc trồng cây xanh quanh trường học và khu dân cư lại giúp môi trường trở nên mát mẻ và trong lành hơn?"
+        ]
+    }
+    
+
+    *   JSON format? Yes.
+    *   No extra text? Yes.
+    *   Under 150 words for theory? Yes (~80 words).
+    *   Grade 7, Week 5 content? Yes (Photosynthesis/Natural Sciences).
+    *   Not copied from textbook? Yes, summarized/paraphrased.
+
+{
+    "title": "Tổng hợp kiến thức: Quang hợp ở thực vật",
+    "objective": "Nắm vững cơ chế quang hợp, các yếu tố ảnh hưởng và vai trò quan trọng của quá trình này đối với sự sống.",
+    "theory": "Quang hợp là quá trình thực vật sử dụng năng lượng ánh sáng mặt trời để chuyển hóa nước và khí carbon dioxide thành chất hữu cơ (glucose) và giải phóng khí oxygen. Quá trình này diễn ra chủ yếu tại lục lạp nhờ sắc tố diệp lục giúp hấp thụ ánh sáng. Đây là nguồn cung cấp năng lượng sơ cấp cho hầu hết các sinh vật trên Trái Đất và giúp điều hòa thành phần khí quyển. Các yếu tố then chốt tác động đến tốc độ quang hợp bao gồm: cường độ ánh sáng, nồng độ CO2, nhiệt độ và nguồn nước.",
+    "exercises": [
+        "Bài tập 1 (Trắc nghiệm): Trong quá trình quang hợp, thành phần nào sau đây đóng vai trò là nguyên liệu chính để tổng hợp chất hữu cơ? (A. Oxygen; B. Glucose; C. Carbon dioxide và nước; D. Diệp lục)",
+        "Bài tập 2 (Tự luận): Hãy giải thích tại sao việc trồng nhiều cây xanh lại giúp giảm thiểu hiệu ứng nhà kính và làm sạch không khí?"
+    ]
+}

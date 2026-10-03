@@ -1,0 +1,49 @@
+*   Role: Education Expert.
+    *   Task: Create a "transition lesson" (bài học chuyển tiếp) for Biology, Grade 9, Week 1.
+    *   Requirement: "Summarize core theory and key exercises for Week 1, Grade 9 Biology according to the 2018 General Education Program standards."
+    *   Constraints:
+        *   Absolutely no copying from textbooks.
+        *   Output format: STRICT JSON.
+        *   No extra explanation.
+    *   Target Content: Grade 9 Biology, Week 1 (2018 curriculum).
+    *   *Self-Correction/Check on Curriculum:* The 2018 program for Science (Khoa học tự nhiên - KHTN) includes Biology. In Grade 9, the Biology component usually starts with Genetics (Di truyền học) or Cell Biology (Tế bào học), depending on the specific textbook series (Kết nối tri thức, Chân trời sáng tạo, Cánh diều). However, "Week 1" typically acts as a bridge or starts with the first chapter. In most 2018 series, Grade 9 KHTN starts with **Genetics and Heredity (Di truyền học)**, specifically looking at **Mendel's laws or the concept of genes/DNA**.
+
+    *   *Topic:* Introduction to Genetics / Mendel's Experiments.
+    *   *Theory:* Focus on Mendel's contribution: using pea plants, identifying traits (characteristics), concepts of purebred vs. hybrid, and the importance of controlled breeding.
+    *   *Objectives:* Understand the basics of heredity and Mendel's role.
+
+    *   *Title:* "Khởi đầu Hành trình Di truyền học" (Starting the Journey of Genetics).
+    *   *Objective:* "Nắm vững khái niệm cơ bản về di truyền, biến dị và vai trò của Mendel trong việc thiết lập nền móng cho di truyền học hiện đại."
+    *   *Theory (Under 150 words):* Di truyền là sự truyền đạt các đặc điểm từ thế hệ trước sang thế hệ sau. Biến dị là sự xuất hiện các đặc điểm khác biệt so với bố mẹ hoặc giữa các cá thể cùng thế hệ. Gregor Mendel, "cha đẻ của di truyền học", đã sử dụng đậu Hà Lan làm đối tượng nghiên cứu nhờ đặc tính dễ trồng, vòng đời ngắn và các cặp tính trạng tương phản rõ rệt. Qua các thí nghiệm lai giống, ông đã phát hiện ra quy luật phân ly, đặt nền móng cho việc hiểu cách thức các tính trạng được kế thừa thông qua các đơn vị di truyền (nay gọi là gene).
+    *   *Exercises:*
+        1.  Phân biệt sự khác nhau giữa di truyền và biến dị kèm ví dụ thực tế.
+        2.  Tại sao Mendel lại chọn đậu Hà Lan làm đối tượng nghiên cứu chính thay vì các loài động vật lớn?
+
+    
+    {
+        "title": "Khám phá Thế giới Di truyền",
+        "objective": "Hiểu bản chất của hiện tượng di truyền, biến dị và vai trò tiên phong của Mendel trong nghiên cứu khoa học.",
+        "theory": "Di truyền là quá trình truyền đạt các đặc điểm từ thế hệ cha mẹ sang thế hệ con cái, giúp duy trì sự ổn định của loài. Ngược lại, biến dị là sự xuất hiện các đặc điểm mới, tạo nên sự đa dạng giữa các cá thể. Mendel đã cách mạng hóa sinh học bằng cách nghiên cứu các cặp tính trạng tương phản trên cây đậu Hà Lan. Thay vì quan sát ngẫu nhiên, ông tập trung vào việc theo dõi sự di chuyển của các đơn vị di truyền qua các thế hệ lai. Phương pháp phân tích toán học và thực nghiệm kiểm soát chặt chẽ của ông đã chứng minh rằng các tính trạng không hòa trộn mà được kế thừa theo những quy luật nhất định, đặt nền móng cho di truyền học hiện đại.",
+        "exercises": [
+            "Bài tập 1: Giải thích tại sao trong một gia đình, con cái thường có những nét giống bố mẹ nhưng không hoàn toàn giống hệt.",
+            "Bài tập 2: Dựa vào kiến thức về Mendel, hãy cho biết vai trò của việc chọn lọc các cặp tính trạng tương phản trong thực nghiệm di truyền."
+        ]
+    }
+    
+
+    *   Grade 9, Week 1? Yes (Genetics intro).
+    *   2018 Curriculum style? Yes (Conceptual approach).
+    *   No copying? Checked.
+    *   Theory < 150 words? Yes (~110 words).
+    *   Strict JSON? Yes.
+    *   No extra explanation? Yes.
+
+{
+    "title": "Khám phá Thế giới Di truyền",
+    "objective": "Hiểu bản chất của hiện tượng di truyền, biến dị và vai trò tiên phong của Mendel trong việc thiết lập nền móng cho di truyền học hiện đại.",
+    "theory": "Di truyền là quá trình truyền đạt các đặc điểm từ thế hệ trước sang thế hệ sau, giúp duy trì đặc tính của loài. Ngược lại, biến dị là sự xuất hiện các đặc điểm mới, tạo nên sự đa dạng giữa các cá thể. Gregor Mendel, cha đẻ của di truyền học, đã sử dụng cây đậu Hà Lan làm đối tượng nghiên cứu nhờ các tính trạng tương phản rõ rệt và vòng đời ngắn. Thay vì quan sát cảm tính, ông đã áp dụng phương pháp thực nghiệm kiểm soát và phân tích toán học để theo dõi sự kế thừa các tính trạng qua các thế hệ lai. Những phát hiện của ông về sự phân ly của các đơn vị di truyền đã thay đổi hoàn toàn cách con người hiểu về sự sống.",
+    "exercises": [
+        "Bài tập 1: Phân biệt khái niệm di truyền và biến dị, sau đó đưa ra một ví dụ thực tế mô tả cả hai hiện tượng này trong cùng một gia đình.",
+        "Bài tập 2: Tại sao việc lựa chọn các cặp tính trạng tương phản (như hoa đỏ - hoa trắng, hạt trơn - hạt nhăn) lại là yếu tố then chốt trong các thí nghiệm của Mendel?"
+    ]
+}

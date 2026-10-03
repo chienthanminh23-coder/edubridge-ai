@@ -1,0 +1,51 @@
+*   Role: Education Expert.
+    *   Topic: Transition lesson for English, Grade 10, Week 1.
+    *   Learning Objectives (Requirements): Use vocabulary related to "Family Life" and the Present Simple & Present Continuous tenses.
+    *   Constraint 1: Do not copy the textbook.
+    *   Constraint 2: Output format must be strictly JSON.
+    *   Constraint 3: No extra explanation.
+    *   JSON structure:
+        *   `title`: Short title.
+        *   `objective`: Core objective.
+        *   `theory`: Summary of theory (< 150 words).
+        *   `exercises`: Array of strings (at least two).
+
+    *   *Vocabulary (Family Life):* Household chores (doing laundry, washing dishes, sweeping the floor), breadwinner, homemaker, heavy lifting, groceries, sharing chores.
+    *   *Grammar (Present Simple vs. Present Continuous):*
+        *   Present Simple: Habits, routines, facts (e.g., My mom cooks every day). Keywords: always, usually, every day.
+        *   Present Continuous: Actions happening now, temporary situations (e.g., I am doing my homework right now). Keywords: now, at the moment, currently.
+
+    *   *Title:* Welcome to Grade 10: Family & Routines.
+    *   *Objective:* Students will be able to describe daily family activities and routines using appropriate vocabulary and distinguishing between present simple and continuous tenses.
+    *   *Theory:*
+        *   Vocabulary: Focus on household tasks (e.g., *do the laundry, mop the floor*) and roles (*breadwinner, homemaker*).
+        *   Grammar:
+            1. Present Simple (S + V/V-s/es): Expresses habits/routines (e.g., *He cleans the house every Sunday*).
+            2. Present Continuous (S + am/is/are + V-ing): Expresses actions happening at the moment or temporary trends (e.g., *We are sharing the housework this week*).
+            3. Key signal words: *always/usually* (Simple) vs. *now/at the moment* (Continuous).
+    *   *Exercises:*
+        *   Ex 1: Fill in the blanks with the correct form of the verb. (Mix of Simple and Continuous).
+        *   Ex 2: Sentence transformation or Matching (Vocabulary). Let's do a sentence completion task using vocabulary.
+
+    *   *Title:* "Connecting Life: Family & Daily Routines"
+    *   *Objective:* "Master vocabulary about household duties and correctly apply Present Simple and Present Continuous tenses to describe family life."
+    *   *Theory:* "Vocabulary: Terms like 'breadwinner' (person earning money), 'homemaker' (person managing home), 'heavy lifting' (difficult physical work), and chores (e.g., 'do the laundry', 'take out the rubbish'). Grammar: 1. Present Simple (S + V/V-s/es): Used for habits, routines, or permanent truths (Signal: usually, every day, often). 2. Present Continuous (S + am/is/are + V-ing): Used for actions happening right now or temporary situations (Signal: now, at the moment, currently). Distinguish by checking if the action is a repeated routine or a current event." (approx 100 words)
+    *   *Exercises:*
+        *   "Exercise 1: Complete the sentences with the correct form of the verb in brackets. 1. My father usually (do) ____ the heavy lifting, but today he (rest) ____. 2. Look! My sister (wash) ____ the dishes in the kitchen. 3. We (not/share) ____ the housework in my family, but we are trying to change that now."
+        *   "Exercise 2: Choose the correct word to complete the sentence. 1. In many modern families, both parents act as (breadwinners/homemakers) to support the household. 2. My mother is a (homemaker/heavy lifter); she stays at home to take care of us. 3. Doing the (groceries/laundry) involves buying food and supplies for the week."
+
+    *   Language: English (as the subject is English).
+    *   JSON format? Yes.
+    *   No explanation? Yes.
+    *   Theory < 150 words? Yes.
+    *   No textbook copying? Yes.
+
+{
+    "title": "Welcome to Grade 10: Family & Routines",
+    "objective": "Master vocabulary related to household responsibilities and correctly distinguish between Present Simple and Present Continuous in context.",
+    "theory": "Vocabulary: Focus on roles (breadwinner, homemaker) and chores (do the laundry, mop the floor, take out the rubbish, do the heavy lifting). Grammar: 1. Present Simple (S + V/V-s/es): Used for habits, routines, or permanent truths. Signal words: always, usually, every day, often. 2. Present Continuous (S + am/is/are + V-ing): Used for actions happening right now or temporary situations. Signal words: now, at the moment, currently, today. Key difference: Use Simple for things that happen regularly and Continuous for things happening at this very moment.",
+    "exercises": [
+        "Exercise 1: Fill in the blanks with the correct form of the verb in brackets. 1. My father usually (do) _______ the heavy lifting, but today he (rest) _______ on the sofa. 2. Listen! My brother (wash) _______ the dishes in the kitchen. 3. We (not/share) _______ the housework regularly, but we are trying to help more this week.",
+        "Exercise 2: Choose the best option to complete the sentences. 1. In my family, my mother is the (breadwinner/homemaker) because she stays at home to manage the house. 2. Can you help me (do the groceries/do the laundry)? I need to buy food for dinner. 3. They (are dividing/divide) the chores equally at the moment to save time."
+    ]
+}
