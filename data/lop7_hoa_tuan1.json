@@ -1,0 +1,98 @@
+*   Role: Education Expert.
+    *   Task: Create a transitional lesson for "HOA" (Note: "HOA" in the context of Grade 7 curriculum usually refers to "Học và trải nghiệm" or is a typo for "HÓA" - Chemistry. However, looking at the standard GDPT 2018 curriculum for Grade 7, there is no subject named "HOA". It is highly likely the user meant "HÓA HỌC" (Chemistry) as part of the "Khoa học tự nhiên" (Natural Sciences) subject. In the new curriculum, Chemistry is integrated into Natural Sciences (KHTN 7). But wait, Chemistry specifically starts in Grade 8 for the separate subject. In Grade 7, it's part of KHTN. Let's look at the curriculum: Grade 7 KHTN covers Atoms, Elements, Periodic Table, etc. *Correction*: Actually, in KHTN 7, the topics are often related to Light, Sound, Magnetic fields, or Exchange of matter/energy. Let's assume "HOA" is a typo for "HÓA" (Chemistry) and treat it as the Science/Chemistry component of KHTN 7, or check if there's a subject I missed. Actually, "HOA" is most likely "HÓA HỌC" (Chemistry). In the GDPT 2018, Chemistry is integrated into *Khoa học tự nhiên 7*. The first unit in KHTN 7 is usually about "Mở đầu" (Introduction) or "Nguyên tử, Nguyên tố hóa học" (Atoms, Chemical Elements - though Atoms is often the start of KHTN 7 or 8 depending on the specific book series like Kết nối tri thức/Chân trời sáng tạo/Cánh diều).
+    *   *Self-Correction*: Let's re-evaluate. If it's Grade 7, Week 1, and the subject is "HÓA" (Chemistry component of KHTN), the topic is usually "Introduction to Natural Sciences" or "Methods of studying Natural Sciences".
+    *   *Alternative*: Maybe "HOA" is "HÓA" (Chemistry). Let's look at the standard content for KHTN 7 (Week 1): Introduction to Natural Science, methods of studying/researching.
+    *   Wait, if the user meant "HÓA" (Chemistry) in Grade 7, they are likely referring to the first chapter of KHTN 7.
+    *   Requirement: "Summarize theory and key exercises for Week 1 Grade 7 HOA according to GDPT 2018".
+    *   Constraints: Do not copy textbook. Output ONLY JSON.
+
+    *   Subject: Khoa học tự nhiên 7 (Chemistry/Science component).
+    *   Topic Week 1: "Phương pháp và kĩ năng học tập môn Khoa học tự nhiên" (Methods and skills for studying Natural Science).
+    *   Theory:
+        *   Methods: Observation, classification, measurement, prediction.
+        *   Skills: Following experimental steps, collecting data, analyzing, and reporting.
+        *   Safety: Rules in the lab.
+
+    *   *Title*: Phương pháp và kĩ năng nghiên cứu Khoa học tự nhiên.
+    *   *Objective*: Giúp học sinh nắm vững các phương pháp nghiên cứu, kĩ năng tiến hành thí nghiệm và quy trình tìm hiểu tự nhiên cơ bản.
+    *   *Theory*: Học tập môn KHTN đòi hỏi sự kết hợp giữa quan sát, phân loại và thực hành. Quy trình nghiên cứu gồm: đặt câu hỏi, xây dựng giả thuyết, lập kế hoạch kiểm chứng, thực hiện thí nghiệm và rút ra kết luận. Các kĩ năng quan trọng bao gồm: kĩ năng quan sát (sử dụng giác quan), kĩ năng phân loại (nhóm các đối tượng có đặc điểm chung), kĩ năng đo lường (sử dụng dụng cụ chuẩn xác) và kĩ năng dự báo (dựa trên dữ liệu sẵn có). Việc tuân thủ quy tắc an toàn phòng thí nghiệm là bắt buộc để đảm bảo kết quả chính xác và an toàn cá nhân.
+    *   *Exercises*:
+        1. Nêu các bước trong quy trình tìm hiểu tự nhiên.
+        2. Phân biệt giữa quan sát trực tiếp và dự báo trong một thí nghiệm cụ thể.
+        3. Liệt kê 3 quy tắc an toàn quan trọng nhất khi làm việc với hóa chất trong phòng thí nghiệm.
+
+    *   Must be JSON.
+    *   `title`: "Phương pháp và kĩ năng học tập Khoa học tự nhiên"
+    *   `objective`: "Nắm vững các phương pháp nghiên cứu khoa học, rèn luyện kĩ năng quan sát, phân loại và thực hành thí nghiệm an toàn."
+    *   `theory`: "Để nghiên cứu Khoa học tự nhiên, học sinh cần áp dụng quy trình: đặt câu hỏi $\rightarrow$ hình thành giả thuyết $\rightarrow$ lập kế hoạch kiểm chứng $\rightarrow$ thực hiện thí nghiệm $\rightarrow$ kết luận. Các kĩ năng then chốt bao gồm: Quan sát (thu thập thông tin qua giác quan), Phân loại (nhóm các đối tượng có đặc điểm tương đồng), Đo lường (sử dụng dụng cụ đo để lấy số liệu chính xác) và Dự báo (đưa ra nhận định về sự việc sắp xảy ra dựa trên bằng chứng). Việc tuân thủ nghiêm ngặt các quy tắc an toàn trong phòng thí nghiệm là yêu cầu tiên quyết để đảm bảo tính chính xác của dữ liệu và sự an toàn cho người học." (Under 150 words).
+    *   `exercises`: [
+        "Bài tập 1: Sắp xếp các bước sau theo đúng quy trình nghiên cứu khoa học: Kết luận, Quan sát, Thí nghiệm, Giả thuyết.",
+        "Bài tập 2: Cho tình huống: 'Nếu tăng nhiệt độ, đường sẽ tan nhanh hơn'. Hãy xác định đâu là câu hỏi nghiên cứu và đâu là giả thuyết.",
+        "Bài tập 3: Nêu sự khác biệt cơ bản giữa kĩ năng quan sát và kĩ năng dự báo trong quá trình học tập môn KHTN."
+    ]
+
+    *   Subject "HOA" is interpreted as "HÓA" (part of KHTN 7).
+    *   Target: Grade 7, Week 1.
+    *   GDPT 2018 compliant.
+    *   No direct textbook copying.
+    *   JSON format only.
+
+    *Self-Correction on "HOA"*: If the user actually meant "HÓA" (Chemistry) as a standalone subject, it's important to note that in the 2018 curriculum, it's integrated. Week 1 of KHTN 7 focuses on the methodology.
+
+    *Drafting Theory Word Count*:
+    "Để nghiên cứu Khoa học tự nhiên, học sinh cần áp dụng quy trình: đặt câu hỏi $\rightarrow$ hình thành giả thuyết $\rightarrow$ lập kế hoạch kiểm chứng $\rightarrow$ thực hiện thí nghiệm $\rightarrow$ kết luận. Các kĩ năng then chốt bao gồm: Quan sát (thu thập thông tin qua giác quan), Phân loại (nhóm các đối tượng có đặc điểm tương đồng), Đo lường (sử dụng dụng cụ đo để lấy số liệu chính xác) và Dự báo (đưa ra nhận định về sự việc sắp xảy ra dựa trên bằng chứng). Việc tuân thủ nghiêm ngặt các quy tắc an toàn trong phòng thí nghiệm là yêu cầu tiên quyết để đảm bảo tính chính xác của dữ liệu và sự an toàn cho người học."
+    Count: ~105 words. Perfect.
+
+    *Drafting Exercises*:
+    1. Sắp xếp quy trình.
+    2. Phân tích giả thuyết.
+    3. Phân biệt kĩ năng.
+
+    *Wait*, the prompt says "Môn HOA". I will treat it as "Môn Hóa học" (part of KHTN 7) as that is the only logical interpretation in a school context for Grade 7.
+
+    *Final JSON Structure Check*:
+    {
+        "title": "...",
+        "objective": "...",
+        "theory": "...",
+        "exercises": ["...", "..."]
+    }
+
+    *Checking the "No explanation" rule*: The user said "CHỈ TRẢ VỀ ĐÚNG ĐỊNH DẠNG JSON SAU, KHÔNG GIẢI THÍCH THÊM".
+
+    *One last check on content*: Grade 7, Week 1 (KHTN/Hóa) focuses on:
+    - Introduction to KHTN.
+    - Methods of studying (observation, classification, measurement, prediction).
+    - Skills (using tools, measuring, reporting).
+    - Safety.
+
+    This aligns with the drafted content.
+
+    *Wait, could HOA be "Học và trải nghiệm"?* No, the curriculum name is "Hoạt động trải nghiệm, hướng nghiệp".
+    *Could it be "Hóa"?* Yes. In Vietnamese typing, "Hóa" is often mistyped as "Hoa" if the tone mark is missed. Given the context of "Lớp 7, Tuần 1" and "Lý thuyết và bài tập", it is almost certainly Chemistry (Hóa học).
+
+    Let's refine the JSON.
+
+    `title`: "Phương pháp và Kĩ năng nghiên cứu Khoa học tự nhiên"
+    `objective`: "Giúp học sinh làm quen với các phương pháp nghiên cứu, rèn luyện kĩ năng thực hành và tuân thủ quy tắc an toàn phòng thí nghiệm."
+    `theory`: "Nghiên cứu Khoa học tự nhiên được thực hiện qua quy trình: Đặt câu hỏi $\rightarrow$ Hình thành giả thuyết $\rightarrow$ Lập kế hoạch $\rightarrow$ Thực hiện thí nghiệm $\rightarrow$ Kết luận. Để thực hiện hiệu quả, học sinh cần vận dụng các kĩ năng: Quan sát (dùng giác quan thu thập dữ liệu), Phân loại (nhóm đối tượng tương đồng), Đo lường (sử dụng dụng cụ đo chính xác) và Dự báo (đưa ra nhận định dựa trên bằng chứng). Bên cạnh đó, việc nắm vững các quy tắc an toàn và cách sử dụng thiết bị phòng thí nghiệm là nền tảng cốt lõi để đảm bảo quá trình học tập diễn ra an toàn và đạt kết quả khách quan."
+    `exercises`: [
+        "Bài tập 1: Hãy sắp xếp các bước sau theo đúng trình tự nghiên cứu khoa học: (1) Thực hiện thí nghiệm, (2) Đưa ra kết luận, (3) Quan sát và đặt câu hỏi, (4) Xây dựng giả thuyết.",
+        "Bài tập 2: Trong một thí nghiệm về sự tan của muối trong nước, việc sử dụng cân điện tử để xác định khối lượng muối được gọi là kĩ năng gì?",
+        "Bài tập 3: Nêu hai sự khác biệt chính giữa kĩ năng quan sát và kĩ năng dự báo trong nghiên cứu khoa học."
+    ]
+
+    Total theory words: ~115 words.
+
+    Ready.
+
+{
+    "title": "Phương pháp và Kĩ năng nghiên cứu Khoa học tự nhiên",
+    "objective": "Giúp học sinh nắm vững quy trình nghiên cứu khoa học, rèn luyện các kĩ năng thực hành cơ bản và tuân thủ quy tắc an toàn phòng thí nghiệm.",
+    "theory": "Nghiên cứu Khoa học tự nhiên được thực hiện qua quy trình chuẩn: Đặt câu hỏi $\\rightarrow$ Hình thành giả thuyết $\\rightarrow$ Lập kế hoạch kiểm chứng $\\rightarrow$ Thực hiện thí nghiệm $\\rightarrow$ Kết luận. Để thực hiện quy trình này, học sinh cần vận dụng 4 kĩ năng then chốt: Quan sát (thu thập thông tin qua giác quan), Phân loại (nhóm các đối tượng có đặc điểm chung), Đo lường (sử dụng dụng cụ để lấy số liệu chính xác) và Dự báo (đưa ra nhận định dựa trên bằng chứng có sẵn). Ngoài ra, việc tuân thủ nghiêm ngặt các quy tắc an toàn và cách sử dụng thiết bị phòng thí nghiệm là yêu cầu bắt buộc để đảm bảo kết quả nghiên cứu chính xác và an toàn.",
+    "exercises": [
+        "Bài tập 1: Hãy sắp xếp các bước sau theo đúng trình tự của một quá trình nghiên cứu khoa học: (A) Thực hiện thí nghiệm; (B) Đưa ra kết luận; (C) Đặt câu hỏi nghiên cứu; (D) Xây dựng giả thuyết.",
+        "Bài tập 2: Trong một thí nghiệm đo sự thay đổi nhiệt độ của nước khi đun nóng, việc sử dụng nhiệt kế để lấy số liệu được gọi là kĩ năng gì?",
+        "Bài tập 3: Hãy phân biệt sự khác nhau giữa kĩ năng 'Quan sát' và kĩ năng 'Dự báo' thông qua một ví dụ cụ thể trong tự nhiên."
+    ]
+}

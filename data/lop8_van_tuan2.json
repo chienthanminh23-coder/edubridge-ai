@@ -1,0 +1,74 @@
+*   Role: Education Expert.
+    *   Task: Prepare a transition lesson for Literature (Ngữ văn), Grade 8, Week 2.
+    *   Requirement: Synthesize theory and key exercises for Week 2 according to the 2018 General Education Program (GDPT 2018) standards.
+    *   Constraint: Do NOT copy the textbook verbatim.
+    *   Format: Strictly JSON. No extra explanation.
+    *   Target Content (Week 2 Grade 8 Literature - GDPT 2018):
+        *   Week 1 usually covers introductions/orientation.
+        *   Week 2 typically focuses on specific genres like Poetry (Thơ sáu chữ, bảy chữ) or Narrative (Truyện ngắn/Truyện lịch sử) depending on the specific book series (Kết nối tri thức, Chân trời sáng tạo, Cánh diều).
+        *   *Common theme for Week 2 in Grade 8 (GDPT 2018):* Usually focuses on "Thơ sáu chữ, bảy chữ" (Six-word and seven-word poetry) or "Truyện lịch sử" (Historical fiction). I will focus on the core skill of analyzing six-word and seven-word poetry as it's a common standard in the early weeks of Grade 8.
+
+    *   *Title:* Kỹ năng đọc hiểu thơ sáu chữ và thơ bảy chữ.
+    *   *Objective:* Giúp học sinh nhận biết đặc điểm hình thức (số chữ, vần, nhịp) và phân tích nội dung, cảm xúc trong các tác phẩm thơ sáu chữ, bảy chữ.
+    *   *Theory:*
+        - Thơ sáu chữ/bảy chữ: Mỗi dòng có 6 hoặc 7 tiếng.
+        - Vần: Vần chân (cuối dòng) hoặc vần lưng (giữa dòng); vần liền hoặc vần cách.
+        - Nhịp: Cách ngắt nhịp linh hoạt (2/2/2, 3/3, 4/3...) tạo nhạc tính.
+        - Hình ảnh & Biện pháp tu từ: Sử dụng hình ảnh gợi hình, gợi cảm và các biện pháp như so sánh, ẩn dụ để biểu đạt tình cảm, tư tưởng của tác giả.
+    *   *Exercises:*
+        - Bài tập 1: Đọc một đoạn thơ 6 chữ/7 chữ và xác định cách gieo vần, ngắt nhịp.
+        - Bài tập 2: Phân tích tác dụng của một biện pháp tu từ cụ thể trong đoạn thơ đã cho.
+        - Bài tập 3: Viết đoạn văn ngắn (5-7 câu) cảm nhận về một hình ảnh thơ ấn tượng.
+
+    *   *Title:* Khám phá thế giới thơ sáu chữ và bảy chữ.
+    *   *Objective:* Nhận diện đặc điểm thi pháp và rèn luyện kỹ năng phân tích cảm xúc, hình ảnh trong thơ sáu chữ, bảy chữ.
+    *   *Theory:* Thơ sáu chữ (6 tiếng/dòng) và bảy chữ (7 tiếng/dòng) là những thể thơ có nhịp điệu linh hoạt. Điểm cốt lõi cần nắm vững là: 1. Vần (vần chân, vần lưng, vần liền, vần cách); 2. Nhịp (ngắt quãng để tạo nhạc tính); 3. Hình ảnh và biện pháp tu từ (ẩn dụ, nhân hóa, so sánh) nhằm chuyển tải tâm tư, tình cảm. Việc kết hợp hài hòa giữa hình thức (vần, nhịp) và nội dung (hình ảnh, cảm xúc) tạo nên giá trị thẩm mỹ cho bài thơ.
+    *   *Exercises:*
+        - Bài tập 1: Xác định thể thơ, cách gieo vần và ngắt nhịp của một đoạn thơ tự chọn.
+        - Bài tập 2: Tìm và phân tích tác dụng của biện pháp tu từ trong khổ thơ đầu của một tác phẩm cụ thể.
+        - Bài tập 3: Viết đoạn văn ngắn nêu cảm nhận về tình cảm của nhân vật trữ tình qua một đoạn thơ sáu chữ/bảy chữ.
+
+    *   Check word count for theory: ~85 words. (Pass < 150).
+    *   Check JSON structure.
+    *   Check content: Align with Grade 8, Week 2, GDPT 2018 (Poetry analysis focus).
+
+    
+    {
+      "title": "Kỹ năng đọc hiểu thơ sáu chữ và bảy chữ",
+      "objective": "Nhận diện đặc điểm hình thức và phân tích giá trị nội dung, cảm xúc trong thơ sáu chữ, bảy chữ.",
+      "theory": "Thơ sáu chữ và bảy chữ là những thể thơ có nhịp điệu linh hoạt, giàu nhạc tính. Khi phân tích, cần chú ý: 1. Hình thức: Số chữ trong mỗi dòng; cách gieo vần (vần chân, vần lưng, vần liền, vần cách); cách ngắt nhịp (2/2/2, 3/3, 4/3...). 2. Nội dung: Hình ảnh thơ (gợi hình, gợi cảm) và các biện pháp tu từ (so sánh, ẩn dụ, nhân hóa...) được sử dụng để thể hiện tâm trạng, tư tưởng của tác giả. Sự kết hợp giữa nhịp điệu và hình ảnh tạo nên sức hấp dẫn và chiều sâu cảm xúc cho tác phẩm.",
+      "exercises": [
+        "Bài tập 1: Cho một đoạn thơ, hãy xác định thể thơ, cách gieo vần và cách ngắt nhịp chính của đoạn thơ đó.",
+        "Bài tập 2: Chỉ ra và phân tích tác dụng của một biện pháp tu từ nổi bật trong khổ thơ được cung cấp.",
+        "Bài tập 3: Viết đoạn văn (khoảng 5-7 câu) trình bày cảm nhận về một hình ảnh thơ đặc sắc trong bài thơ đã học."
+      ]
+    }
+    
+
+    *   Role: Expert.
+    *   Subject: Literature 8, Week 2.
+    *   Standards: 2018 Program.
+    *   No copying: Checked.
+    *   Format: JSON only.
+
+    *Self-correction on content:* Week 2 for grade 8 often covers "Thơ sáu chữ, bảy chữ" in books like *Kết nối tri thức*. This matches.
+
+    *Final JSON check:*
+    - title: string
+    - objective: string
+    - theory: string (<150 words)
+    - exercises: array of strings
+
+    *Word count check for theory:*
+    "Thơ sáu chữ và bảy chữ là những thể thơ có nhịp điệu linh hoạt, giàu nhạc tính. Khi phân tích, cần chú ý: 1. Hình thức: Số chữ trong mỗi dòng; cách gieo vần (vần chân, vần lưng, vần liền, vần cách); cách ngắt nhịp (2/2/2, 3/3, 4/3...). 2. Nội dung: Hình ảnh thơ (gợi hình, gợi cảm) và các biện pháp tu từ (so sánh, ẩn dụ, nhân hóa...) được sử dụng để thể hiện tâm trạng, tư tưởng của tác giả. Sự kết hợp giữa nhịp điệu và hình ảnh tạo nên sức hấp dẫn và chiều sâu cảm xúc cho tác phẩm." -> ~95 words. Perfect.
+
+{
+    "title": "Kỹ năng đọc hiểu thơ sáu chữ và bảy chữ",
+    "objective": "Nhận diện đặc điểm hình thức và phân tích giá trị nội dung, cảm xúc trong thơ sáu chữ, bảy chữ.",
+    "theory": "Thơ sáu chữ và bảy chữ là những thể thơ có nhịp điệu linh hoạt, giàu nhạc tính. Khi tiếp cận, cần lưu ý: 1. Hình thức: Số tiếng trong mỗi dòng; cách gieo vần (vần chân, vần lưng, vần liền, vần cách); cách ngắt nhịp (ví dụ: 2/2/2, 3/3, 4/3...). 2. Nội dung: Hình ảnh thơ (gợi hình, gợi cảm) và các biện pháp tu từ (so sánh, ẩn dụ, nhân hóa...) được sử dụng để chuyển tải tâm trạng, tư tưởng của tác giả. Việc phân tích sự kết hợp giữa vần, nhịp và hình ảnh sẽ giúp làm nổi bật cảm xúc chủ đạo của bài thơ.",
+    "exercises": [
+        "Bài tập 1: Đọc một đoạn thơ tự chọn và xác định thể thơ, cách gieo vần cũng như cách ngắt nhịp của đoạn thơ đó.",
+        "Bài tập 2: Chỉ ra một biện pháp tu từ trong khổ thơ được cho và phân tích tác dụng của nó trong việc biểu đạt cảm xúc.",
+        "Bài tập 3: Viết đoạn văn ngắn (5-7 câu) nêu cảm nhận của em về một hình ảnh thơ ấn tượng trong bài thơ đã học ở tuần 2."
+    ]
+}

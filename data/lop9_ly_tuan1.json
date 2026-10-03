@@ -1,0 +1,79 @@
+*   Role: Education Expert.
+    *   Task: Create a transitional lesson (lesson for the start of the year) for Physics (LY), Grade 9, Week 1.
+    *   Content Requirement: Summarize theory and key exercises for Week 1 based on the 2018 General Education Program (GDPT 2018).
+    *   Constraint: Do NOT copy the textbook verbatim.
+    *   Output Format: Strictly JSON, no extra explanation.
+
+    *   *Context:* In the 2018 GDPT curriculum for Grade 9 Science (Khoa học tự nhiên - KHTN), Physics is integrated. However, if the user specifically asks for "Môn Lý, Lớp 9" (Physics, Grade 9), they are likely referring to the Physics component within the KHTN textbook or a curriculum structured by subject.
+    *   *Week 1 Content (KHTN 9):* Usually, the first topic in the new curriculum for Grade 9 (KHTN) involves **Energy/Electricity/Magnetism** or **Light**. According to the most common textbook structures (like *Kết nối tri thức* or *Chân trời sáng tạo*), the first unit in Grade 9 KHTN often deals with **Energy/Electricity (Điện học)** or **Light/Optics (Quang học)**.
+    *   *Wait, let's check the specific 2018 curriculum for Grade 9 Physics topics:*
+        *   Topic 1: Energy (Năng lượng cơ học/Điện).
+        *   Actually, the 2018 curriculum for Grade 9 Physics often starts with **Energy and Work/Power** or jumps into **Electricity (Electric current, Circuits)**.
+        *   Let's assume the focus is on the foundational concept of **Electric Current and Voltage/Circuit basics** as it's the standard entry point for the grade 9 physics component in the new curriculum.
+
+    *   *Theory Outline:*
+        *   Concept of Electric Current (Dòng điện).
+        *   Voltage/Potential Difference (Hiệu điện thế).
+        *   Circuit components (Amperemeter, Voltmeter).
+        *   Ohm's Law (simplified or intro).
+
+    *   *Refining Theory (under 150 words):*
+        Dòng điện là dòng chuyển dịch có hướng của các hạt mang điện. Để tạo ra dòng điện, ta cần nguồn điện (pin, acquy) và mạch kín. Hiệu điện thế (U) là đại lượng đặc trưng cho khả năng sinh công của điện trường, đơn vị là Volt (V). Ampe kế dùng đo cường độ dòng điện (I), còn Vôn kế dùng đo hiệu điện thế. Sự chênh lệch điện thế giữa hai điểm tạo ra lực đẩy các hạt điện tích di chuyển, duy trì dòng điện trong mạch.
+
+    *   *Exercises:*
+        1.  Identifying components in a circuit.
+        2.  Calculation of simple I or U based on reading meters.
+        3.  Scenario-based question on circuit connection.
+
+    *   *Title:* Ôn tập và Khởi động: Dòng điện và Mạch điện cơ bản.
+    *   *Objective:* Nắm vững khái niệm dòng điện, hiệu điện thế và cách sử dụng các thiết bị đo điện cơ bản.
+    *   *Theory:* Dòng điện là dòng dịch chuyển có hướng của các hạt mang điện. Để duy trì dòng điện, cần có nguồn điện và một mạch điện kín. Hiệu điện thế (U) biểu thị sự chênh lệch điện năng giữa hai điểm trong mạch, đơn vị là Volt (V). Các dụng cụ đo chính bao gồm: Ampe kế dùng để đo cường độ dòng điện (I) chạy qua mạch, và Vôn kế dùng để đo hiệu điện thế giữa hai cực của nguồn hoặc hai điểm bất kỳ. Việc hiểu rõ vai trò của nguồn điện và các thiết bị đo là nền tảng để nghiên cứu về điện học và các định luật về mạch điện sau này.
+    *   *Exercises:*
+        1. "Phân biệt vai trò của Ampe kế và Vôn kế trong một mạch điện đơn giản."
+        2. "Một mạch điện nối với pin có hiệu điện thế 9V. Nếu thay bằng pin 1,5V thì cường độ dòng điện trong mạch thay đổi như thế nào? Giải thích."
+        3. "Nêu các điều kiện cần thiết để một thiết bị điện có thể hoạt động bình thường trong mạch."
+
+    *   JSON format? Yes.
+    *   Title included? Yes.
+    *   Objective included? Yes.
+    *   Theory < 150 words? Yes (approx 90 words).
+    *   Exercises included? Yes.
+    *   No explanation added? Yes.
+    *   GDPT 2018 compliant? Yes (focuses on conceptual understanding and practical application).
+
+    *(Self-Correction on Subject Name: In 2018 curriculum, it's "Khoa học tự nhiên 9", but users often call the physics part "Lý 9". I will treat it as the Physics component of KHTN 9.)*
+
+    
+    {
+        "title": "Khởi động về Dòng điện và Mạch điện",
+        "objective": "Hiểu bản chất dòng điện, hiệu điện thế và cách sử dụng thiết bị đo cơ bản.",
+        "theory": "Dòng điện là dòng dịch chuyển có hướng của các hạt mang điện. Để có dòng điện, cần có nguồn điện và mạch điện kín. Hiệu điện thế (U) là đại lượng đo sự chênh lệch điện năng giữa hai điểm, đơn vị là Volt (V). Trong thực hành, Ampe kế được dùng để đo cường độ dòng điện (I) chạy trong mạch, trong khi Vôn kế dùng để đo hiệu điện thế giữa hai điểm. Việc nắm vững các khái niệm này giúp học sinh phân tích được cấu trúc và nguyên lý hoạt động của các mạch điện đơn giản trong đời sống.",
+        "exercises": [
+            "Bài tập 1: Cho sơ đồ mạch điện gồm pin, công tắc, bóng đèn và dây dẫn. Hãy chỉ ra các thành phần đóng vai trò là nguồn điện và thiết bị tiêu thụ điện.",
+            "Bài tập 2: Nếu một ampe kế chỉ số 0,5A khi đèn sáng, nhưng khi ngắt công tắc, số chỉ ampe kế thay đổi như thế nào? Giải thích lý do.",
+            "Bài tập 3: Phân biệt cách mắc Ampe kế và Vôn kế vào mạch điện (nối tiếp hay song song) để đảm bảo đo chính xác."
+        ]
+    }
+    
+
+    *Wait, I should make sure the exercises are "trọng tâm" (key).*
+
+    Revised Exercises:
+    1. Identify circuit components.
+    2. Concept of U and I relation (qualitative).
+    3. Measurement technique (Amperemeter/Voltmeter connection).
+
+    *Check word count for theory again:*
+    "Dòng điện là dòng dịch chuyển có hướng của các hạt mang điện. Để có dòng điện, cần có nguồn điện và mạch điện kín. Hiệu điện thế (U) là đại lượng đo sự chênh lệch điện năng giữa hai điểm, đơn vị là Volt (V). Trong thực hành, Ampe kế được dùng để đo cường độ dòng điện (I) chạy trong mạch, trong khi Vôn kế dùng để đo hiệu điện thế giữa hai điểm. Việc nắm vững các khái niệm này giúp học sinh phân tích được cấu trúc và nguyên lý hoạt động của các mạch điện đơn giản trong đời sống."
+    -> ~95 words. Perfect.
+
+{
+    "title": "Khởi động về Dòng điện và Mạch điện cơ bản",
+    "objective": "Nắm vững khái niệm dòng điện, hiệu điện thế và cách sử dụng các thiết bị đo điện trong thực hành.",
+    "theory": "Dòng điện là dòng dịch chuyển có hướng của các hạt mang điện. Để tạo ra dòng điện, cần có nguồn điện (pin, acquy...) và một mạch điện kín. Hiệu điện thế (U) là đại lượng đặc trưng cho khả năng sinh công của điện trường giữa hai điểm, đơn vị là Volt (V). Trong các thí nghiệm, Ampe kế được sử dụng để đo cường độ dòng điện (I) chạy qua mạch, trong khi Vôn kế dùng để đo hiệu điện thế giữa hai điểm bất kỳ. Việc hiểu rõ mối liên hệ giữa nguồn điện, thiết bị đo và mạch kín là nền tảng để nghiên cứu các định luật về điện học.",
+    "exercises": [
+        "Bài tập 1: Hãy phân biệt sự khác nhau về cách mắc Ampe kế và Vôn kế vào trong một mạch điện để đảm bảo kết quả đo chính xác.",
+        "Bài tập 2: Trong một mạch điện kín, nếu ta thay thế nguồn điện có hiệu điện thế thấp bằng một nguồn điện có hiệu điện thế cao hơn, hãy dự đoán sự thay đổi của dòng điện và giải thích.",
+        "Bài tập 3: Cho sơ đồ mạch điện gồm nguồn, công tắc, bóng đèn và ampe kế. Hãy liệt kê các bước để kiểm tra xem bóng đèn có hoạt động hay không bằng các dụng cụ trên."
+    ]
+}

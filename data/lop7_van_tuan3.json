@@ -1,0 +1,58 @@
+*   Role: Education Expert.
+    *   Task: Create a transition lesson (review/summary) for Literature (Ngữ văn), Grade 7, Week 3.
+    *   Content Requirement: "Synthesize theory and key exercises for Week 3, Grade 7 Literature, according to the 2018 General Education Program standards."
+    *   Constraint: Absolutely do not copy the textbook verbatim.
+    *   Format Requirement: Return *only* a specific JSON object. No extra explanation.
+    *   Language: Vietnamese.
+
+    *   In the 2018 curriculum (for most sets like *Kết nối tri thức*, *Cánh diều*, or *Chân trời sáng tạo*), Week 3 of Grade 7 Literature usually focuses on:
+        *   *Genre:* Poetry (Four-word or five-word poems - Thơ bốn chữ, năm chữ).
+        *   *Skills:* Identifying rhythm, rhyme, imagery, and emotions in poems.
+        *   *Language:* Expansion of vocabulary or specific grammar points (often related to adjectives or verbs used in descriptive contexts).
+    *   *Note:* Since the prompt asks for a general "standard" based on the 2018 program, I will focus on the common theme of **Four-word and Five-word Poetry** (Thơ bốn chữ, năm chữ) which is the core of Week 3 in most curricula.
+
+    *   *Title:* Tổng ôn: Đặc điểm Thơ bốn chữ và Thơ năm chữ.
+    *   *Objective:* Giúp học sinh nắm vững đặc điểm hình thức (vần, nhịp, khổ) và nội dung (hình ảnh, cảm xúc) của thơ bốn chữ, năm chữ; rèn luyện kỹ năng phân tích.
+    *   *Theory:*
+        *   Thơ bốn chữ/năm chữ thường có nhịp linh hoạt (2/2 hoặc 3/2, 2/3).
+        *   Vần: Vần chân (cuối dòng) hoặc vần lưng (giữa dòng); vần liền hoặc vần cách.
+        *   Hình ảnh: Gần gũi, giàu sức gợi, thường gắn với thiên nhiên hoặc đời sống.
+        *   Cảm xúc: Là mạch ngầm xuyên suốt, thể hiện tâm trạng, suy ngẫm của tác giả.
+        *   Cách đọc: Chú trọng ngắt nhịp và cảm nhận nhịp điệu để hiểu ý nghĩa.
+    *   *Exercises:*
+        1.  Cho một đoạn thơ 4 chữ/5 chữ, yêu cầu xác định vần và nhịp.
+        2.  Viết đoạn văn ngắn (5-7 câu) chia sẻ cảm xúc về một hình ảnh trong bài thơ vừa học.
+
+    *   *Constraint Check:* Under 150 words for theory? Yes.
+    *   *Constraint Check:* No textbook copying? Yes, synthesized from pedagogical knowledge.
+    *   *Constraint Check:* JSON format only? Yes.
+
+    
+    {
+      "title": "Ôn tập Đặc điểm Thơ bốn chữ và Thơ năm chữ",
+      "objective": "Nắm vững cấu trúc hình thức (vần, nhịp, khổ) và khả năng biểu đạt cảm xúc thông qua hình ảnh trong thơ bốn chữ, năm chữ.",
+      "theory": "Thơ bốn chữ và năm chữ có đặc điểm nhận diện chính là số chữ trong mỗi dòng thơ. Về nhịp điệu, thể thơ này thường sử dụng nhịp linh hoạt (như 2/2, 3/2 hoặc 2/3) tạo nên âm hưởng đặc trưng. Về vần, tác giả thường sử dụng vần chân (ở cuối dòng) hoặc vần lưng (ở giữa dòng), kết hợp vần liền hoặc vần cách để tạo sự kết nối. Hình ảnh trong thơ thường hàm súc, giàu sức gợi hình, gợi cảm, giúp chuyển tải tâm tư, tình cảm của người viết một cách tinh tế. Khi phân tích, cần chú trọng sự tương quan giữa nhịp, vần và cảm xúc chủ đạo.",
+      "exercises": [
+        "Bài tập 1: Đọc một đoạn thơ bốn chữ/năm chữ tự chọn và thực hiện xác định kiểu vần (vần liền hay vần cách) cùng cách ngắt nhịp chính của đoạn thơ đó.",
+        "Bài tập 2: Viết một đoạn văn ngắn (khoảng 5-7 câu) nêu cảm nhận của em về một hình ảnh thơ độc đáo trong một bài thơ đã học ở tuần 3.",
+        "Bài tập 3: Tập sáng tác 4 dòng thơ (theo thể bốn chữ hoặc năm chữ) về chủ đề thiên nhiên, có sử dụng vần chân."
+      ]
+    }
+    
+
+    *   Title: Short? Yes.
+    *   Objective: Core? Yes.
+    *   Theory: < 150 words? (Count: ~105 words). Yes.
+    *   Exercises: Included? Yes.
+    *   Format: JSON only? Yes.
+
+{
+    "title": "Ôn tập Đặc điểm Thơ bốn chữ và Thơ năm chữ",
+    "objective": "Giúp học sinh nhận diện cấu trúc hình thức (vần, nhịp, khổ) và khả năng biểu đạt cảm xúc qua hình ảnh trong thơ bốn chữ, năm chữ.",
+    "theory": "Thơ bốn chữ và năm chữ có số chữ mỗi dòng cố định, tạo nhịp điệu linh hoạt (thường là 2/2, 3/2 hoặc 2/3). Về vần, tác giả có thể dùng vần chân (cuối dòng) hoặc vần lưng (giữa dòng), kết hợp vần liền hoặc vần cách để tạo sự kết nối âm điệu. Hình ảnh trong thơ thường cô đọng, giàu sức gợi, là phương tiện để chuyển tải thế giới nội tâm của tác giả. Khi phân tích, cần chú trọng sự tương quan giữa cách ngắt nhịp, gieo vần với việc bộc lộ cảm xúc và thông điệp của bài thơ.",
+    "exercises": [
+        "Bài tập 1: Đọc một đoạn thơ bốn chữ hoặc năm chữ bất kỳ và xác định kiểu vần (vần liền/vần cách) cùng cách ngắt nhịp chủ đạo của đoạn đó.",
+        "Bài tập 2: Viết đoạn văn ngắn (5-7 câu) phân tích tác dụng của một hình ảnh thơ giàu sức gợi trong các bài thơ đã học ở tuần 3.",
+        "Bài tập 3: Sáng tác 4 dòng thơ theo thể bốn chữ hoặc năm chữ về chủ đề tình cảm gia đình, có sử dụng vần chân."
+    ]
+}

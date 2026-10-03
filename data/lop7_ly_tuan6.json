@@ -1,0 +1,54 @@
+*   Role: Education Expert.
+    *   Topic: Transition lesson for Physics (LY), Grade 7, Week 6.
+    *   Standard: GDPT 2018 (New curriculum).
+    *   Goal: "Summarize theory and key exercises for Week 6 Physics Grade 7 according to GDPT 2018 standards."
+    *   Constraint 1: Do NOT copy directly from the textbook.
+    *   Constraint 2: Strictly return ONLY a JSON object with specific keys (`title`, `objective`, `theory`, `exercises`).
+    *   Constraint 3: No extra explanation.
+    *   Constraint 4: Theory must be under 150 words.
+
+    *   In the new GDPT 2018 curriculum for Grade 7 Science (Khoa học tự nhiên - KHTN), Physics topics are integrated.
+    *   Grade 7 Physics topics usually cover: Light (Ánh sáng), Sound (Âm thanh), or Magnetism (Từ trường).
+    *   Specifically, Week 6 in many popular textbook series (like *Kết nối tri thức* or *Chân trời sáng tạo*) typically deals with:
+        *   *Kết nối tri thức:* Light - Reflection of light/Laws of reflection.
+        *   *Chân trời sáng tạo/Cánh diều:* Light - Reflection or the properties of light.
+    *   Let's focus on **Reflection of Light (Phản xạ ánh sáng)** as it is a core Week 6 topic in the new curriculum.
+
+    *   *Title:* Ôn tập Phản xạ ánh sáng.
+    *   *Objective:* Củng cố kiến thức về định luật phản xạ ánh sáng và ứng dụng trong thực tế.
+    *   *Theory (Summary < 150 words):*
+        Khi ánh sáng gặp bề mặt nhẵn (như gương phẳng), tia sáng sẽ bị hắt lại theo hướng khác. Hiện tượng này gọi là phản xạ ánh sáng. Có hai loại chính: phản xạ gương (bề mặt phẳng) và phản xạ khuếch tán (bề mặt gồ ghề).
+        Định luật phản xạ ánh sáng:
+        1. Tia phản xạ nằm trong cùng mặt phẳng với tia tới và pháp tuyến tại điểm tới.
+        2. Góc phản xạ (r) luôn bằng góc tới (i).
+        Ghi chú: Góc tới và góc phản xạ được tính bằng số đo góc hợp bởi tia tới/tia phản xạ với pháp tuyến.
+    *   *Exercises:*
+        1. Một tia sáng tới gương phẳng hợp với mặt gương một góc 30 độ. Tính góc tới và góc phản xạ.
+        2. Vẽ hình minh họa tia tới, pháp tuyến và tia phản xạ khi biết góc tới i = 45 độ.
+        3. Giải thích tại sao khi đi trên đường nhựa gồ ghề, ta không nhìn thấy hình ảnh phản chiếu rõ nét như khi nhìn vào mặt nước phẳng.
+
+    *   `title`: "Tổng hợp kiến thức: Phản xạ ánh sáng"
+    *   `objective`: "Hệ thống hóa định luật phản xạ ánh sáng và rèn luyện kỹ năng tính toán góc phản xạ."
+    *   `theory`: "Phản xạ ánh sáng là hiện tượng tia sáng bị hắt trở lại môi trường cũ khi gặp bề mặt ngăn cách. Nếu bề mặt phẳng, hiện tượng gọi là phản xạ gương; nếu bề mặt gồ ghề, là phản xạ khuếch tán. Định luật phản xạ ánh sáng gồm: (1) Tia phản xạ nằm trong mặt phẳng chứa tia tới và pháp tuyến tại điểm tới; (2) Góc phản xạ bằng góc tới (r = i). Lưu ý, góc tới và góc phản xạ là góc hợp bởi tia sáng và pháp tuyến, không phải hợp bởi tia sáng và mặt gương." (98 words) - *Perfect.*
+    *   `exercises`: [
+        "Bài tập 1: Một tia sáng chiếu tới gương phẳng tạo với mặt gương một góc 40 độ. Hãy tính góc tới và góc phản xạ của tia sáng đó.",
+        "Bài tập 2: Cho góc tới i = 35 độ. Vẽ sơ đồ tia tới, pháp tuyến và tia phản xạ. Xác định giá trị của góc phản xạ r.",
+        "Bài tập 3: Tại sao ta có thể nhìn thấy các vật xung quanh nhờ ánh sáng phản xạ từ chúng vào mắt, nhưng khi nhìn vào một tấm gỗ nhám ta không thấy hình ảnh phản chiếu rõ nét như gương?"
+    ]
+
+    *   JSON format? Yes.
+    *   No explanation? Yes.
+    *   Under 150 words theory? Yes.
+    *   GDPT 2018 compliant? Yes.
+    *   Topic correct for Week 6 Grade 7 KHTN (Physics part)? Yes.
+
+{
+    "title": "Tổng hợp kiến thức: Phản xạ ánh sáng",
+    "objective": "Củng cố định luật phản xạ ánh sáng và rèn luyện kỹ năng tính toán, vẽ hình tia sáng.",
+    "theory": "Phản xạ ánh sáng xảy ra khi tia sáng gặp bề mặt ngăn cách và bị hắt trở lại môi trường cũ. Nếu bề mặt phẳng nhẵn, ta có phản xạ gương; nếu bề mặt gồ ghề, ta có phản xạ khuếch tán. Định luật phản xạ ánh sáng xác định: 1) Tia phản xạ nằm trong cùng mặt phẳng chứa tia tới và pháp tuyến tại điểm tới. 2) Góc phản xạ (r) luôn bằng góc tới (i). Lưu ý quan trọng: Góc tới và góc phản xạ được đo giữa tia sáng và pháp tuyến, không phải giữa tia sáng và mặt gương.",
+    "exercises": [
+        "Bài tập 1: Một tia sáng chiếu tới gương phẳng hợp với mặt gương một góc 35 độ. Hãy tính góc tới (i) và góc phản xạ (r) của tia sáng đó.",
+        "Bài tập 2: Vẽ hình minh họa quá trình phản xạ ánh sáng khi biết góc tới i = 45 độ. Hãy chú thích rõ các thành phần: tia tới, pháp tuyến, tia phản xạ và góc phản xạ.",
+        "Bài tập 3: Giải thích tại sao khi nhìn vào một mặt hồ nước phẳng lặng, ta thấy hình ảnh cây cối rõ nét, nhưng khi mặt hồ bị xao động bởi gió, hình ảnh lại bị nhòe đi?"
+    ]
+}

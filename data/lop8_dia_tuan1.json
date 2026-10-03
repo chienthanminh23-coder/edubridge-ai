@@ -1,0 +1,59 @@
+*   Role: Education Expert.
+    *   Task: Prepare a transition lesson for Geography (DIA - Địa lí), Grade 8, Week 1.
+    *   Requirement: Synthesize theory and key exercises for Week 1 of Grade 8 Geography (GDPT 2018 curriculum). Do NOT copy the textbook verbatim.
+    *   Output Format: Strict JSON format. No extra explanation.
+
+    *   Subject: Geography Grade 8 (GDPT 2018).
+    *   Week 1 Topics (Commonly): Usually starts with "Vị trí địa lí và phạm vi lãnh thổ Việt Nam" (Geographical position and territorial scope of Vietnam) or "Đặc điểm địa hình Việt Nam" (Characteristics of Vietnam's terrain) depending on the specific book series (Kết nối tri thức, Chân trời sáng tạo, Cánh diều).
+    *   Standard Theme for Week 1: Most books start with the characteristics of the territory/natural features. Let's focus on "Vị trí địa lí và đặc điểm lãnh thổ Việt Nam" as it's the most foundational starting point.
+
+    *   *Title:* Vị trí địa lí và Phạm vi lãnh thổ Việt Nam.
+    *   *Objective:* Hiểu rõ tọa độ, các bộ phận lãnh thổ (vùng đất, vùng biển, vùng trời) và ý nghĩa của vị trí địa lí đối với tự nhiên, kinh tế - xã hội.
+    *   *Theory (Summarized < 150 words):*
+        Việt Nam nằm ở rìa phía đông của bán đảo Đông Dương, gần trung tâm khu vực Đông Nam Á. Lãnh thổ là một khối thống nhất và toàn vẹn, bao gồm: vùng đất (đất liền và hải đảo), vùng biển (nội thủy, lãnh hải, vùng tiếp giáp lãnh hải, vùng đặc quyền kinh tế và thềm lục địa) và vùng trời. Vị trí này mang lại đặc điểm khí hậu nhiệt đới ẩm gió mùa, tài nguyên thiên nhiên phong phú và đa dạng sinh học cao. Tuy nhiên, Việt Nam cũng nằm trong vùng chịu nhiều thiên tai như bão, lũ lụt. Vị trí chiến lược tạo điều kiện thuận lợi để giao lưu kinh tế quốc tế qua đường biển và đường hàng không.
+    *   *Exercises:*
+        1. Trắc nghiệm: Xác định tọa độ địa lí hoặc các bộ phận lãnh thổ.
+        2. Tự luận: Phân tích ảnh hưởng của vị trí địa lí đến khí hậu Việt Nam.
+
+    *   Check word count for theory: ~110 words. Good.
+    *   Check content: Covers position, territory components, and significance.
+    *   Check constraints: JSON format only, no extra text.
+
+    
+    {
+      "title": "Vị trí địa lí và Phạm vi lãnh thổ Việt Nam",
+      "objective": "Nắm vững các bộ phận cấu thành lãnh thổ và phân tích được ảnh hưởng của vị trí địa lí đến đặc điểm tự nhiên, kinh tế - xã hội Việt Nam.",
+      "theory": "Việt Nam nằm ở rìa phía đông bán đảo Đông Dương, gần trung tâm khu vực Đông Nam Á. Lãnh thổ bao gồm ba bộ phận hợp nhất: vùng đất (đất liền và các đảo), vùng biển (gồm nội thủy, lãnh hải, vùng tiếp giáp lãnh hải, vùng đặc quyền kinh tế và thềm lục địa) và vùng trời. Vị trí này quy định đặc điểm thiên nhiên nhiệt đới ẩm gió mùa, tài nguyên sinh vật phong phú nhưng cũng khiến nước ta thường xuyên chịu ảnh hưởng của thiên tai. Về kinh tế, vị trí cửa ngõ ra biển giúp Việt Nam thuận lợi giao lưu quốc tế, phát triển đa dạng các ngành kinh tế biển và đường hàng không.",
+      "exercises": [
+        "Bài tập 1: Dựa vào kiến thức đã học, hãy phân biệt sự khác nhau giữa nội thủy và lãnh hải trong vùng biển Việt Nam.",
+        "Bài tập 2: Giải thích tại sao vị trí địa lí khiến khí hậu nước ta không bị khô hạn như các quốc gia cùng vĩ độ ở Tây Á hay Bắc Phi.",
+        "Bài tập 3: Trình bày những thuận lợi và khó khăn về mặt tự nhiên khi Việt Nam nằm ở khu vực giao thoa giữa các luồng di cư sinh vật."
+      ]
+    }
+    
+
+Ensure no markdown outside the JSON if possible, or just standard JSON block. The prompt says "CHỈ TRẢ VỀ ĐÚNG ĐỊNH DẠNG JSON SAU, KHÔNG GIẢI THÍCH THÊM".
+
+    *Self-Correction during drafting:* The theory is around 125 words. Perfect.
+
+    *Final Polish:*
+    Title: Vị trí địa lí và Phạm vi lãnh thổ Việt Nam
+    Objective: Hiểu rõ các bộ phận của lãnh thổ và tác động của vị trí địa lí đến tự nhiên, kinh tế.
+    Theory: Việt Nam nằm ở rìa đông bán đảo Đông Dương, gần trung tâm Đông Nam Á. Lãnh thổ là một khối thống nhất gồm: vùng đất (đất liền, hải đảo), vùng biển (nội thủy, lãnh hải, vùng tiếp giáp lãnh hải, vùng đặc quyền kinh tế và thềm lục địa) và vùng trời. Vị trí này quy định đặc điểm tự nhiên nhiệt đới ẩm gió mùa, tài nguyên đa dạng nhưng cũng nhiều thiên tai. Về kinh tế, đây là vị trí chiến lược giúp hội nhập quốc tế, phát triển giao thông vận tải biển và hàng không, tạo đà phát triển kinh tế biển bền vững.
+    Exercises:
+    1. Trắc nghiệm: Xác định các bộ phận của vùng biển Việt Nam.
+    2. Tự luận: Chứng minh vị trí địa lí tạo nên tính chất nhiệt đới ẩm gió mùa của thiên nhiên Việt Nam.
+    3. Liên hệ: Nêu ý nghĩa chiến lược của vị trí địa lí Việt Nam đối với an ninh quốc phòng.
+
+    *Actually, I will stick to a slightly more professional wording for the expert persona.*
+
+{
+    "title": "Vị trí địa lí và Phạm vi lãnh thổ Việt Nam",
+    "objective": "Nắm vững các thành phần cấu tạo nên lãnh thổ quốc gia và phân tích được tác động của vị trí địa lí đến đặc điểm tự nhiên, kinh tế - xã hội.",
+    "theory": "Việt Nam nằm ở rìa phía đông bán đảo Đông Dương, gần trung tâm khu vực Đông Nam Á. Lãnh thổ là một khối thống nhất, toàn vẹn bao gồm: vùng đất (đất liền và các đảo), vùng biển (nội thủy, lãnh hải, vùng tiếp giáp lãnh hải, vùng đặc quyền kinh tế và thềm lục địa) và vùng trời. Vị trí này mang lại đặc điểm khí hậu nhiệt đới ẩm gió mùa, tài nguyên thiên nhiên phong phú và đa dạng sinh học cao. Tuy nhiên, nước ta cũng nằm trong khu vực thường xuyên chịu tác động của thiên tai như bão, lũ lụt. Về mặt kinh tế, vị trí cửa ngõ ra biển thuận lợi cho việc giao lưu quốc tế qua đường biển và hàng không, thúc đẩy hội nhập khu vực.",
+    "exercises": [
+        "Bài tập 1: Dựa vào kiến thức đã học, hãy phân biệt sự khác nhau giữa nội thủy và lãnh hải trong vùng biển Việt Nam.",
+        "Bài tập 2: Giải thích tại sao vị trí địa lí khiến khí hậu Việt Nam có tính chất nhiệt đới ẩm gió mùa thay vì khô hạn như các quốc gia cùng vĩ độ ở Tây Á.",
+        "Bài tập 3: Phân tích những thuận lợi và thách thức về mặt tự nhiên đối với việc phát triển kinh tế biển tại Việt Nam."
+    ]
+}

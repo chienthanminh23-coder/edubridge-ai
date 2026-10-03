@@ -1,0 +1,56 @@
+*   Role: Education Expert.
+    *   Subject: SU (This is likely an abbreviation for "Sử" - History, as it's a common way students/teachers refer to it in Vietnam, especially when paired with "Địa" for Social Sciences. Given "Lớp 8" and "GDPT 2018", it refers to History & Geography, specifically the History part).
+    *   Topic: Transition lesson (Bài học chuyển tiếp), Grade 8, Week 1.
+    *   Standard: GDPT 2018 (General Education Program 2018).
+    *   Requirements: Summarize core theory and key exercises. Do NOT copy the textbook directly.
+    *   Constraint: Return *only* a specific JSON format. No extra explanation.
+
+    *   Grade 8 History (part of History & Geography) under GDPT 2018 usually starts with "Europe and North America from the mid-16th to the end of the 18th century" or specifically "The Industrial Revolution" / "Bourgeois Revolutions".
+    *   However, "Week 1" in a "Transition lesson" (Bài học chuyển tiếp) often serves as a bridge or a review/overview of what's coming.
+    *   Looking at the Grade 8 History curriculum (GDPT 2018): Chapter 1 usually covers the "Europe and North America in the 16th - 18th centuries" (revolutions, industrialization).
+    *   *Wait*, if it's a "Transition lesson" (Bài học chuyển tiếp), it might mean a recap of Grade 7 or a preview of Grade 8. But the prompt asks for "Theory and exercises of Week 1 Grade 8".
+    *   Common Week 1 topic for Grade 8 History (GDPT 2018): "Cách mạng tư sản Anh và Chiến tranh giành độc lập của 13 thuộc địa Anh ở Bắc Mỹ" (English Bourgeois Revolution and American War of Independence).
+
+    *   *Theory:* Focus on the context of Bourgeois Revolutions. Why did they happen? (Contradiction between new productive forces/capitalism and old feudalism). Key events: English Civil War, American Revolution. Result: Clearing obstacles for capitalism.
+    *   *Objective:* Understand the nature, causes, and impact of early bourgeois revolutions.
+    *   *Exercises:* Multiple choice and short answer/thinking questions.
+
+    *   *Title:* Khởi động: Những cuộc cách mạng tư sản tiêu biểu (Starting: Representative Bourgeois Revolutions).
+    *   *Objective:* Nắm vững nguyên nhân, đặc điểm và ý nghĩa của các cuộc cách mạng tư sản thế kỷ XVI - XVIII.
+    *   *Theory:* Vào thế kỷ XVI - XVIII, sự phát triển của phương thức sản xuất tư bản chủ nghĩa mâu thuẫn gay gắt với chế độ phong kiến lỗi thời. Điều này dẫn đến các cuộc cách mạng tư sản (như ở Anh, Mỹ, Pháp) nhằm lật đổ sự thống trị của phong kiến hoặc thực dân, xác lập sự thống trị của giai cấp tư sản. Kết quả là mở đường cho chủ nghĩa tư bản phát triển mạnh mẽ, thúc đẩy kinh tế và xã hội chuyển biến sâu sắc.
+    *   *Exercises:*
+        1.  Identify the main cause of the English Bourgeois Revolution.
+        2.  Compare the goals of the American War of Independence and the English Revolution.
+
+    *   `title`: "Tổng quan về các cuộc Cách mạng tư sản thế kỷ XVI - XVIII"
+    *   `objective`: "Giúp học sinh nhận diện bối cảnh, nguyên nhân và tác động của các cuộc cách mạng tư sản tiêu biểu, tạo nền tảng cho chương trình Lịch sử 8."
+    *   `theory`: "Từ thế kỷ XVI, sự phát triển của lực lượng sản xuất tư bản chủ nghĩa tạo ra mâu thuẫn trực tiếp với chế độ phong kiến và sự kìm hãm của thực dân. Để giải quyết mâu thuẫn này, các cuộc cách mạng tư sản (như ở Anh, Bắc Mỹ) đã bùng nổ. Mục tiêu chính là lật đổ ách thống trị phong kiến hoặc thực dân, xác lập quyền lực cho giai cấp tư sản. Các cuộc cách mạng này không chỉ thay đổi thể chế chính trị mà còn tạo điều kiện cho kinh tế tư bản chủ nghĩa bùng nổ, thay đổi diện mạo thế giới hiện đại." (108 words - Good).
+    *   `exercises`: ["Câu 1: Điểm chung về nguyên nhân sâu xa của các cuộc cách mạng tư sản ở Anh và Bắc Mỹ là gì?", "Câu 2: Phân tích vai trò của giai cấp tư sản trong việc lãnh đạo các cuộc cách mạng này.", "Câu 3: Trình bày ý nghĩa lịch sử của việc xác lập chế độ tư bản chủ nghĩa đối với sự phát triển kinh tế thế giới."]
+
+    *   Subject: SU (History)
+    *   Grade: 8
+    *   Week: 1
+    *   Standard: GDPT 2018
+    *   Format: JSON only.
+    *   Length: Theory < 150 words.
+
+    *Self-Correction during drafting:* The prompt asks for "chuyển tiếp" (transition). This often implies a bridge between old and new knowledge. I will frame the theory as a bridge between the feudal era and the rise of capitalism.
+
+    *Final JSON Content Construction:*
+    `title`: "Khởi động: Sự trỗi dậy của Chủ nghĩa Tư bản"
+    `objective`: "Hệ thống hóa bối cảnh lịch sử thế giới thế kỷ XVI - XVIII và hiểu được bản chất của các cuộc cách mạng tư sản."
+    `theory`: "Vào thế kỷ XVI - XVIII, phương thức sản xuất tư bản chủ nghĩa dần hình thành, tạo ra sự xung đột mạnh mẽ với chế độ phong kiến và sự thống trị của thực dân. Mâu thuẫn giữa lực lượng sản xuất mới và quan hệ sản xuất cũ đã châm ngòi cho các cuộc cách mạng tư sản tiêu biểu (như ở Anh, Mỹ). Các cuộc cách mạng này nhằm mục tiêu lật đổ rào cản cũ, mở đường cho kinh tế tư bản phát triển. Kết quả là thiết lập nền dân chủ tư sản, thay đổi cấu trúc chính trị và tạo đà cho cuộc Cách mạng công nghiệp sau này."
+    `exercises`: ["Bài tập 1: Tại sao nói mâu thuẫn giữa giai cấp tư sản và chế độ phong kiến là nguyên nhân chính dẫn đến các cuộc cách mạng tư sản?", "Bài tập 2: So sánh sự khác biệt về mục tiêu giữa Cách mạng tư sản Anh và cuộc Chiến tranh giành độc lập ở Bắc Mỹ.", "Bài tập 3: Nêu tác động của các cuộc cách mạng tư sản đối với sự phát triển kinh tế toàn cầu."]
+
+    *Word Count Check (Theory):* ~115 words. Perfect.
+
+{
+    "title": "Khởi động: Sự trỗi dậy của Chủ nghĩa Tư bản thế kỷ XVI - XVIII",
+    "objective": "Giúp học sinh nhận diện bối cảnh lịch sử, nguyên nhân và tác động cốt lõi của các cuộc cách mạng tư sản, tạo nền tảng kiến thức cho chương trình Lịch sử 8.",
+    "theory": "Từ thế kỷ XVI, sự phát triển của lực lượng sản xuất tư bản chủ nghĩa đã tạo ra mâu thuẫn gay gắt với chế độ phong kiến lỗi thời và sự kìm hãm của thực dân. Để giải quyết mâu thuẫn này, các cuộc cách mạng tư sản (điển hình như ở Anh, Bắc Mỹ) đã bùng nổ. Mục tiêu chung là lật đổ ách thống trị của phong kiến hoặc thực dân, xác lập quyền lực cho giai cấp tư sản và mở đường cho kinh tế tư bản phát triển. Các cuộc cách mạng này không chỉ thay đổi thể chế chính trị mà còn thúc đẩy sự chuyển biến mạnh mẽ về kinh tế - xã hội, tạo tiền đề cho sự thống trị của chủ nghĩa tư bản trên toàn thế giới.",
+    "exercises": [
+        "Bài tập 1: Giải thích tại sao sự phát triển của kinh tế tư bản chủ nghĩa lại dẫn đến các cuộc cách mạng tư sản?",
+        "Bài tập 2: So sánh điểm giống và khác nhau về mục tiêu giữa Cách mạng tư sản Anh và cuộc Chiến tranh giành độc lập của 13 thuộc địa Anh ở Bắc Mỹ.",
+        "Bài tập 3: Nêu ý nghĩa lịch sử của việc xác lập chế độ tư bản chủ nghĩa đối với tiến trình phát triển của nhân loại."
+    ]
+}

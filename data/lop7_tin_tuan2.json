@@ -1,0 +1,50 @@
+*   Role: Education Expert.
+    *   Subject: Information Technology (Tin học), Grade 7.
+    *   Topic: Transition lesson (review/summary) for Week 2.
+    *   Requirement: Summarize core theory and key exercises according to the 2018 General Education Program standards.
+    *   Constraint 1: Do *not* copy the textbook verbatim.
+    *   Constraint 2: Return *only* a specific JSON format.
+    *   Constraint 3: No extra explanation.
+
+    *   In the 2018 curriculum for Grade 7, Week 1 is usually an introduction/review.
+    *   Week 2 typically focuses on **"Thiết bị vào - ra" (Input and Output devices)** or part of the **"Máy tính và cộng đồng" (Computers and Community)** topic.
+    *   *Core concept:* Identifying input devices (keyboard, mouse, scanner, microphone), output devices (monitor, printer, speaker), and their functions in the data processing cycle.
+
+    *   *Theory (Drafting):* Thiết bị vào và thiết bị ra là các thành phần quan trọng của hệ thống máy tính. Thiết bị vào (input) dùng để đưa thông tin vào máy tính (như bàn phím, chuột, máy quét). Thiết bị ra (output) dùng để xuất thông tin từ máy tính ra môi trường (như màn hình, loa, máy in). Sự phối hợp giữa chúng giúp con người tương tác với máy tính để thực hiện các nhiệm vụ xử lý dữ liệu. (approx 70 words).
+    *   *Exercises (Drafting):*
+        1.  Phân loại các thiết bị: bàn phím, loa, chuột, màn hình, máy quét, tai nghe.
+        2.  Nêu chức năng của thiết bị đầu vào và đầu ra.
+        3.  Tình huống: Nếu muốn đưa một bức ảnh giấy vào máy tính, cần dùng thiết bị gì?
+
+    *   *Title:* Tổng hợp kiến thức: Thiết bị vào - ra.
+    *   *Objective:* Giúp học sinh phân biệt được chức năng của thiết bị vào và thiết bị ra, đồng thời nhận diện được các thiết bị phổ biến.
+    *   *Theory:* Máy tính nhận thông tin từ thế giới bên ngoài thông qua thiết bị vào (như bàn phím, chuột, microphone, máy quét) để xử lý. Sau khi xử lý, kết quả được chuyển đến thiết bị ra (như màn hình, loa, máy in, máy chiếu) để đưa đến người dùng dưới các dạng khác nhau (văn bản, âm thanh, hình ảnh). Việc hiểu rõ vai trò của từng loại thiết bị giúp người dùng sử dụng máy tính hiệu quả và lựa chọn được các công cụ phù hợp với nhu cầu công việc.
+    *   *Exercises:*
+        1.  "Phân loại các thiết bị sau vào hai nhóm 'Thiết bị vào' và 'Thiết bị ra': Bàn phím, Màn hình, Chuột, Loa, Máy quét, Máy in, Tai nghe, Microphone."
+        2.  "Giải thích ngắn gọn sự khác biệt về chức năng giữa một thiết bị vào và một thiết bị ra."
+        3.  "Trong tình huống cần thuyết trình trước lớp, em cần chuẩn bị những thiết bị vào và thiết bị ra nào để máy tính hỗ trợ hiệu quả nhất?"
+
+    *   `title`: String.
+    *   `objective`: String.
+    *   `theory`: String (< 150 words).
+    *   `exercises`: Array of strings.
+
+    *   JSON format? Yes.
+    *   No extra text? Yes.
+    *   Content matches Grade 7 Week 2 (2018 curriculum)? Yes.
+    *   Theory < 150 words? Yes.
+
+    (Self-Correction: Ensure the theory is concise and strictly within limits).
+
+    *Theory word count check:* "Máy tính nhận thông tin từ thế giới bên ngoài thông qua thiết bị vào (như bàn phím, chuột, microphone, máy quét) để xử lý. Sau khi xử lý, kết quả được chuyển đến thiết bị ra (như màn hình, loa, máy in, máy chiếu) để đưa đến người dùng dưới các dạng khác nhau (văn bản, âm thanh, hình ảnh). Việc hiểu rõ vai trò của từng loại thiết bị giúp người dùng sử dụng máy tính hiệu quả và lựa chọn được các công cụ phù hợp với nhu cầu công việc." -> ~85 words. Perfect.
+
+{
+    "title": "Tổng hợp kiến thức: Thiết bị vào và thiết bị ra",
+    "objective": "Giúp học sinh phân biệt được chức năng, vai trò của thiết bị vào và thiết bị ra, đồng thời nhận diện được các thiết bị phổ biến trong thực tế.",
+    "theory": "Máy tính thực hiện quá trình xử lý thông tin dựa trên sự phối hợp của các thiết bị. Thiết bị vào (Input devices) đóng vai trò thu nhận dữ liệu từ thế giới bên ngoài (như văn bản, âm thanh, hình ảnh) để đưa vào máy tính, ví dụ: bàn phím, chuột, máy quét, microphone. Ngược lại, thiết bị ra (Output devices) có nhiệm vụ chuyển đổi dữ liệu đã qua xử lý từ máy tính thành các dạng mà con người có thể hiểu được, ví dụ: màn hình, loa, máy in, máy chiếu. Sự tương tác giữa người dùng và máy tính được duy trì thông qua quá trình trao đổi thông tin giữa các thiết bị này.",
+    "exercises": [
+        "Bài tập 1: Hãy phân loại các thiết bị sau đây vào nhóm 'Thiết bị vào' hoặc 'Thiết bị ra': Bàn phím, Màn hình, Chuột, Loa, Máy quét, Máy in, Tai nghe, Microphone.",
+        "Bài tập 2: Giải thích sự khác biệt cơ bản về hướng truyền dữ liệu giữa thiết bị vào và thiết bị ra.",
+        "Bài tập 3: Nếu em muốn số hóa một bức ảnh in trên giấy để lưu trữ vào máy tính, em cần sử dụng loại thiết bị nào? Hãy nêu tên cụ thể."
+    ]
+}

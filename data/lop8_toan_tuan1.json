@@ -1,0 +1,72 @@
+*   Role: Education Expert.
+    *   Subject: Mathematics, Grade 8, Week 1 (Transition Lesson).
+    *   Topic/Requirement: Summarize theory and core exercises for Week 1 according to the 2018 General Education Program (GDPT 2018).
+    *   Constraint: Do NOT copy the textbook directly.
+    *   Output Format: Strict JSON. No additional explanation.
+    *   JSON Structure:
+        *   `title`: Short title.
+        *   `objective`: Core objective.
+        *   `theory`: Summary under 150 words.
+        *   `exercises`: List of exercises (at least 2).
+
+    *   Grade 8 Math (GDPT 2018) typically starts with "Polynomials" (Đa thức).
+    *   Week 1 focuses on:
+        *   Unit: Polynomials (Đa thức).
+        *   Topics: Single variable polynomials, addition/subtraction of polynomials, multiplication/division (sometimes), but most commonly the introduction to expressions and single variable polynomials.
+        *   Let's focus on: Single variable polynomials (Đơn thức và đa thức một biến) and operations on them.
+
+    *   *Title*: Ôn tập và Khởi động: Đơn thức và Đa thức một biến.
+    *   *Objective*: Giúp học sinh hệ thống lại khái niệm đơn thức, đa thức một biến và thành thạo các phép toán cộng, trừ đa thức để tạo nền tảng cho chương trình lớp 8.
+    *   *Theory*:
+        - Đơn thức là biểu thức đại số chỉ gồm một số, hoặc một biến, hoặc một tích giữa các số và các biến.
+        - Đa thức một biến là tổng của những đơn thức của cùng một biến.
+        - Bậc của đa thức là số mũ lớn nhất của biến trong đa thức đó (sau khi đã thu gọn).
+        - Khi thực hiện cộng/trừ đa thức, ta thực hiện nhóm các hạng tử đồng dạng (cùng số mũ) rồi thu gọn.
+        (Word count check: ~60 words - Good).
+    *   *Exercises*:
+        1. Thu gọn và tìm bậc của đa thức: $P(x) = 3x^3 - 2x^2 + 5x - x^3 + 2x^2 - 1$.
+        2. Cho hai đa thức $A(x) = 2x^2 + 3x - 5$ và $B(x) = x^2 - x + 2$. Tính $A(x) + B(x)$ và $A(x) - B(x)$.
+        3. Tìm đa thức $M(x)$ biết $M(x) + (x^2 - 2x + 1) = 3x^2 + x$.
+
+    *   Check against constraints:
+        - GDPT 2018 compliant? Yes.
+        - Not copied from textbook? Yes (rephrased).
+        - Under 150 words for theory? Yes.
+        - Strict JSON format? Yes.
+
+    
+    {
+      "title": "Khởi động Chương I: Đơn thức và Đa thức một biến",
+      "objective": "Củng cố khái niệm đơn thức, đa thức một biến, xác định bậc và thực hiện thành thạo các phép tính cộng, trừ đa thức.",
+      "theory": "Đơn thức là biểu thức đại số chỉ gồm một số, một biến hoặc tích giữa các số và các biến. Đa thức một biến là tổng của những đơn thức của cùng một biến đó. Để làm việc với đa thức, cần thực hiện hai bước: (1) Thu gọn đa thức bằng cách nhóm các hạng tử đồng dạng; (2) Xác định bậc là số mũ cao nhất của biến trong đa thức đã thu gọn. Khi cộng hoặc trừ hai đa thức, ta nhóm các hạng tử có cùng số mũ để tính toán.",
+      "exercises": [
+        "Bài tập 1: Thu gọn đa thức sau và tìm bậc của nó: P(x) = 5x^4 - 2x^2 + 3x - x^4 + 5x^2 - 7.",
+        "Bài tập 2: Cho hai đa thức A(x) = 3x^3 - 2x + 5 và B(x) = x^3 + 2x^2 - 4. Tính tổng A(x) + B(x) và hiệu A(x) - B(x).",
+        "Bài tập 3: Tìm đa thức M(x) biết: M(x) + (2x^2 - 3x + 1) = 5x^2 + x - 4."
+      ]
+    }
+    
+
+    *Self-Correction during drafting:* Ensure the math notation is clean. JSON handles strings, so I'll use standard text-based math notation (x^2) to ensure compatibility.
+
+    - `title`: Correct.
+    - `objective`: Correct.
+    - `theory`: ~85 words. Correct.
+    - `exercises`: 3 exercises. Correct.
+
+    *Double check the week 1 content for Grade 8 (2018 Program):*
+    Most textbooks (Kết nối tri thức, Chân trời sáng tạo, Cánh diều) start with Unit 1: Đa thức.
+    - Lesson 1: Đơn thức.
+    - Lesson 2: Đa thức.
+    So Week 1 covers the basics of Polynomials. The draft is perfect.
+
+{
+    "title": "Khởi động Chương I: Đơn thức và Đa thức một biến",
+    "objective": "Củng cố khái niệm đơn thức, đa thức một biến; rèn luyện kỹ năng thu gọn và thực hiện các phép toán cộng, trừ đa thức.",
+    "theory": "Đơn thức là biểu thức đại số chỉ gồm một số, một biến hoặc tích giữa các số và các biến. Đa thức một biến là tổng của những đơn thức của cùng một biến đó. Để xử lý đa thức hiệu quả, học sinh cần nắm vững: (1) Thu gọn đa thức bằng cách nhóm các hạng tử đồng dạng; (2) Xác định bậc là số mũ lớn nhất của biến sau khi đã thu gọn; (3) Khi cộng hoặc trừ đa thức, thực hiện nhóm các hạng tử có cùng số mũ để tính toán.",
+    "exercises": [
+        "Bài tập 1: Thu gọn đa thức sau và xác định bậc của nó: P(x) = 4x^3 - 2x^2 + 5x - x^3 + 2x^2 - 7x + 1.",
+        "Bài tập 2: Cho hai đa thức A(x) = 5x^2 - 3x + 2 và B(x) = x^2 + 4x - 5. Hãy tính tổng A(x) + B(x) và hiệu A(x) - B(x).",
+        "Bài tập 3: Tìm đa thức M(x) biết: M(x) + (3x^2 - x + 4) = 7x^2 + 2x - 1."
+    ]
+}

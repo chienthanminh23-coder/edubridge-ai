@@ -1,0 +1,66 @@
+*   Role: Education Expert.
+    *   Subject: Mathematics, Grade 8, Week 2.
+    *   Topic: Transition lesson (Review/Summary of key concepts).
+    *   Requirement: Summarize theory and key exercises for Week 2 according to the 2018 General Education Program. Do *not* copy directly from the textbook.
+    *   Constraint: Output *only* a specific JSON format. No explanation.
+
+    *   Grade 8, Week 2 in the 2018 program usually focuses on:
+        *   *Polynomials:* Addition and subtraction of polynomials, multiplication of a monomial by a polynomial, multiplication of a polynomial by a polynomial.
+        *   *Algebraic Identities (sometimes starting):* Depending on the textbook series (Kết nối tri thức, Chân trời sáng tạo, Cánh diều), Week 2 is typically deep into "Đơn thức và Đa thức" (Monomials and Polynomials) or "Phép nhân đa thức" (Polynomial Multiplication).
+    *   *Standard Topics for Week 2:*
+        *   Multiplication of a monomial with a polynomial.
+        *   Multiplication of a polynomial with a polynomial.
+        *   Simplifying algebraic expressions using these rules.
+
+    *   *Title:* Ôn tập Phép nhân Đa thức (Review of Polynomial Multiplication).
+    *   *Objective:* Master the rules for multiplying monomials with polynomials and polynomials with polynomials to simplify expressions.
+    *   *Theory:*
+        1. Monomial $\times$ Polynomial: $A(B + C) = AB + AC$.
+        2. Polynomial $\times$ Polynomial: $(A + B)(C + D) = AC + AD + BC + BD$.
+        3. Steps: Distribute terms, then combine like terms (thu gọn).
+    *   *Exercises:*
+        1. $3x^2(2x - 5)$.
+        2. $(x + 3)(x - 2)$.
+        3. Simplify $x(x - 1) - (x + 2)(x - 2)$.
+
+    *   *Title:* "Làm chủ Phép nhân Đa thức" (Mastering Polynomial Multiplication).
+    *   *Objective:* "Giúp học sinh nắm vững quy tắc nhân đơn thức với đa thức, đa thức với đa thức và vận dụng để rút gọn biểu thức đại số."
+    *   *Theory:* "Để nhân đơn thức $A$ với đa thức $(B+C)$, ta nhân $A$ với từng hạng tử của đa thức rồi cộng các tích lại: $A(B+C) = AB + AC$. Để nhân đa thức $(A+B)$ với đa thức $(C+D)$, ta nhân mỗi hạng tử của đa thức này với từng hạng tử của đa thức kia rồi cộng các tích lại: $(A+B)(C+D) = AC + AD + BC + BD$. Lưu ý quan trọng: Cần chú ý dấu của các hạng tử và thực hiện bước thu gọn các đơn thức đồng dạng sau khi nhân để tối ưu kết quả."
+    *   *Exercises:*
+        1. "Tính tích: $2x^2 \cdot (3x - 5y)$."
+        2. "Thực hiện phép nhân và thu gọn: $(x + 4)(x - 4)$."
+        3. "Rút gọn biểu thức: $3x(x - 2) - (x + 1)(x - 3)$."
+
+    *   JSON format? Yes.
+    *   No explanation? Yes.
+    *   Under 150 words for theory? Yes.
+    *   Grade 8, Week 2 context? Yes.
+    *   No direct copy from textbook? Yes.
+
+    (Self-Correction during drafting): Ensure the LaTeX/Math symbols are clean for JSON string.
+
+    *Theory check:* "Để nhân đơn thức $A$ với đa thức $(B+C)$, ta nhân $A$ với từng hạng tử của đa thức rồi cộng các tích lại: $A(B+C) = AB + AC$. Để nhân đa thức $(A+B)$ với đa thức $(C+D)$, ta nhân mỗi hạng tử của đa thức này với từng hạng tử của đa thức kia rồi cộng các tích lại: $(A+B)(C+D) = AC + AD + BC + BD$. Lưu ý quan trọng: Cần chú ý dấu của các hạng tử và thực hiện bước thu gọn các đơn thức đồng dạng sau khi nhân để tối ưu kết quả." -> ~95 words. Perfect.
+
+    *Exercises:*
+    1. $2x^2 \cdot (3x - 5y)$
+    2. $(x + 4)(x - 4)$
+    3. $3x(x - 2) - (x + 1)(x - 3)$
+
+    Wait, let's make them slightly more diverse.
+    1. $5x(x^2 - 3x + 1)$ (Monomial * Polynomial)
+    2. $(2x + y)(x - 2y)$ (Polynomial * Polynomial)
+    3. Rút gọn $A = x(x-2) - (x+3)(x-3)$ (Combined)
+
+    *Final JSON construction.*
+
+{
+    "title": "Làm chủ Phép nhân Đa thức",
+    "objective": "Nắm vững quy tắc nhân đơn thức với đa thức, đa thức với đa thức và vận dụng thành thạo để rút gọn các biểu thức đại số.",
+    "theory": "1. Nhân đơn thức với đa thức: Để nhân đơn thức A với đa thức (B + C), ta nhân A với từng hạng tử của đa thức rồi cộng các tích lại: A(B + C) = AB + AC. 2. Nhân đa thức với đa thức: Để nhân đa thức (A + B) với đa thức (C + D), ta nhân mỗi hạng tử của đa thức thứ nhất với từng hạng tử của đa thức thứ hai rồi cộng các tích lại: (A + B)(C + D) = AC + AD + BC + BD. Lưu ý: Khi thực hiện, cần đặc biệt chú ý quy tắc dấu và luôn thực hiện bước thu gọn các hạng tử đồng dạng để kết quả tối giản nhất.",
+    "exercises": [
+        "Bài tập 1: Thực hiện phép tính: 5x²(2x - 3y + 1).",
+        "Bài tập 2: Tính tích của hai đa thức: (x + 3)(x - 2).",
+        "Bài tập 3: Rút gọn biểu thức: A = x(x - 5) - (x + 2)(x - 2).",
+        "Bài tập 4: Tìm x, biết: 2x(x - 3) - (x + 1)(x - 1) = 5."
+    ]
+}

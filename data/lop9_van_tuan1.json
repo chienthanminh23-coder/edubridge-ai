@@ -1,0 +1,54 @@
+*   Role: Education Expert.
+    *   Subject: Literature (Ngữ văn - VAN), Grade 9.
+    *   Topic: Transition lesson (Bài học chuyển tiếp), Week 1.
+    *   Requirement: Synthesize key theory and exercises for Week 1 Grade 9 Literature according to the 2018 General Education Program (GDPT 2018).
+    *   Constraint: Do NOT copy the textbook directly.
+    *   Constraint: Output ONLY in a specific JSON format. No extra explanation.
+
+    *   Under the 2018 GDPT curriculum, Grade 9 Literature in Week 1 usually focuses on:
+        *   Reviewing/Transitioning from Grade 8.
+        *   Introduction to new genres (often Poetry or Short Stories depending on the specific book series like *Kết nối tri thức*, *Chân trời sáng tạo*, or *Cánh diều*).
+        *   Key skills: Reading comprehension (identifying themes, characters, imagery), Writing (narrative/descriptive essays), and Speaking/Listening.
+        *   Common theme in Week 1: Introduction to the course, reviewing reading strategies, and potentially exploring the concept of "Self" or "Society" through literature.
+    *   *Since it's a "transition lesson", the focus should be on bridging the gap between Grade 8 and Grade 9 skills.*
+
+    *   *Theory:* Focus on "Reading comprehension skills for narrative/poetic texts" and "Connecting literary themes to personal identity". Since the 2018 curriculum is competency-based, the theory should focus on *how* to read, not just *what* is read.
+    *   *Exercises:* One reading comprehension task (applied to a new/short text) and one writing/reflective task.
+
+    *   *Title:* Chuyển tiếp Ngữ văn 9: Kỹ năng Đọc hiểu và Kết nối Văn bản. (Transition Literature 9: Reading Comprehension and Text Connection Skills).
+    *   *Objective:* Củng cố kỹ năng phân tích văn bản (truyện, thơ) và rèn luyện tư duy phản biện, chuẩn bị tâm thế cho chương trình lớp 9. (Reinforce text analysis skills and practice critical thinking to prepare for Grade 9).
+    *   *Theory:* Tập trung vào 3 trụ cột: 1. Nhận biết đặc điểm thể loại (cốt truyện, nhân vật, hình ảnh thơ); 2. Phân tích mối liên hệ giữa các yếu tố hình thức và nội dung; 3. Kết nối thông điệp văn bản với trải nghiệm cá nhân. Học sinh cần chú trọng việc tìm hiểu "tại sao" tác giả sử dụng chi tiết đó thay vì chỉ trả lời "chi tiết đó là gì". (Focus on 3 pillars: 1. Genre characteristics; 2. Relationship between form and content; 3. Connecting themes to personal experience. Focus on "why" rather than just "what"). -> *Count check: < 150 words.*
+    *   *Exercises:*
+        1. Đọc một đoạn trích ngắn (ngoài SGK) và xác định các chi tiết xây dựng nhân vật hoặc hình ảnh trung tâm.
+        2. Viết đoạn văn ngắn (7-10 câu) chia sẻ cảm nhận về một thông điệp văn học có ý nghĩa đối với quá trình trưởng thành của bản thân.
+
+    
+    {
+        "title": "Chuyển tiếp Ngữ văn 9: Kỹ năng Đọc hiểu và Tư duy Kết nối",
+        "objective": "Hệ thống hóa kỹ năng phân tích thể loại và rèn luyện tư duy liên hệ giữa văn bản với thực tiễn đời sống.",
+        "theory": "Để học tốt Ngữ văn 9 (chương trình 2018), học sinh cần nắm vững: 1. Kỹ năng đọc hiểu theo thể loại: Nhận diện đặc trưng cốt truyện, nhân vật trong truyện hoặc hình ảnh, vần, nhịp trong thơ. 2. Tư duy phân tích: Không dừng lại ở việc liệt kê chi tiết mà phải giải mã ý nghĩa của chúng đối với chủ đề tác phẩm. 3. Kỹ năng kết nối: Liên hệ thông điệp văn bản với bối cảnh lịch sử và trải nghiệm cá nhân để hình thành quan điểm riêng. Đây là bước đệm quan trọng để chuyển từ việc 'hiểu nội dung' sang 'phân tích nghệ thuật và giá trị nhân văn'.",
+        "exercises": [
+            "Bài tập 1: Chọn một tác phẩm thơ đã học ở lớp 8, hãy chỉ ra sự thay đổi trong cách sử dụng ngôn ngữ và hình ảnh so với các tác phẩm lớp 6, 7 để thấy được sự phát triển về cảm xúc.",
+            "Bài tập 2: Viết một đoạn văn ngắn (khoảng 150 chữ) trình bày suy nghĩ của em về vai trò của việc đọc sách trong việc hình thành nhân cách ở lứa tuổi thiếu niên."
+        ]
+    }
+    
+
+    *   Expert persona? Yes.
+    *   Grade 9, Week 1 transition? Yes.
+    *   2018 Program compliant? Yes (focus on competencies/genre).
+    *   No copying textbook? Yes.
+    *   JSON format strictly? Yes.
+    *   Theory < 150 words? Yes (~90 words).
+
+    *(Self-correction during drafting: Ensure the exercises are practical for a transition week. The first exercise encourages comparing levels, which is great for transition. The second is a reflective writing piece suitable for early Grade 9.)*
+
+{
+    "title": "Chuyển tiếp Ngữ văn 9: Kỹ năng Đọc hiểu và Tư duy Kết nối",
+    "objective": "Hệ thống hóa kỹ năng phân tích đặc điểm thể loại và rèn luyện tư duy liên hệ giữa văn bản với trải nghiệm cá nhân.",
+    "theory": "Để đáp ứng chương trình GDPT 2018 lớp 9, học sinh cần chuyển dịch từ việc 'nhận biết' sang 'phân tích và đánh giá'. Trọng tâm gồm: 1. Đọc hiểu thể loại: Xác định các yếu tố đặc trưng như cốt truyện, nhân vật, điểm nhìn (với truyện) hoặc vần, nhịp, hình ảnh, mạch cảm xúc (với thơ). 2. Phân tích nghệ thuật: Tìm hiểu mối quan hệ giữa các biện pháp tu từ, cách lựa chọn từ ngữ với việc thể hiện chủ đề. 3. Tư duy kết nối: Rút ra thông điệp từ văn bản và liên hệ với thực tiễn đời sống hoặc quan điểm cá nhân để xây dựng tư duy phản biện.",
+    "exercises": [
+        "Bài tập 1: Chọn một văn bản truyện ngắn đã học ở lớp 8, hãy phân tích sự tác động của một chi tiết nghệ thuật tiêu biểu đến việc khắc họa tính cách nhân vật.",
+        "Bài tập 2: Viết đoạn văn (khoảng 150 chữ) chia sẻ suy nghĩ của em về một thông điệp trong văn học có khả năng giúp con người vượt qua những áp lực của sự trưởng thành."
+    ]
+}

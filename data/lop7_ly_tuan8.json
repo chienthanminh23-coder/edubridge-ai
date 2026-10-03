@@ -1,0 +1,64 @@
+*   Role: Education Expert.
+    *   Topic: Transition lesson for Physics (LY), Grade 7, Week 8.
+    *   Standard: GDPT 2018 curriculum.
+    *   Requirement: Synthesize theory and key exercises for Week 8. Do *not* copy directly from the textbook.
+    *   Constraint: Output MUST be in a specific JSON format. No extra explanation.
+
+    *   *Curriculum context (Grade 7 Physics/Science - KHTN 7):* In the 2018 program, "Physics" is part of "Khoa học tự nhiên" (Natural Science).
+    *   *Week 8 content:* Typically, around Week 8 in Grade 7 KHTN (Natural Science), students are studying "Ánh sáng" (Light) - specifically "Sự phản xạ ánh sáng" (Light Reflection) or "Ảnh của vật qua gương phẳng" (Images formed by plane mirrors).
+    *   *Common Topics for Week 8 (KHTN 7):*
+        *   Refraction of light (maybe later).
+        *   Reflection of light (Phản xạ ánh sáng).
+        *   Laws of reflection (Định luật phản xạ ánh sáng).
+        *   Plane mirrors (Gương phẳng).
+
+    *   *Let's focus on "Định luật phản xạ ánh sáng" (Laws of Reflection) as it's the core of Week 8.*
+
+    *   *Theory:*
+        *   Khi tia sáng tới gương phẳng, nó sẽ bị hắt lại theo hướng khác. Đó là sự phản xạ.
+        *   Tia tới (incident ray), Tia phản xạ (reflected ray), Pháp tuyến (normal).
+        *   Góc tới ($i$), Góc phản xạ ($i'$).
+        *   Định luật: 1. Tia phản xạ nằm trong cùng mặt phẳng với tia tới và pháp tuyến. 2. Góc phản xạ bằng góc tới ($i' = i$).
+
+    *   *Exercises:*
+        1.  Calculation: Given angle of incidence, find angle of reflection.
+        2.  Calculation: Given angle between incident ray and reflected ray, find angle of incidence.
+        3.  Conceptual/Drawing: Describe the path of light when hitting a mirror.
+
+    *   *Title:* Định luật phản xạ ánh sáng.
+    *   *Objective:* Giúp học sinh nắm vững đặc điểm của tia sáng khi gặp gương phẳng và vận dụng định luật để tính toán góc.
+    *   *Theory (under 150 words):* Khi gặp bề mặt nhẵn như gương phẳng, tia sáng bị hắt lại theo hướng khác, gọi là hiện tượng phản xạ ánh sáng. Trong đó, tia tới là tia sáng đi đến gương, tia phản xạ là tia sáng bị hắt lại, và pháp tuyến là đường thẳng vuông góc với bề mặt gương tại điểm tới. Định luật phản xạ ánh sáng phát biểu rằng: Tia phản xạ nằm trong cùng mặt phẳng chứa tia tới và pháp tuyến; đồng thời, góc phản xạ luôn bằng góc tới ($i' = i$).
+    *   *Exercises:*
+        1. "Bài tập 1: Một tia sáng chiếu tới gương phẳng với góc tới $i = 30^\circ$. Hãy xác định góc phản xạ và vẽ sơ đồ đường truyền của tia sáng."
+        2. "Bài tập 2: Cho biết góc hợp bởi tia tới và tia phản xạ là $80^\circ$. Tính giá trị của góc tới và góc phản xạ."
+        3. "Bài tập 3: Nếu một tia sáng đi song song với mặt gương thì góc tới bằng bao nhiêu? Giải thích ngắn gọn."
+
+    
+    {
+        "title": "Định luật phản xạ ánh sáng",
+        "objective": "Nắm vững các khái niệm về tia tới, tia phản xạ, pháp tuyến và vận dụng thành thạo định luật phản xạ để tính toán góc.",
+        "theory": "Hiện tượng phản xạ ánh sáng xảy ra khi tia sáng gặp bề mặt nhẵn (như gương phẳng) và bị hắt lại. Các thành phần chính gồm: tia tới (tia đi đến gương), tia phản xạ (tia bị hắt lại) và pháp tuyến (đường thẳng vuông góc với gương tại điểm tới). Định luật phản xạ ánh sáng gồm hai ý chính: Thứ nhất, tia phản xạ nằm trong cùng mặt phẳng chứa tia tới và pháp tuyến. Thứ hai, góc phản xạ luôn bằng góc tới (i' = i).",
+        "exercises": [
+            "Bài tập 1: Một tia sáng chiếu tới gương phẳng với góc tới i = 40 độ. Tính góc phản xạ và mô tả hướng của tia phản xạ.",
+            "Bài tập 2: Cho góc hợp bởi tia tới và tia phản xạ là 120 độ. Hãy tính giá trị của góc tới và góc phản xạ.",
+            "Bài tập 3: Vẽ hình minh họa đường truyền của tia sáng khi góc tới bằng 0 độ (tia tới trùng với pháp tuyến)."
+        ]
+    }
+    
+
+    *   JSON format? Yes.
+    *   No explanation? Yes.
+    *   Grade 7, Week 8 content? Yes (Reflection).
+    *   Theory < 150 words? Yes.
+    *   No copying textbook? Yes.
+
+{
+    "title": "Định luật phản xạ ánh sáng",
+    "objective": "Giúp học sinh nắm vững các khái niệm về tia tới, tia phản xạ, pháp tuyến và vận dụng thành thạo định luật phản xạ để giải các bài tập tính toán góc.",
+    "theory": "Khi tia sáng gặp bề mặt nhẵn như gương phẳng, nó bị hắt lại theo hướng khác, gọi là hiện tượng phản xạ ánh sáng. Các thành phần chính gồm: Tia tới (tia sáng đi đến gương), tia phản xạ (tia bị hắt lại) và pháp tuyến (đường thẳng vuông góc với mặt gương tại điểm tới). Định luật phản xạ ánh sáng phát biểu: 1) Tia phản xạ nằm trong cùng mặt phẳng chứa tia tới và pháp tuyến; 2) Góc phản xạ luôn bằng góc tới (i' = i).",
+    "exercises": [
+        "Bài tập 1: Một tia sáng chiếu tới gương phẳng với góc tới i = 35 độ. Hãy tính góc phản xạ và cho biết tia phản xạ lệch bao nhiêu độ so với tia tới.",
+        "Bài tập 2: Cho biết góc hợp bởi tia tới và tia phản xạ là 80 độ. Hãy tính giá trị của góc tới và góc phản xạ.",
+        "Bài tập 3: Một tia sáng chiếu tới gương phẳng sao cho góc hợp giữa tia tới và mặt gương là 25 độ. Tính góc phản xạ trong trường hợp này."
+    ]
+}

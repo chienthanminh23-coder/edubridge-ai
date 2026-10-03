@@ -1,0 +1,58 @@
+*   Role: Education expert.
+    *   Subject: Mathematics, Grade 12, Week 1.
+    *   Topic: Transition lesson (bridge from Grade 11 to 12 concepts) - Applying derivatives to find Max/Min on an interval or segment.
+    *   Constraint 1: Do not copy textbook word-for-word.
+    *   Constraint 2: Output format MUST be a specific JSON structure.
+    *   Constraint 3: NO additional explanation.
+
+    *   *Context:* Students know derivatives (Grade 11) and are moving to optimization (Grade 12).
+    *   *Objective:* Find Max (GTLN) and Min (GTNN) of $f(x)$ on $[a, b]$ or $(a, b)$.
+    *   *Key Steps for $[a, b]$:*
+        1.  Find $f'(x)$.
+        2.  Find critical points $x_i \in (a, b)$.
+        3.  Evaluate $f(a)$, $f(b)$, and $f(x_i)$.
+        4.  Compare values.
+    *   *Key Steps for $(a, b)$ or $(-\infty, +\infty)$:*
+        1.  Find $f'(x)$ and critical points.
+        2.  Use a sign table (lập bảng biến thiên).
+        3.  Check limits at boundaries.
+
+    *   *Title:* Ứng dụng Đạo hàm tìm Giá trị Lớn nhất và Nhỏ nhất.
+    *   *Objective:* Giúp học sinh làm chủ kỹ thuật sử dụng đạo hàm và bảng biến thiên để xác định cực trị biên và cực trị nội tại, từ đó tối ưu hóa hàm số trên các miền xác định khác nhau.
+    *   *Theory:* Để tìm GTLN/GTNN của hàm số $y=f(x)$ trên đoạn $[a; b]$: (1) Tính $f'(x)$, tìm các điểm $x_i \in (a; b)$ tại đó $f'(x)=0$ hoặc không xác định. (2) Tính các giá trị $f(a), f(b)$ và $f(x_i)$. (3) So sánh: số lớn nhất là GTLN, số nhỏ nhất là GTNN. Trên khoảng $(a; b)$ hoặc nửa khoảng, cần lập bảng biến thiên để xét sự biến thiên và giới hạn tại các đầu mút nhằm xác định giá trị tối ưu.
+    *   *Exercises:*
+        1.  Tìm GTLN và GTNN của hàm số $f(x) = x^3 - 3x + 2$ trên đoạn $[0; 2]$.
+        2.  Tìm giá trị lớn nhất của hàm số $y = \frac{x+1}{x-2}$ trên khoảng $(2; +\infty)$.
+
+    *   Check word count of theory (< 150 words).
+    *   Check JSON structure.
+    *   Ensure no extra text.
+
+    *Drafting the JSON:*
+    
+    {
+        "title": "Tối ưu hóa hàm số bằng Đạo hàm",
+        "objective": "Nắm vững quy trình tìm GTLN, GTNN trên đoạn và khoảng thông qua đạo hàm và bảng biến thiên.",
+        "theory": "Để tìm GTLN, GTNN trên đoạn [a; b]: Bước 1, tính f'(x) và tìm các điểm tới hạn thuộc (a; b). Bước 2, tính giá trị hàm số tại các điểm tới hạn và hai đầu mút a, b. Bước 3, so sánh các giá trị vừa tìm được. Để tìm GTLN, GTNN trên khoảng (a; b), ta lập bảng biến thiên, xét dấu f'(x) và tính giới hạn tại các đầu mút để xác định xu hướng của hàm số.",
+        "exercises": [
+            "Bài tập 1: Tìm giá trị lớn nhất và nhỏ nhất của hàm số f(x) = x³ - 3x + 5 trên đoạn [-2; 1].",
+            "Bài tập 2: Xác định GTLN của hàm số y = (2x + 1)/(x - 1) trên khoảng (1; +∞)."
+        ]
+    }
+    
+
+    *   JSON format? Yes.
+    *   No explanation? Yes.
+    *   Theory < 150 words? Yes (~80 words).
+    *   Grade 12 Week 1 context? Yes.
+    *   Topic correct? Yes.
+
+{
+    "title": "Tối ưu hóa hàm số bằng Đạo hàm",
+    "objective": "Giúp học sinh làm chủ kỹ thuật sử dụng đạo hàm và bảng biến thiên để xác định giá trị lớn nhất (GTLN) và nhỏ nhất (GTNN) của hàm số trên các miền xác định khác nhau.",
+    "theory": "Để tìm GTLN, GTNN của hàm số f(x) trên đoạn [a; b]: 1. Tính đạo hàm f'(x), tìm các điểm xᵢ thuộc khoảng (a; b) mà tại đó f'(x)=0 hoặc không xác định. 2. Tính giá trị f(a), f(b) và f(xᵢ). 3. So sánh các giá trị này: số lớn nhất là GTLN, số nhỏ nhất là GTNN. Đối với trường hợp trên khoảng (a; b) hoặc nửa khoảng, cần lập bảng biến thiên để quan sát sự biến thiên và tính giới hạn tại các đầu mút nhằm xác định giá trị tối ưu.",
+    "exercises": [
+        "Bài tập 1: Tìm giá trị lớn nhất và giá trị nhỏ nhất của hàm số f(x) = x³ - 3x + 2 trên đoạn [0; 2].",
+        "Bài tập 2: Xác định GTLN của hàm số y = (x + 1)/(x - 2) trên khoảng (2; +∞)."
+    ]
+}

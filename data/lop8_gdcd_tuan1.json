@@ -1,0 +1,50 @@
+*   Role: Education Expert.
+    *   Topic: Transition lesson for Civics (GDCD), Grade 8, Week 1.
+    *   Requirement: "Synthesize theory and core exercises for Week 1 GDCD Grade 8 according to the 2018 General Education Program standards."
+    *   Constraint: Do NOT copy the textbook directly.
+    *   Output Format: Strict JSON only. No extra explanation.
+    *   Language: Vietnamese.
+
+    *   Subject: GDCD (Civics) Grade 8.
+    *   Curriculum: 2018 General Education Program.
+    *   Week 1 Content: Usually, the first lesson in the new Grade 8 curriculum (based on common textbooks like *Kết nối tri thức* or *Chân trời sáng tạo*) focuses on "Tự hào về truyền thống dân tộc" (Pride in National Traditions) or similar themes related to self-awareness and national values.
+    *   *Self-correction:* Since different textbooks might have slightly different ordering, I will focus on the common theme of "National Traditions" which is a staple start for Grade 8 GDCD.
+
+    *   *Title:* Khám phá Giá trị Truyền thống Dân tộc (Exploring National Traditional Values).
+    *   *Objective:* Giúp học sinh hiểu được ý nghĩa của các truyền thống tốt đẹp của dân tộc và xác định trách nhiệm bản thân trong việc giữ gìn, phát huy các giá trị đó. (Help students understand the meaning of good national traditions and identify their responsibility in preserving and promoting those values.)
+    *   *Theory (Under 150 words):*
+        Truyền thống dân tộc là những giá trị vật chất và tinh thần (tư tưởng, lối sống, cách ứng xử...) được hình thành trong quá trình lịch sử lâu dài, được lưu truyền từ thế hệ này sang thế hệ khác. Các truyền thống tiêu biểu bao gồm: lòng yêu nước, hiếu học, nhân nghĩa, các lễ hội dân gian, nghề truyền thống và nghệ thuật đặc sắc. Việc hiểu và trân trọng truyền thống không chỉ giúp bồi đắp lòng tự hào dân tộc mà còn tạo nên bản sắc riêng của con người Việt Nam trong thời kỳ hội nhập. Giữ gìn truyền thống là trách nhiệm của mọi công dân, đặc biệt là thế hệ trẻ, thông qua việc học tập, tìm hiểu và hành động thiết thực để bảo tồn các giá trị văn hóa, lịch sử.
+    *   *Exercises:*
+        1. Trắc nghiệm: Trong các hành vi sau, đâu là biểu hiện của việc giữ gìn truyền thống dân tộc? (A. Chê bai lễ hội địa phương; B. Tìm hiểu lịch sử dân tộc; C. Chỉ quan tâm văn hóa nước ngoài; D. Bỏ qua các phong tục tập quán).
+        2. Tự luận: Em hãy nêu một truyền thống tốt đẹp của quê hương mình và đề xuất 2 việc làm cụ thể để phát huy truyền thống đó.
+
+    *   `title`: "Khám phá Giá trị Truyền thống Dân tộc"
+    *   `objective`: "Nhận diện các giá trị truyền thống tiêu biểu và xác định trách nhiệm bảo tồn, phát huy bản sắc văn hóa dân tộc trong bối cảnh hiện đại."
+    *   `theory`: "Truyền thống dân tộc là hệ thống các giá trị tinh thần và vật chất được hình thành trong lịch sử, truyền từ đời này sang đời khác. Đó có thể là lòng yêu nước, tinh thần đoàn kết, hiếu học, hay các nét đẹp về nghệ thuật, lễ hội và nghề nghiệp truyền thống. Những giá trị này tạo nên bản sắc riêng biệt, giúp khẳng định vị thế của quốc gia trên trường quốc tế. Việc trân trọng và phát huy truyền thống không chỉ là sự tri ân tổ tiên mà còn là nền tảng để xây dựng đạo đức, lối sống lành mạnh cho thế hệ trẻ, giúp mỗi cá nhân hòa nhập nhưng không hòa tan trong quá trình hội nhập toàn cầu."
+    *   `exercises`: [
+        "Bài tập 1: Trắc nghiệm - Hành động nào sau đây thể hiện sự tôn trọng truyền thống văn hóa dân tộc? A. Chỉ sử dụng hàng ngoại nhập; B. Tham gia các lễ hội truyền thống tại địa phương; C. Xem nhẹ các phong tục tập quán của tổ tiên; D. Chạy theo các trào lưu văn hóa không phù hợp.",
+        "Bài tập 2: Tình huống - Bạn An cho rằng việc học các môn lịch sử và tìm hiểu nghề truyền thống là lãng phí thời gian vì thế giới đang phát triển công nghệ. Em hãy đưa ra lập luận để thuyết phục An về tầm quan trọng của việc giữ gìn truyền thống."
+      ]
+
+    *   JSON format? Yes.
+    *   No explanation? Yes.
+    *   Theory < 150 words? Yes (~100 words).
+    *   Content: GDCD 8, Week 1 (National Traditions).
+    *   Standards: 2018 program.
+
+    *Check theory word count:*
+    "Truyền thống dân tộc là hệ thống các giá trị tinh thần và vật chất được hình thành trong lịch sử, truyền từ đời này sang đời khác. Đó có thể là lòng yêu nước, tinh thần đoàn kết, hiếu học, hay các nét đẹp về nghệ thuật, lễ hội và nghề nghiệp truyền thống. Những giá trị này tạo nên bản sắc riêng biệt, giúp khẳng định vị thế của quốc gia trên trường quốc tế. Việc trân trọng và phát huy truyền thống không chỉ là sự tri ân tổ tiên mà còn là nền tảng để xây dựng đạo đức, lối sống lành mạnh cho thế hệ trẻ, giúp mỗi cá nhân hòa nhập nhưng không hòa tan trong quá trình hội nhập toàn cầu."
+    -> ~115 words. Perfect.
+
+    *Check JSON Structure:*
+    `{ "title": "...", "objective": "...", "theory": "...", "exercises": ["...", "..."] }` -> Correct.
+
+{
+    "title": "Khám phá Giá trị Truyền thống Dân tộc",
+    "objective": "Giúp học sinh nhận diện các giá trị truyền thống tiêu biểu và xác định trách nhiệm cá nhân trong việc bảo tồn, phát huy bản sắc văn hóa dân tộc.",
+    "theory": "Truyền thống dân tộc là hệ thống các giá trị tinh thần và vật chất được hình thành trong lịch sử, truyền từ thế hệ này sang thế hệ khác. Đó có thể là lòng yêu nước, tinh thần đoàn kết, hiếu học, hay các nét đẹp về nghệ thuật, lễ hội và nghề nghiệp truyền thống. Những giá trị này tạo nên bản sắc riêng biệt, giúp khẳng định vị thế của quốc gia trên trường quốc tế. Việc trân trọng và phát huy truyền thống không chỉ là sự tri ân tổ tiên mà còn là nền tảng để xây dựng đạo đức, lối sống cho thế hệ trẻ, giúp mỗi cá nhân 'hòa nhập nhưng không hòa tan' trong quá trình hội nhập toàn cầu.",
+    "exercises": [
+        "Bài tập 1: Trắc nghiệm - Hành động nào sau đây thể hiện sự tôn trọng truyền thống văn hóa dân tộc? A. Chỉ sử dụng hàng ngoại nhập để tỏ ra sành điệu; B. Tích cực tìm hiểu và tham gia các lễ hội tại địa phương; C. Xem nhẹ các phong tục tập quán của tổ tiên; D. Chạy theo các trào lưu văn hóa không phù hợp với thuần phong mỹ tục.",
+        "Bài tập 2: Tình huống - Bạn An cho rằng việc học lịch sử và tìm hiểu nghề truyền thống là lãng phí thời gian vì thế giới đang phát triển công nghệ cao. Em hãy đưa ra ít nhất hai lập luận để thuyết phục An về tầm quan trọng của việc giữ gìn truyền thống."
+    ]
+}
