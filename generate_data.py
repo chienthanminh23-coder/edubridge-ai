@@ -3,7 +3,7 @@ import os
 import time
 
 # 1. CẤU HÌNH API KEY
-API_KEY = "trong_đây_bạn_nhập_api_key_của_bạn"
+API_KEY = "hehe"
 genai.configure(api_key=API_KEY)
 
 # 2. HÀM TỰ ĐỘNG DÒ TÌM MODEL (Khắc phục triệt để lỗi 404)
@@ -63,9 +63,20 @@ def run_pipeline():
 
     os.makedirs("data", exist_ok=True)
     khung_gdpt_tho = [
-        {"lop": 10, "mon": "toan", "tuan": 2, "yeu_cau_can_dat": "Hiểu khái niệm tập hợp, các phép toán trên tập hợp (giao, hợp, hiệu)."},
-        {"lop": 10, "mon": "van", "tuan": 1, "yeu_cau_can_dat": "Nhận biết và phân tích được một số yếu tố của thần thoại: không gian, thời gian, cốt truyện, nhân vật."},
-        {"lop": 10, "mon": "van", "tuan": 2, "yeu_cau_can_dat": "Phân tích được chủ đề, thông điệp của văn bản thần thoại; phân tích được các chi tiết tiêu biểu."}
+        # ===== KHỐI 10 =====
+        {"lop": 10, "mon": "toan", "tuan": 1, "yeu_cau_can_dat": "Biết cách biểu diễn tập hợp, các kí hiệu thuộc, không thuộc, tập con."},
+        {"lop": 10, "mon": "van", "tuan": 1, "yeu_cau_can_dat": "Nhận biết và phân tích được một số yếu tố của thần thoại: không gian, thời gian, cốt truyện."},
+        {"lop": 10, "mon": "anh", "tuan": 1, "yeu_cau_can_dat": "Sử dụng được các từ vựng chủ đề Family Life và thì hiện tại đơn, hiện tại tiếp diễn."},
+        
+        # ===== KHỐI 11 =====
+        {"lop": 11, "mon": "ly", "tuan": 1, "yeu_cau_can_dat": "Mô tả được dao động điều hòa, định nghĩa chu kì, tần số, biên độ dao động."},
+        {"lop": 11, "mon": "sinh", "tuan": 1, "yeu_cau_can_dat": "Trình bày được khái niệm, cơ chế trao đổi chất và chuyển hóa năng lượng ở thực vật."},
+        {"lop": 11, "mon": "toan", "tuan": 1, "yeu_cau_can_dat": "Nhận biết được góc lượng giác, số đo góc lượng giác, vòng tròn lượng giác."},
+        
+        # ===== KHỐI 12 =====
+        {"lop": 12, "mon": "toan", "tuan": 1, "yeu_cau_can_dat": "Ứng dụng đạo hàm để tìm giá trị lớn nhất, giá trị nhỏ nhất của hàm số trên một khoảng, đoạn."},
+        {"lop": 12, "mon": "hoa", "tuan": 1, "yeu_cau_can_dat": "Hiểu cấu tạo phân tử, tính chất hóa học đặc trưng của este và bài toán phản ứng tráng bạc."},
+        {"lop": 12, "mon": "su", "tuan": 1, "yeu_cau_can_dat": "Phân tích được bối cảnh thế giới sau Chiến tranh thế giới thứ hai, sự hình thành trật tự thế giới mới."}
     ]
 
     print("🚀 Bắt đầu hệ thống sinh dữ liệu...")
